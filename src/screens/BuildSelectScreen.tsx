@@ -8,7 +8,7 @@ import { ACTIVITY_LABELS, getBuildActivities, type Activity } from "../lib/build
 import { getBuildElement } from "../lib/buildElements";
 import { ActivityFilter } from "../components/ActivityFilter";
 
-export function BuildSelectScreen({ onSelect }: { onSelect: (buildId: string) => void }) {
+export function BuildSelectScreen({ onSelect, onOpenHot }: { onSelect: (buildId: string) => void; onOpenHot: () => void }) {
   const builds = getAllBuilds();
   const { isOwned } = useOwnership();
   const [query, setQuery] = useState("");
@@ -28,6 +28,31 @@ export function BuildSelectScreen({ onSelect }: { onSelect: (buildId: string) =>
         <div><p className="font-mono text-[12px] uppercase tracking-[0.22em] text-fire">Build library</p><h1 className="mt-1 text-3xl font-semibold tracking-tight">Encontre sua próxima build</h1><p className="mt-2 max-w-2xl text-[16px] text-muted">Compare seu inventário com loadouts completos e descubra exatamente o que falta farmar.</p></div>
         <label className="block"><span className="mb-1.5 block font-mono text-[11px] uppercase tracking-wider text-muted">Buscar por personagem, build ou autor</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Ex.: Bunny, bossing, Alcast…" className="w-full border border-line bg-[#050d14] px-4 py-3 text-base outline-none transition-colors placeholder:text-muted/50 focus:border-cyan" /></label>
       </div>
+
+      <button
+        type="button"
+        onClick={onOpenHot}
+        className="group relative mb-6 flex min-h-[210px] w-full overflow-hidden rounded-2xl border border-fire/45 bg-[#111820] text-left shadow-[0_18px_44px_#0007] transition-all duration-300 hover:-translate-y-0.5 hover:border-fire hover:shadow-[0_22px_52px_#0009] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan sm:min-h-[240px]"
+        aria-label="Abrir Builds em Alta da Season 4"
+      >
+        <img
+          src="/assets/characters-hd/raven-official-banner.jpg"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover object-[62%_center] opacity-75 transition-transform duration-700 group-hover:scale-[1.02] sm:object-center"
+        />
+        <span className="absolute inset-0 bg-gradient-to-r from-[#071018] via-[#071018e8] to-[#07101835]" />
+        <span className="relative flex max-w-2xl flex-col justify-center p-5 sm:p-8">
+          <span className="mb-3 flex flex-wrap items-center gap-2">
+            <span className="rounded-full border border-fire/60 bg-fire/15 px-3 py-1 font-mono text-[11px] font-semibold uppercase tracking-[0.16em] text-fire">Season 4 · novo</span>
+            <span className="rounded-full border border-cyan/35 bg-cyan/10 px-3 py-1 font-mono text-[11px] uppercase tracking-[0.12em] text-cyan">Raven em evolução</span>
+          </span>
+          <span className="text-2xl font-semibold leading-tight text-ink sm:text-3xl">O que está mudando nesta temporada?</span>
+          <span className="mt-2 max-w-xl text-[15px] leading-relaxed text-muted sm:text-base">Veja Raven, personagens afetados pelo patch e builds que merecem atenção — sempre com o nível de evidência visível.</span>
+          <span className="mt-5 inline-flex min-h-11 w-fit items-center gap-2 rounded-lg bg-fire px-4 py-2.5 text-sm font-semibold text-[#170b05] transition-colors group-hover:bg-[#ffae55]">
+            Explorar Builds em Alta <span aria-hidden="true">→</span>
+          </span>
+        </span>
+      </button>
 
       <div className="mb-5">
         <ActivityFilter value={activity} onChange={setActivity} label="Filtrar builds por atividade" />

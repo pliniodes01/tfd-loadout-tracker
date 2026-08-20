@@ -83,7 +83,7 @@ function AppShell() {
         <main className={`transition-all duration-200 ${transitioning ? "translate-y-1 opacity-0" : "translate-y-0 opacity-100"}`}>
           {route.name === "detail" && <BuildDetailScreen buildId={route.buildId} onBack={goHome} />}
           {route.name === "hot" && <HotBuildsScreen onSelectBuild={goToBuild} />}
-          {route.name === "select" && <BuildSelectScreen onSelect={goToBuild} />}
+          {route.name === "select" && <BuildSelectScreen onSelect={goToBuild} onOpenHot={goToHot} />}
         </main>
 
         <Disclaimer />
