@@ -1,0 +1,200 @@
+{
+  "season": "S4",
+  "generatedAt": "2026-08-20",
+  "entries": [
+    {
+      "buildId": null,
+      "descendant": "Raven",
+      "activities": [],
+      "communityStatus": "new-evolving",
+      "confidence": "low",
+      "season": "S4",
+      "lastVerifiedAt": "2026-08-20",
+      "goalAchieved": false,
+      "hotReason": "Descendant nova, lançada hoje junto com a Season 4 (patch 1.4.0) — Non-Attribute Fusion, shotgun dupla, debuff \"Trace\", dois módulos Transcendent exclusivos (Nightfall e Law of the Back Alley) confirmados pela própria Nexon. Objetivo de build completa NÃO alcançado nesta entrega: nenhuma configuração (módulos + arma + reator + componentes) pôde ser aberta e conferida item a item por este projeto até agora.",
+      "patchCaveat": null,
+      "evidence": [
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3528592",
+          "author": null,
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Patch notes oficiais do 1.4.0: kit completo de Raven (Passiva Queen of Darkness, Skills Shadow Shot/Raven Feather/Shadow Step/Vendetta) e os 2 módulos Transcendent exclusivos (Nightfall, Law of the Back Alley) com efeitos descritos, mas sem recomendação de arma/reator/componentes — isso não é uma build, é a mecânica base."
+        },
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3526953",
+          "author": null,
+          "publishedAt": "2026-08-18",
+          "observedAt": "2026-08-20",
+          "note": "Resumo da live de desenvolvedores de 18/08 confirma o mesmo kit e adiciona que o novo Trigger Module \"Perfect Positioning\" é otimizado especificamente para Raven."
+        },
+        {
+          "type": "press",
+          "source": "KeenGamer",
+          "url": "https://www.keengamer.com/articles/guides/the-first-descendant-season-4-complete-guide-all-major-updates/",
+          "author": "Rafly Wibowo",
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Cobertura secundária corroborando o kit oficial (Non-Attribute Fusion, debuff Trace, shotgun) e a data de lançamento."
+        },
+        {
+          "type": "press",
+          "source": "Inven Global",
+          "url": "https://www.invenglobal.com/articles/24733/blazing-action-with-dual-shotguns-the-first-descendant-raven-gameplay-revealed",
+          "author": "Chanhwi \"Charliee\" Kim",
+          "publishedAt": "2026-08-12",
+          "observedAt": "2026-08-20",
+          "note": "Cobertura pré-lançamento; registra que a conexão narrativa de Raven com Viessa já gerava interesse da comunidade antes do lançamento — sinal de interesse, não de build."
+        }
+      ],
+      "complementaryLinks": [
+        {
+          "source": "AlcastHQ",
+          "url": "https://alcasthq.com/tfd-raven-build-guide/",
+          "note": "Guia de build publicado no dia do lançamento. O acesso a este projeto foi bloqueado (HTTP 403) em toda tentativa — o conteúdo NÃO foi aberto nem conferido item a item, então nada dele foi usado como evidência ou virou dado de build."
+        }
+      ]
+    },
+    {
+      "buildId": "kyle-wall-crasher-nuke",
+      "descendant": "Kyle",
+      "activities": ["bossing"],
+      "communityStatus": "under-review",
+      "confidence": "high",
+      "season": "S4",
+      "lastVerifiedAt": "2026-08-20",
+      "goalAchieved": true,
+      "hotReason": "Kyle recebeu o maior rebalanceamento de dano do patch 1.4.0 — confirmado nos patch notes oficiais: dano base de Repulsion Dash (Skill Power ×812,4%→1.168,6%), conversão de Max Shield (0,30%→0,80%, cap de 81,9%→560,0%) e Superconductivity Thrusters (Skill Power ×28.324,6%→36.792,0%). Ao mesmo tempo, o valor de Sincronização do Ancestor Module CAIU (1,904→1,654) — mudança mista, não só buff. A build cadastrada é de 2026-02-20, quase 6 meses antes dessa mudança.",
+      "patchCaveat": "A build referencia patch \"S3E4\"; o rebalanceamento é do patch 1.4.0 (Season 4, lançado hoje). Nenhum módulo ou roll foi alterado nesta entrega — só o status editorial.",
+      "evidence": [
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3528592",
+          "author": null,
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Patch notes oficiais, seção \"(3) Kyle\": valores exatos de antes/depois pra Repulsion Dash, Magnetism Spurt, Superconductivity Thrusters (todos Max Shield 0,30%→0,80%, cap 81,9%→560,0%) e a tabela de Sincronização do Ancestor Module (Kyle 1,904→1,654)."
+        },
+        {
+          "type": "press",
+          "source": "KeenGamer",
+          "url": "https://www.keengamer.com/articles/guides/the-first-descendant-season-4-complete-guide-all-major-updates/",
+          "author": "Rafly Wibowo",
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Corrobora os mesmos números oficiais em formato de guia (segunda fonte independente, mesmos valores)."
+        }
+      ]
+    },
+    {
+      "buildId": "dia-onslaught-godlike",
+      "descendant": "Dia",
+      "activities": ["onslaught", "farming"],
+      "communityStatus": "under-review",
+      "confidence": "high",
+      "season": "S4",
+      "lastVerifiedAt": "2026-08-20",
+      "goalAchieved": true,
+      "hotReason": "O valor de Sincronização do Ancestor Module de Dia subiu de 0,732 para 1,219 no patch 1.4.0 (~66%), confirmado nos patch notes oficiais da Nexon. A build cadastrada não foi re-conferida contra esse ganho de escala.",
+      "patchCaveat": "A build referencia patch \"S3E4\"; o ajuste de Sincronização é do patch 1.4.0 (Season 4, lançado hoje). Nenhum módulo ou roll foi alterado nesta entrega — só o status editorial.",
+      "evidence": [
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3528592",
+          "author": null,
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Patch notes oficiais, tabela \"Ancestors Module synchronization values\": Dia 0,732 → 1,219."
+        },
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3526953",
+          "author": null,
+          "publishedAt": "2026-08-18",
+          "observedAt": "2026-08-20",
+          "note": "Resumo da live de 18/08 já anunciava que \"Descendants including Dia and Ajax are being buffed\" antes do patch notes detalhado sair."
+        },
+        {
+          "type": "press",
+          "source": "KeenGamer",
+          "url": "https://www.keengamer.com/articles/guides/the-first-descendant-season-4-complete-guide-all-major-updates/",
+          "author": "Rafly Wibowo",
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Corrobora o mesmo valor oficial (0,732→1,219)."
+        }
+      ]
+    },
+    {
+      "buildId": "ajax-support-debuffer",
+      "descendant": "Ultimate Ajax",
+      "activities": ["support", "bossing"],
+      "communityStatus": "under-review",
+      "confidence": "high",
+      "season": "S4",
+      "lastVerifiedAt": "2026-08-20",
+      "goalAchieved": true,
+      "hotReason": "O valor de Sincronização do Ancestor Module de Ajax subiu de 0,841 para 1,24 no patch 1.4.0 (~47%), confirmado nos patch notes oficiais da Nexon. Mesma ressalva de Dia: a build ainda não foi re-conferida contra esse ganho.",
+      "patchCaveat": "A build referencia patch \"S3E4\"; o ajuste de Sincronização é do patch 1.4.0 (Season 4, lançado hoje). Nenhum módulo ou roll foi alterado nesta entrega — só o status editorial.",
+      "evidence": [
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3528592",
+          "author": null,
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Patch notes oficiais, tabela \"Ancestors Module synchronization values\": Ajax / Ultimate Ajax 0,841 → 1,24."
+        },
+        {
+          "type": "official",
+          "source": "Nexon",
+          "url": "https://tfd.nexon.com/en/news/3526953",
+          "author": null,
+          "publishedAt": "2026-08-18",
+          "observedAt": "2026-08-20",
+          "note": "Resumo da live de 18/08 já anunciava que \"Descendants including Dia and Ajax are being buffed\" antes do patch notes detalhado sair."
+        },
+        {
+          "type": "press",
+          "source": "KeenGamer",
+          "url": "https://www.keengamer.com/articles/guides/the-first-descendant-season-4-complete-guide-all-major-updates/",
+          "author": "Rafly Wibowo",
+          "publishedAt": "2026-08-20",
+          "observedAt": "2026-08-20",
+          "note": "Corrobora o mesmo valor oficial (0,841→1,24)."
+        }
+      ]
+    },
+    {
+      "buildId": "serena-archangel-onslaught",
+      "descendant": "Serena",
+      "activities": ["onslaught"],
+      "communityStatus": "established",
+      "confidence": "high",
+      "season": "S4",
+      "lastVerifiedAt": "2026-08-20",
+      "goalAchieved": true,
+      "hotReason": "O arquétipo \"Archangel Serena\" (módulo Transcendent Archangel como núcleo de dano de skill aéreo) aparece de forma independente em duas fontes distintas — o vídeo original desta build (SongsOfRaze) e um guia separado da Alcast/Games Lantern com uma variante de arma diferente (Wave of Light em vez de ERASER). Repetição do mesmo conceito central entre criadores diferentes, não é status baseado em uma fonte só.",
+      "patchCaveat": null,
+      "evidence": [
+        {
+          "type": "community-build",
+          "source": "Games Lantern",
+          "url": "https://tfd.gameslantern.com/builds/019ffa11-cfa4-7173-a13c-f9f3c3ad2a53/serena-archangel-build",
+          "author": "Alcast",
+          "publishedAt": null,
+          "observedAt": "2026-08-20",
+          "note": "Build \"Serena Archangel\" independente, atualizada há ~1 semana, mesmo módulo Transcendent Archangel como base, variante de arma diferente (Wave of Light + Fire Brand em vez de ERASER + Slayer). Corrobora o arquétipo, não a configuração exata desta build."
+        }
+      ]
+    }
+  ]
+}

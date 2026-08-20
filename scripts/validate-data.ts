@@ -9,11 +9,14 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
+import { validateHotBuildsFile, type HotBuildsFile } from "../src/lib/community.ts";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const SCHEMA_PATH = path.join(ROOT, "data/build.schema.json");
 const ITEMS_PATH = path.join(ROOT, "data/items.json");
 const BUILDS_DIR = path.join(ROOT, "data/builds");
+const HOT_BUILDS_SCHEMA_PATH = path.join(ROOT, "data/community/hot-builds.schema.json");
+const HOT_BUILDS_PATH = path.join(ROOT, "data/community/hot-builds.json");
 
 interface Item {
   id: string;
@@ -37,6 +40,7 @@ interface Section {
 }
 interface Build {
   id: string;
+  patch: string;
   sections: Section[];
   [key: string]: unknown;
 }
@@ -124,6 +128,40 @@ async function main() {
     }
   }
 
+  // ---- metadados comunitários (Builds em Alta) ----
+  const buildById = new Map<string, Build>();
+  for (const file of buildFiles) {
+    try {
+      const b: Build = JSON.parse(await readFile(path.join(BUILDS_DIR, file), "utf8"));
+      buildById.set(b.id, b);
+    } catch {
+      // já reportado acima
+    }
+  }
+
+  const hotSchema = JSON.parse(await readFile(HOT_BUILDS_SCHEMA_PATH, "utf8"));
+  const validateHotSchema = ajv.compile(hotSchema);
+  let hotFile: HotBuildsFile | null = null;
+  try {
+    hotFile = JSON.parse(await readFile(HOT_BUILDS_PATH, "utf8"));
+  } catch (e) {
+    fail(`data/community/hot-builds.json: JSON inválido — ${(e as Error).message}`);
+  }
+
+  if (hotFile) {
+    if (!validateHotSchema(hotFile)) {
+      for (const err of validateHotSchema.errors ?? []) {
+        fail(`hot-builds.json: schema — ${err.instancePath || "(raiz)"} ${err.message}`);
+      }
+    } else {
+      // regras de negócio compartilhadas com os testes — ver src/lib/community.ts
+      const buildPatchById = new Map<string, string>();
+      for (const [id, b] of buildById) buildPatchById.set(id, b.patch);
+      const hotErrors = validateHotBuildsFile(hotFile, { buildIds: new Set(buildById.keys()), buildPatchById });
+      for (const e of hotErrors) fail(`hot-builds.json ${e}`);
+    }
+  }
+
   if (errors.length) {
     console.error(`\n[validate] ${errors.length} problema(s) encontrado(s):\n`);
     for (const e of errors) console.error("  ✗ " + e);
@@ -132,7 +170,7 @@ async function main() {
   }
 
   console.log(
-    `[validate] OK — ${buildFiles.length} build(s), ${itemsFile.items.length} item(ns) no catálogo, zero referência órfã.`
+    `[validate] OK — ${buildFiles.length} build(s), ${itemsFile.items.length} item(ns) no catálogo, ${hotFile?.entries.length ?? 0} entrada(s) em hot-builds, zero referência órfã.`
   );
 }
 

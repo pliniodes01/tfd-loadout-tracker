@@ -127,9 +127,12 @@ export function ExportImportBar() {
           onClick={() => setMenuOpen((value) => !value)}
           aria-expanded={menuOpen}
           aria-haspopup="menu"
-          className="flex min-h-11 items-center gap-2 rounded-md border border-white/10 bg-white/[0.04] px-3 py-2 text-xs text-ink transition-colors hover:border-cyan/40 hover:bg-white/[0.07]"
+          className="flex min-h-11 items-center gap-1.5 rounded-md border border-white/10 bg-white/[0.04] px-2.5 text-xs text-ink transition-colors hover:border-cyan/40 hover:bg-white/[0.07] sm:gap-2 sm:px-3"
         >
-          <CloudIcon /><span className="hidden sm:inline">Meu progresso</span><span className={`text-[9px] text-muted transition-transform ${menuOpen ? "rotate-180" : ""}`}>▼</span>
+          <CloudIcon />
+          <span className="hidden sm:inline">Meu progresso</span>
+          <span className="sm:hidden">Progresso</span>
+          <span className={`text-[9px] text-muted transition-transform ${menuOpen ? "rotate-180" : ""}`}>▼</span>
         </button>
         {menuOpen && (
           <>

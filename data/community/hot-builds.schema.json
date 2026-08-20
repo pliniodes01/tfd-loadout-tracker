@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tfd-tracker.local/schema/hot-builds.schema.json",
+  "title": "TFD Tracker — Metadados comunitários (Builds em Alta)",
+  "description": "Camada separada da build em si. Guarda status editorial/temporal (o quão nova, em ascensão, consolidada ou afetada por patch uma configuração está) e a evidência que sustenta isso. Nunca duplica módulos/rolls — só referencia buildId. Um registro pode não ter buildId nenhum (spotlight de personagem sem build publicada ainda, ex. Raven no dia do lançamento) — nesse caso 'descendant' é obrigatório no lugar.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["season", "generatedAt", "entries"],
+  "properties": {
+    "season": { "type": "string", "description": "Temporada de referência desta leitura editorial, ex. 'S4'." },
+    "generatedAt": { "type": "string", "format": "date", "description": "Data em que este arquivo foi montado/revisado por último." },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "activity": {
+      "type": "string",
+      "enum": ["onslaught", "bossing", "farming", "dungeons", "support", "general"],
+      "description": "Mesmo enum de src/lib/buildActivities.ts — não inventar categoria nova aqui."
+    },
+    "communityStatus": {
+      "type": "string",
+      "enum": ["new-evolving", "rising", "established", "under-review"],
+      "description": "new-evolving = NOVA · EM EVOLUÇÃO. rising = EM ASCENSÃO. established = CONSOLIDADA. under-review = EM REVISÃO (afetada por patch/balanceamento, não recomendar sem ressalva)."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "source", "url", "observedAt", "note"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["community-build", "official", "press", "discussion"]
+        },
+        "source": { "type": "string", "description": "Ex.: 'Games Lantern', 'Nexon', 'KeenGamer', 'InvenGlobal'." },
+        "url": { "type": "string", "format": "uri", "description": "URL direta da página individual — nunca uma página de busca/listagem." },
+        "author": { "type": ["string", "null"] },
+        "publishedAt": { "type": ["string", "null"], "format": "date" },
+        "observedAt": { "type": "string", "format": "date", "description": "Quando ESTE PROJETO conferiu essa evidência (pode ser diferente de publishedAt)." },
+        "note": { "type": "string", "description": "O que essa evidência mostra, em 1 frase — obrigatório, não pode ficar genérico." }
+      },
+      "description": "Só entra aqui o que este projeto conseguiu abrir e conferir de verdade (mesmo que via requisição direta, não só o fetch padrão). Uma página que retornou erro/bloqueio e não pôde ser lida NÃO é evidência — vai em complementaryLinks."
+    },
+    "complementaryLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "url", "note"],
+      "properties": {
+        "source": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string", "description": "Precisa deixar claro que o conteúdo NÃO foi conferido por este projeto (ex.: bloqueio 403), não é uma evidência validada." }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["descendant", "activities", "communityStatus", "confidence", "season", "lastVerifiedAt", "hotReason", "evidence"],
+      "properties": {
+        "buildId": {
+          "type": ["string", "null"],
+          "description": "Deve existir em data/builds/<id>.json quando não-nulo. Nulo = ainda não há build publicada pra essa combinação (spotlight editorial só)."
+        },
+        "descendant": {
+          "type": "string",
+          "description": "Nome do Descendant em inglês, igual ao campo `descendant` da build (ou o nome oficial, quando buildId é nulo)."
+        },
+        "activities": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/activity" },
+          "description": "Pode ser vazio quando buildId é nulo e ainda não há configuração publicada pra nenhuma atividade específica."
+        },
+        "communityStatus": { "$ref": "#/$defs/communityStatus" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "season": { "type": "string" },
+        "lastVerifiedAt": { "type": "string", "format": "date" },
+        "hotReason": { "type": "string", "description": "Por que isso está em alta agora — 1-2 frases, factual, sem 'meta'/'melhor'/'mais usada' sem dado." },
+        "patchCaveat": {
+          "type": ["string", "null"],
+          "description": "Obrigatório (não-nulo) quando a build referenciada tem `patch` diferente da season atual — explica que o conteúdo é anterior ao patch vigente e não foi re-verificado contra ele."
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "complementaryLinks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/complementaryLink" },
+          "description": "Leitura complementar que não pôde ser aberta/conferida (ex. bloqueio 403). Nunca conta como evidência."
+        },
+        "goalAchieved": {
+          "type": "boolean",
+          "default": true,
+          "description": "false quando o objetivo editorial desta entrada (ex. build completa verificada) ainda não foi alcançado — a UI precisa deixar isso explícito, não only omitir o que falta."
+        }
+      }
+    }
+  }
+}
