@@ -8,6 +8,7 @@ import { CapacityPanel } from "../components/CapacityPanel";
 import { getDescendantImage } from "../lib/descendantImages";
 import type { ReactNode } from "react";
 import { getBuildProfile } from "../lib/buildProfiles";
+import { WeaponShowcase } from "../components/WeaponShowcase";
 
 const SOURCE_TYPE_LABEL: Record<string, string> = { video: "vídeo", article: "artigo", other: "fonte" };
 
@@ -32,42 +33,36 @@ export function BuildDetailScreen({ buildId, onBack }: { buildId: string; onBack
   const descendantModules = build.sections.find((section) => section.type === "descendantModules");
   const weaponModules = build.sections.find((section) => section.type === "weaponModules");
   const findSection = (type: string) => build.sections.find((section) => section.type === type);
-  const equipmentSections = [findSection("trigger"), findSection("weapon"), findSection("reactor")].filter(Boolean);
+  const weaponSection = findSection("weapon");
+  const equipmentSections = [findSection("trigger"), findSection("reactor")].filter(Boolean);
   const weaponDetailSections = [findSection("weaponTargetRolls"), findSection("weaponCores")].filter(Boolean);
   const externalComponents = findSection("externalComponents");
   const progressionSections = [findSection("archeTuning"), findSection("mutantCells"), findSection("inversion"), findSection("fellow")].filter(Boolean);
 
   return (
     <div>
-      <button onClick={onBack} className="mb-4 flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-muted transition-colors hover:bg-white/5 hover:text-ink">
+      <button onClick={onBack} className="mb-4 flex min-h-11 items-center gap-2 rounded-md px-2 text-xs text-muted transition-colors hover:bg-white/5 hover:text-ink">
         <span aria-hidden="true">←</span> Todas as builds
       </button>
 
-      <div className="mb-5 rounded-xl border border-white/15 bg-[#10232ed1] px-5 py-4 shadow-xl backdrop-blur-md sm:flex sm:items-end sm:justify-between">
-        <div>
-          <p className="font-mono text-[12px] uppercase tracking-[0.18em] text-cyan">{build.descendant} // {build.patch}</p>
-          <h1 className="mt-1 text-2xl font-semibold leading-snug">{build.title}</h1>
-        </div>
-        <p className="mt-2 text-[13px] text-muted sm:mt-0">
-          Atualizada em {build.updatedAt} ·{" "}
-          <a href={build.source.url} target="_blank" rel="noopener" className="text-cyan hover:underline">
-            {SOURCE_TYPE_LABEL[build.source.type] ?? build.source.type} de {build.source.author}
-          </a>
-        </p>
-      </div>
-
       <section className="grid overflow-hidden rounded-2xl border border-white/15 bg-[#0b1b25]/82 shadow-2xl backdrop-blur-sm lg:grid-cols-[1.15fr_0.85fr]">
-        <div className="relative z-10 flex min-h-[420px] flex-col justify-between p-6 sm:p-8 lg:p-10">
+        <div className="relative z-10 flex flex-col justify-between gap-6 p-6 sm:p-8 lg:min-h-[420px] lg:p-10">
           <div className="max-w-xl">
-            <p className="font-mono text-[12px] uppercase tracking-[0.25em] text-cyan">Build overview</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">{build.title}</h2>
-            <p className="mt-3 max-w-2xl text-[17px] leading-relaxed text-muted">{profile.purpose}</p>
+            <p className="font-mono text-[12px] uppercase tracking-[0.25em] text-cyan">{build.descendant} // {build.patch}</p>
+            <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">{build.title}</h1>
+            <p className="mt-2 text-[13px] text-muted">
+              Atualizada em {build.updatedAt} ·{" "}
+              <a href={build.source.url} target="_blank" rel="noopener" className="text-cyan hover:underline">
+                {SOURCE_TYPE_LABEL[build.source.type] ?? build.source.type} de {build.source.author}
+              </a>
+            </p>
+            <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-muted">{profile.purpose}</p>
             <div className="mt-5 flex flex-wrap gap-2">
               <BuildTrait label="Foco" value={profile.focus} />
               <BuildTrait label="Ideal para" value={profile.playstyle} />
             </div>
           </div>
-          <div className="grid w-full max-w-3xl gap-3 xl:grid-cols-[minmax(280px,1fr)_minmax(340px,0.9fr)]">
+          <div className="grid w-full max-w-3xl items-start gap-3 xl:grid-cols-[minmax(280px,1fr)_minmax(340px,0.9fr)]">
             <div className="flex items-center gap-4 border border-line bg-[#07111ae8] p-4 backdrop-blur-sm">
               <ProgressRing percent={percent} size={70} />
               <div className="min-w-0 flex-1"><div className="flex justify-between text-xs"><strong>Conclusão da build</strong><span className="font-mono text-cyan">{done}/{total}</span></div><div className="mt-3 h-1.5 bg-line"><div className="h-full bg-gradient-to-r from-cyan to-green" style={{ width: `${percent}%` }} /></div><p className="mt-2 text-[10px] text-muted">Progresso global sincronizado.</p></div>
@@ -75,7 +70,7 @@ export function BuildDetailScreen({ buildId, onBack }: { buildId: string; onBack
             <NextActions build={build} />
           </div>
         </div>
-        <div className="relative min-h-[420px] overflow-hidden">
+        <div className="relative min-h-[260px] overflow-hidden sm:min-h-[320px] lg:min-h-[420px]">
             <div className="absolute inset-0 opacity-50 [background:radial-gradient(circle_at_50%_43%,#17485b_0,transparent_34%),linear-gradient(#ffffff05_1px,transparent_1px),linear-gradient(90deg,#ffffff05_1px,transparent_1px)] [background-size:auto,34px_34px,34px_34px]" />
             <div className="absolute left-1/2 top-[42%] h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan/20" />
             {portrait && (
@@ -93,7 +88,9 @@ export function BuildDetailScreen({ buildId, onBack }: { buildId: string; onBack
 
       <div className="mt-6"><CapacityPanel build={build} /></div>
 
-      {equipmentSections.length > 0 && <SectionGroup eyebrow="Essenciais" title="Equipamento principal"><div className="grid items-start gap-4 lg:grid-cols-3">{equipmentSections.map((section) => <SectionPanel key={section!.type} section={section!} />)}</div></SectionGroup>}
+      {weaponSection && <SectionGroup eyebrow="Arsenal" title="Arma principal"><WeaponShowcase section={weaponSection} /></SectionGroup>}
+
+      {equipmentSections.length > 0 && <SectionGroup eyebrow="Essenciais" title="Trigger e reator"><div className="grid items-start gap-4 lg:grid-cols-2">{equipmentSections.map((section) => <SectionPanel key={section!.type} section={section!} />)}</div></SectionGroup>}
 
       {weaponDetailSections.length > 0 && <SectionGroup eyebrow="Arsenal" title="Rolls e cores da arma"><div className="grid items-start gap-4 lg:grid-cols-2">{weaponDetailSections.map((section) => <SectionPanel key={section!.type} section={section!} />)}</div></SectionGroup>}
 

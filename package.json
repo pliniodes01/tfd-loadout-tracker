@@ -5,6 +5,7 @@
   "scripts": {
     "ingest": "tsx scripts/ingest.ts",
     "sync-images": "tsx scripts/sync-item-images.ts",
+    "audit-weapon-images": "tsx scripts/audit-weapon-images.ts",
     "validate": "tsx scripts/validate-data.ts",
     "dev": "npm run validate && vite",
     "build": "npm run validate && vite build",

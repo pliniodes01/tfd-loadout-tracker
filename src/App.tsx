@@ -60,7 +60,7 @@ function AppShell() {
           <span className="grid h-12 w-12 place-items-center rounded-xl border border-cyan/20 bg-cyan/[0.06] sm:h-14 sm:w-14"><img src="/assets/game/tfd-icon.png" alt="" className="h-9 w-9 object-contain transition-transform group-hover:scale-110 sm:h-11 sm:w-11" /></span>
           <span><img src="/assets/game/tfd-logo.png" alt="The First Descendant" className="h-7 w-auto opacity-95 sm:h-9" /><span className="mt-1.5 block text-[10px] font-semibold uppercase tracking-[0.28em] text-cyan">Loadout tracker</span></span>
         </button>
-        <div className="flex items-center gap-2"><button onClick={goHome} className={`hidden rounded-md px-3 py-2 text-xs transition-colors sm:block ${!buildId ? "bg-white/10 text-ink" : "text-muted hover:bg-white/5 hover:text-ink"}`}>Builds</button><ExportImportBar /></div>
+        <div className="flex items-center gap-2"><button onClick={goHome} className={`hidden min-h-11 items-center rounded-md px-3 text-xs transition-colors sm:flex ${!buildId ? "bg-white/10 text-ink" : "text-muted hover:bg-white/5 hover:text-ink"}`}>Builds</button><ExportImportBar /></div>
         </div>
       </header>
 

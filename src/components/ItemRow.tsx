@@ -85,10 +85,10 @@ function RailStep({ label, active, onClick }: { label: string; active: boolean; 
   return (
     <button
       onClick={onClick}
-      className={`flex items-center gap-1.5 font-mono text-[10px] tracking-wide ${active ? "text-fire" : "text-muted"}`}
+      className={`flex min-h-11 flex-1 items-center justify-center gap-1.5 rounded-md px-2 font-mono text-[10px] tracking-wide transition-colors ${active ? "text-fire" : "text-muted hover:bg-white/5 hover:text-ink"}`}
     >
       <span
-        className={`block h-2 w-2 rounded-full border ${active ? "border-fire bg-fire shadow-[0_0_6px_var(--color-fire)]" : "border-line bg-panel"}`}
+        className={`block h-2 w-2 shrink-0 rounded-full border ${active ? "border-fire bg-fire shadow-[0_0_6px_var(--color-fire)]" : "border-line bg-panel"}`}
       />
       {label}
     </button>

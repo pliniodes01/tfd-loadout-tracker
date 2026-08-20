@@ -5,6 +5,9 @@ import { splitByOwnership } from "../lib/priority";
 import { ItemRow } from "./ItemRow";
 
 const MODULE_RAIL_SECTIONS = new Set(["descendantModules", "weaponModules"]);
+// 220px garante ícone (96px) + nome + nota legíveis sem cortar; auto-fill ajusta o
+// número de colunas ao espaço real em vez de degraus fixos por breakpoint.
+const CARD_GRID = "grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-2";
 
 function OwnedCollapse({ items, card = false }: { items: BuildItem[]; card?: boolean }) {
   const [open, setOpen] = useState(false);
@@ -13,12 +16,13 @@ function OwnedCollapse({ items, card = false }: { items: BuildItem[]; card?: boo
     <div className="mt-2">
       <button
         onClick={() => setOpen((o) => !o)}
-        className="font-mono text-[12px] tracking-wide text-green hover:text-green/80"
+        aria-expanded={open}
+        className="min-h-11 font-mono text-[12px] tracking-wide text-green hover:text-green/80"
       >
         {open ? "▾" : "▸"} {items.length} item{items.length > 1 ? "s" : ""} que você já tem
       </button>
       {open && (
-        <div className={card ? "mt-2 grid grid-cols-2 gap-2 opacity-70 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6" : "mt-2 grid gap-1.5 opacity-70"}>
+        <div className={card ? `mt-2 ${CARD_GRID} opacity-70` : "mt-2 grid gap-1.5 opacity-70"}>
           {items.map((item) => (
             <ItemRow key={item.id} item={item} card={card} />
           ))}
@@ -32,7 +36,7 @@ function ItemList({ items, showModuleRail, card = false }: { items: BuildItem[];
   const { isOwned } = useOwnership();
   if (card) {
     return (
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6">
+      <div className={CARD_GRID}>
         {items.map((item) => (
           <ItemRow key={item.id} item={item} showModuleRail={showModuleRail} card />
         ))}
@@ -43,7 +47,7 @@ function ItemList({ items, showModuleRail, card = false }: { items: BuildItem[];
   return (
     <>
       {missing.length > 0 ? (
-        <div className={card ? "grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6" : "grid gap-1.5"}>
+        <div className={card ? CARD_GRID : "grid gap-1.5"}>
           {missing.map((item) => (
             <ItemRow key={item.id} item={item} showModuleRail={showModuleRail} card={card} />
           ))}
