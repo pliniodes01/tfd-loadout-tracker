@@ -6,6 +6,7 @@ import { ProgressRing } from "../components/ProgressRing";
 import { getDescendantImage } from "../lib/descendantImages";
 import { ACTIVITY_LABELS, getBuildActivities, type Activity } from "../lib/buildActivities";
 import { getBuildElement } from "../lib/buildElements";
+import { ActivityFilter } from "../components/ActivityFilter";
 
 export function BuildSelectScreen({ onSelect }: { onSelect: (buildId: string) => void }) {
   const builds = getAllBuilds();
@@ -28,15 +29,8 @@ export function BuildSelectScreen({ onSelect }: { onSelect: (buildId: string) =>
         <label className="block"><span className="mb-1.5 block font-mono text-[11px] uppercase tracking-wider text-muted">Buscar por personagem, build ou autor</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Ex.: Bunny, bossing, Alcast…" className="w-full border border-line bg-[#050d14] px-4 py-3 text-base outline-none transition-colors placeholder:text-muted/50 focus:border-cyan" /></label>
       </div>
 
-      <div className="relative mb-5 overflow-hidden rounded-xl border border-white/15 bg-panel/70 backdrop-blur-md">
-        <nav aria-label="Filtrar builds por atividade" className="flex gap-2 overflow-x-auto p-2">
-          {(Object.entries(ACTIVITY_LABELS) as [Activity, string][]).map(([value, label]) => (
-            <button key={value} onClick={() => setActivity(value)} aria-pressed={activity === value} className={`flex min-h-11 shrink-0 items-center rounded-lg px-4 text-[13px] font-semibold transition-colors ${activity === value ? "bg-cyan text-[#041117] shadow-[0_0_18px_#55d9e833]" : "text-muted hover:bg-white/5 hover:text-ink"}`}>
-              {label}
-            </button>
-          ))}
-        </nav>
-        <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-panel/90 to-transparent sm:hidden" />
+      <div className="mb-5">
+        <ActivityFilter value={activity} onChange={setActivity} label="Filtrar builds por atividade" />
       </div>
 
       <div className="mb-3 flex items-center justify-between"><p className="text-lg font-semibold">Builds disponíveis</p><span className="font-mono text-[12px] text-muted">{visibleBuilds.length} resultados</span></div>
