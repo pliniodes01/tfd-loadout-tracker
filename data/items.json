@@ -2087,6 +2087,354 @@
       "socketType": null,
       "nexonId": "245002065",
       "imagePath": "/assets/items/reactor-materialized-singularity.png"
+    },
+    {
+      "id": "weapon-truly-deadly-arson",
+      "name": "Truly Deadly Arson",
+      "kind": "weapon",
+      "socketType": null
+    },
+    {
+      "id": "roll-firearm-critical-hit-damage",
+      "name": "Firearm Critical Hit Damage",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-fire-atk",
+      "name": "Fire ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-firearm-atk",
+      "name": "Firearm ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-sprint-speed",
+      "name": "Sprint Speed",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-fire-atk",
+      "name": "Fire ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-rounds-per-magazine",
+      "name": "Rounds per Magazine",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-additional-weapon-atk-vs-legion-of-darkness",
+      "name": "Additional Weapon ATK (vs. Legion of Darkness)",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "mod-remote-generator",
+      "name": "Remote Generator",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "roll-weapon-change-speed",
+      "name": "Weapon Change Speed",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-grappling-hook-charge-time-increase-ratio",
+      "name": "Grappling Hook Charge Time Increase Ratio",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "mod-multi-piercing-support-ammo",
+      "name": "Multi-Piercing Support Ammo",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "roll-toxic-atk",
+      "name": "Toxic ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-multi-hit-chance",
+      "name": "Multi-Hit Chance",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-multi-hit-damage",
+      "name": "Multi-Hit Damage",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-fire-rate",
+      "name": "Fire Rate",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-firearm-atk",
+      "name": "Firearm ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-toxic-atk",
+      "name": "Toxic ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-firearm-critical-hit-damage",
+      "name": "Firearm Critical Hit Damage",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-additional-weapon-atk-vs-legion-of-breach",
+      "name": "Additional Weapon ATK (vs. Legion of Breach)",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "mod-sharp-precision-shot",
+      "name": "Sharp Precision Shot",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-expand-general-magazine",
+      "name": "Expand General Magazine",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-compulsive-magazine",
+      "name": "Compulsive Magazine",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "roll-weak-point-damage",
+      "name": "Weak Point Damage",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-electric-atk",
+      "name": "Electric ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-electric-atk",
+      "name": "Electric ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "mod-have-aiming",
+      "name": "Have Aiming",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-ultra-precision-strike",
+      "name": "Ultra-Precision Strike",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-payout",
+      "name": "Payout",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-hawk-eye",
+      "name": "Hawk-Eye",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-reload-insight",
+      "name": "Reload Insight",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-weak-point-aiming",
+      "name": "Weak Point Aiming",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "weapon-shadow",
+      "name": "Shadow",
+      "kind": "weapon",
+      "socketType": null
+    },
+    {
+      "id": "mod-toxic-conductor",
+      "name": "Toxic Conductor",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-toxic-edge",
+      "name": "Toxic Edge",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-double-edge-extension",
+      "name": "Double Edge Extension",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-increased-range",
+      "name": "Increased Range",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "mod-exquisite-strike",
+      "name": "Exquisite Strike",
+      "kind": "weaponMod",
+      "socketType": null
+    },
+    {
+      "id": "roll-melee-weapon-atk",
+      "name": "Melee Weapon ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-melee-weapon-toxic-atk",
+      "name": "Melee Weapon Toxic ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-additional-attack-chance",
+      "name": "Additional Attack Chance",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-additional-attack-damage",
+      "name": "Additional Attack Damage",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-melee-weapon-atk",
+      "name": "Melee Weapon ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-melee-weapon-toxic-atk",
+      "name": "Melee Weapon Toxic ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-additional-attack-chance",
+      "name": "Additional Attack Chance",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-additional-attack-damage",
+      "name": "Additional Attack Damage",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "roll-melee-weapon-chill-atk",
+      "name": "Melee Weapon Chill ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-melee-weapon-critical-hit-damage",
+      "name": "Melee Weapon Critical Hit Damage",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-melee-weapon-critical-hit-rate",
+      "name": "Melee Weapon Critical Hit Rate",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-melee-weapon-chill-atk",
+      "name": "Melee Weapon Chill ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-melee-weapon-critical-hit-rate",
+      "name": "Melee Weapon Critical Hit Rate",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-melee-weapon-critical-hit-damage",
+      "name": "Melee Weapon Critical Hit Damage",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-recoil",
+      "name": "Recoil",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "roll-chill-atk",
+      "name": "Chill ATK",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "core-chill-atk",
+      "name": "Chill ATK",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "core-firearm-critical-hit-rate",
+      "name": "Firearm Critical Hit Rate",
+      "kind": "weaponCore",
+      "socketType": null
+    },
+    {
+      "id": "roll-additional-weapon-atk-vs-legion-of-darkness",
+      "name": "Additional Weapon ATK (vs. Legion of Darkness)",
+      "kind": "weaponRoll",
+      "socketType": null
+    },
+    {
+      "id": "roll-additional-weapon-atk-vs-colossus",
+      "name": "Additional Weapon ATK (vs. Colossus)",
+      "kind": "weaponRoll",
+      "socketType": null
     }
   ]
 }

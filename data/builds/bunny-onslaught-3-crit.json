@@ -545,6 +545,13 @@
           "quantity": 1
         }
       ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "notProvided",
+      "sourceNote": "Este detalhe ainda não foi fornecido ou migrado da fonte original.",
+      "items": []
     }
   ]
 }

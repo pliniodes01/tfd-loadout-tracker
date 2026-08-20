@@ -1,11 +1,241 @@
 {
-  "id":"sharen-godmode-mobbing","descendant":"Ultimate Sharen","title":"Ultimate Sharen — Godmode Mobbing","patch":"S3E4","updatedAt":"2026-04-20",
-  "source":{"author":"Alcast","url":"https://tfd.gameslantern.com/builds/019ce7f5-4c16-700d-90f0-8e2bdd64d28a/sharen-godmode-build","type":"article"},
-  "sections":[
-    {"type":"descendantModules","label":"Módulos do Descendant","items":[
-      {"id":"mod-area-suppression-2","name":"Area Suppression 2","priority":"P0","note":"Transcendent usado pela configuração.","quantity":1},
-      {"id":"mod-mp-conversion","name":"MP Conversion","priority":"P1","note":"Sustenta a rotação.","quantity":1},{"id":"mod-nimble-fingers","name":"Nimble Fingers","priority":"P1","note":"Cooldown.","quantity":1},{"id":"mod-skill-expansion","name":"Skill Expansion","priority":"P1","note":"Alcance.","quantity":1},{"id":"mod-emergency-measures","name":"Emergency Measures","priority":"P1","note":"Crítico.","quantity":1},{"id":"mod-front-lines","name":"Front Lines","priority":"P1","note":"Dano crítico.","quantity":1},{"id":"mod-mid-air-maneuvering","name":"Mid-Air Maneuvering","priority":"P2","note":"Mobilidade.","quantity":1},{"id":"mod-skill-concentration","name":"Skill Concentration","priority":"P1","note":"Dano crítico de skill.","quantity":1},{"id":"mod-focus-on-fusion","name":"Focus on Fusion","priority":"P1","note":"Fusion Skill Power.","quantity":1},{"id":"mod-power-increase","name":"Power Increase","priority":"P1","note":"Skill Power.","quantity":1}]},
-    {"type":"weapon","label":"Arma principal","items":[{"id":"weapon-blue-beetle","name":"Blue Beetle","priority":"P0","note":"Stat stick recomendado pela fonte.","quantity":1}]},
-    {"type":"reactor","label":"Reator","items":[{"id":"reactor-tingling-mixture","name":"Tingling Mixture Reactor","priority":"P0","note":"Electric + Fusion.","quantity":1},{"id":"roll-skill-cooldown","name":"Skill Cooldown","priority":"P1","note":"Roll principal.","quantity":1},{"id":"roll-skill-critical-hit-damage","name":"Skill Critical Hit Damage","priority":"P1","note":"Roll secundário.","quantity":1}]}
+  "id": "sharen-godmode-mobbing",
+  "descendant": "Ultimate Sharen",
+  "title": "Ultimate Sharen — Godmode Mobbing",
+  "patch": "S3E4",
+  "updatedAt": "2026-04-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019ce7f5-4c16-700d-90f0-8e2bdd64d28a/sharen-godmode-build",
+    "type": "article"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-area-suppression-2",
+          "name": "Area Suppression 2",
+          "priority": "P0",
+          "note": "Transcendent usado pela configuração.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-mp-conversion",
+          "name": "MP Conversion",
+          "priority": "P1",
+          "note": "Sustenta a rotação.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Cooldown.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Alcance.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-emergency-measures",
+          "name": "Emergency Measures",
+          "priority": "P1",
+          "note": "Crítico.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-front-lines",
+          "name": "Front Lines",
+          "priority": "P1",
+          "note": "Dano crítico.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-concentration",
+          "name": "Skill Concentration",
+          "priority": "P1",
+          "note": "Dano crítico de skill.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-focus-on-fusion",
+          "name": "Focus on Fusion",
+          "priority": "P1",
+          "note": "Fusion Skill Power.",
+          "quantity": 1
+        },
+        {
+          "id": "mod-power-increase",
+          "name": "Power Increase",
+          "priority": "P1",
+          "note": "Skill Power.",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma principal",
+      "items": [
+        {
+          "id": "weapon-blue-beetle",
+          "name": "Blue Beetle",
+          "priority": "P0",
+          "note": "Stat stick recomendado pela fonte.",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-tingling-mixture",
+          "name": "Tingling Mixture Reactor",
+          "priority": "P0",
+          "note": "Electric + Fusion.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Roll principal.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Roll secundário.",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Configuração publicada pela fonte da build.",
+      "items": [
+        {
+          "id": "mod-defense-master",
+          "name": "Defense Master",
+          "priority": "P1",
+          "note": "Nível 8 na fonte.",
+          "quantity": 1,
+          "targetLevel": 8
+        },
+        {
+          "id": "mod-tactical-change",
+          "name": "Tactical Change",
+          "priority": "P1",
+          "note": "Nível 8 na fonte.",
+          "quantity": 1,
+          "targetLevel": 8
+        },
+        {
+          "id": "mod-better-weapon-weight",
+          "name": "Better Weapon Weight",
+          "priority": "P1",
+          "note": "Nível 6 na fonte.",
+          "quantity": 1,
+          "targetLevel": 6
+        }
+      ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Atributos publicados pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "roll-rounds-per-magazine",
+          "name": "Rounds per Magazine",
+          "priority": null,
+          "note": "Roll confirmado na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-weapon-change-speed",
+          "name": "Weapon Change Speed",
+          "priority": null,
+          "note": "Roll confirmado na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Roll confirmado na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-electric-atk",
+          "name": "Electric ATK",
+          "priority": null,
+          "note": "Roll confirmado na fonte.",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponCores",
+      "label": "Configuração de cores da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Augmentations publicadas pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "core-sprint-speed",
+          "name": "Sprint Speed",
+          "priority": null,
+          "note": "Augmentation confirmada na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "core-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Augmentation confirmada na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "core-electric-atk",
+          "name": "Electric ATK",
+          "priority": null,
+          "note": "Augmentation confirmada na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "core-fire-rate",
+          "name": "Fire Rate",
+          "priority": null,
+          "note": "Augmentation confirmada na fonte.",
+          "quantity": 1
+        },
+        {
+          "id": "core-sprint-speed",
+          "name": "Sprint Speed",
+          "priority": null,
+          "note": "Augmentation confirmada na fonte.",
+          "quantity": 1
+        }
+      ]
+    }
   ]
 }

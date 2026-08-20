@@ -268,31 +268,46 @@
     },
     {
       "type": "weaponCores",
-      "label": "Weapon Cores — Alvo",
+      "label": "Configuração de cores da arma",
       "items": [
         {
-          "id": "core-chill-atk-x",
-          "name": "Chill ATK X",
-          "priority": "P1",
-          "note": "Augmentation de Attribute.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-melee-weapon-atk",
+          "name": "Melee Weapon ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         },
         {
-          "id": "core-firearm-critical-hit-rate-x",
-          "name": "Firearm Critical Hit Rate X",
-          "priority": "P1",
-          "note": "Augmentation Hit.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-melee-weapon-chill-atk",
+          "name": "Melee Weapon Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-melee-weapon-chill-atk",
+          "name": "Melee Weapon Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-melee-weapon-critical-hit-damage",
+          "name": "Melee Weapon Critical Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-melee-weapon-critical-hit-rate",
+          "name": "Melee Weapon Critical Hit Rate",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         }
-      ]
+      ],
+      "sourceStatus": "confirmed",
+      "sourceNote": "Augmentations publicadas pela fonte, na ordem exibida."
     },
     {
       "type": "reactor",
@@ -520,6 +535,42 @@
           "targetLevel": null,
           "capacityCost": null,
           "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Atributos publicados pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "roll-melee-weapon-chill-atk",
+          "name": "Melee Weapon Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-melee-weapon-atk",
+          "name": "Melee Weapon ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-melee-weapon-critical-hit-rate",
+          "name": "Melee Weapon Critical Hit Rate",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-melee-weapon-critical-hit-damage",
+          "name": "Melee Weapon Critical Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         }
       ]

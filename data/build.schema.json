@@ -135,6 +135,15 @@
       "properties": {
         "type": { "$ref": "#/$defs/sectionType" },
         "label": { "type": "string", "description": "Rótulo de exibição em pt-BR." },
+        "sourceStatus": {
+          "type": "string",
+          "enum": ["confirmed", "notProvided"],
+          "description": "Indica se a configuração foi confirmada na fonte ou se a fonte não forneceu dados para esta seção."
+        },
+        "sourceNote": {
+          "type": "string",
+          "description": "Explicação curta e visível sobre a cobertura dos dados da seção."
+        },
         "items": {
           "type": "array",
           "items": { "$ref": "#/$defs/item" },

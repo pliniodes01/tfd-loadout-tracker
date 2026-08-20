@@ -31,6 +31,7 @@ interface BuildItem {
 }
 interface Section {
   type: string;
+  sourceStatus?: "confirmed" | "notProvided";
   items?: BuildItem[];
   groups?: { slot: string; setName: string; items: BuildItem[] }[];
 }
@@ -106,6 +107,18 @@ async function main() {
         }
         if (it.altOf && !items.some((x) => x.id === it.altOf)) {
           fail(`${file}: "${it.id}" tem altOf="${it.altOf}", mas esse id não está na mesma seção`);
+        }
+      }
+    }
+
+    const weapon = build.sections.find((section) => section.type === "weapon");
+    if (weapon) {
+      for (const requiredType of ["weaponModules", "weaponTargetRolls", "weaponCores"]) {
+        const section = build.sections.find((candidate) => candidate.type === requiredType);
+        if (!section) {
+          fail(`${file}: arma cadastrada sem a seção obrigatória "${requiredType}"`);
+        } else if (flattenItems(section).length === 0 && section.sourceStatus !== "notProvided") {
+          fail(`${file}: seção vazia "${requiredType}" precisa declarar sourceStatus="notProvided"`);
         }
       }
     }

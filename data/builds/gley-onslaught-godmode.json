@@ -279,42 +279,46 @@
     },
     {
       "type": "weaponCores",
-      "label": "Weapon Cores — Alvo",
+      "label": "Configuração de cores da arma",
       "items": [
         {
-          "id": "core-electric-atk-x",
-          "name": "Electric ATK X",
-          "priority": "P1",
-          "note": "Augmentation de Attribute.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-electric-atk",
+          "name": "Electric ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         },
         {
-          "id": "core-fire-rate-x",
-          "name": "Fire Rate X",
-          "priority": "P1",
-          "note": "Augmentation Tactical.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         },
         {
-          "id": "core-recoil-x",
-          "name": "Recoil X",
-          "priority": "P2",
-          "note": "Conforto de controle de recuo.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-firearm-critical-hit-damage",
+          "name": "Firearm Critical Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-fire-rate",
+          "name": "Fire Rate",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-recoil",
+          "name": "Recoil",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         }
-      ]
+      ],
+      "sourceStatus": "confirmed",
+      "sourceNote": "Augmentations publicadas pela fonte, na ordem exibida."
     },
     {
       "type": "reactor",
@@ -531,6 +535,42 @@
           "targetLevel": null,
           "capacityCost": null,
           "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Atributos publicados pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "roll-firearm-critical-hit-damage",
+          "name": "Firearm Critical Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-electric-atk",
+          "name": "Electric ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-firearm-critical-hit-rate",
+          "name": "Firearm Critical Hit Rate",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         }
       ]

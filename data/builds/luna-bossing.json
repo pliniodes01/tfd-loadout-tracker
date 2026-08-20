@@ -489,6 +489,64 @@
           "quantity": 1
         }
       ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Atributos publicados pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "roll-chill-atk",
+          "name": "Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-weak-point-damage",
+          "name": "Weak Point Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-additional-weapon-atk-vs-colossus",
+          "name": "Additional Weapon ATK (vs. Colossus)",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponCores",
+      "label": "Configuração de cores da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Augmentations publicadas pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "core-chill-atk",
+          "name": "Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-chill-atk",
+          "name": "Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        }
+      ]
     }
   ]
 }

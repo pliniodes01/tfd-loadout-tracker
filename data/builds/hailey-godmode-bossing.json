@@ -279,53 +279,46 @@
     },
     {
       "type": "weaponCores",
-      "label": "Weapon Cores — Alvo",
+      "label": "Configuração de cores da arma",
       "items": [
         {
-          "id": "core-chill-atk-x",
-          "name": "Chill ATK X",
-          "priority": "P1",
-          "note": "Augmentation de Attribute — dano de Chill da arma.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-chill-atk",
+          "name": "Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         },
         {
-          "id": "core-firearm-atk-x",
-          "name": "Firearm ATK X",
-          "priority": "P1",
-          "note": "Augmentation de Firepower.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         },
         {
-          "id": "core-fire-rate-x",
-          "name": "Fire Rate X",
-          "priority": "P1",
-          "note": "Augmentation Tactical.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-chill-atk",
+          "name": "Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         },
         {
-          "id": "core-firearm-critical-hit-damage-x",
-          "name": "Firearm Critical Hit Damage X",
-          "priority": "P2",
-          "note": "Augmentation Special.",
-          "targetRoll": null,
-          "targetLevel": null,
-          "capacityCost": null,
-          "altOf": null,
+          "id": "core-fire-rate",
+          "name": "Fire Rate",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-additional-weapon-atk-vs-legion-of-darkness",
+          "name": "Additional Weapon ATK (vs. Legion of Darkness)",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         }
-      ]
+      ],
+      "sourceStatus": "confirmed",
+      "sourceNote": "Augmentations publicadas pela fonte, na ordem exibida."
     },
     {
       "type": "reactor",
@@ -564,6 +557,42 @@
           "targetLevel": null,
           "capacityCost": null,
           "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Atributos publicados pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "roll-chill-atk",
+          "name": "Chill ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-firearm-critical-hit-damage",
+          "name": "Firearm Critical Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-multi-hit-damage",
+          "name": "Multi-Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
           "quantity": 1
         }
       ]

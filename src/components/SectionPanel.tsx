@@ -71,6 +71,12 @@ export function SectionPanel({ section }: { section: Section }) {
         <span className="font-mono text-[11px] text-muted">{(section.items ?? section.groups?.flatMap((group) => group.items) ?? []).length} itens</span>
       </header>
       <div className="p-2">
+        {section.sourceNote && (
+          <div className={`mb-2 rounded-lg border px-3 py-2 text-[13px] ${section.sourceStatus === "notProvided" ? "border-gold/35 bg-gold/10 text-gold" : "border-cyan/20 bg-cyan/5 text-muted"}`}>
+            <strong className="mr-1 text-ink">{section.sourceStatus === "notProvided" ? "Não informado:" : "Fonte confirmada:"}</strong>
+            {section.sourceNote}
+          </div>
+        )}
         {section.groups ? (
           <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
             {section.groups.map((group) => (

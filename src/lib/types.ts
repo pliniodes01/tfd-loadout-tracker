@@ -39,6 +39,8 @@ export type SectionType =
 export interface Section {
   type: SectionType;
   label: string;
+  sourceStatus?: "confirmed" | "notProvided";
+  sourceNote?: string;
   items?: BuildItem[];
   groups?: ComponentGroup[];
 }

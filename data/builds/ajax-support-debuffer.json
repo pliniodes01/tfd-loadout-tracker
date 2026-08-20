@@ -484,6 +484,85 @@
           "quantity": 1
         }
       ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "Rolls-alvo da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Atributos publicados pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "roll-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-fire-atk",
+          "name": "Fire ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-multi-hit-chance",
+          "name": "Multi-Hit Chance",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "roll-multi-hit-damage",
+          "name": "Multi-Hit Damage",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponCores",
+      "label": "Configuração de cores da arma",
+      "sourceStatus": "confirmed",
+      "sourceNote": "Augmentations publicadas pela fonte, na ordem exibida.",
+      "items": [
+        {
+          "id": "core-grappling-hook-charge-time-increase-ratio",
+          "name": "Grappling Hook Charge Time Increase Ratio",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-sprint-speed",
+          "name": "Sprint Speed",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-fire-atk",
+          "name": "Fire ATK",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        },
+        {
+          "id": "core-rounds-per-magazine",
+          "name": "Rounds per Magazine",
+          "priority": null,
+          "note": "Confirmado na fonte da build.",
+          "quantity": 1
+        }
+      ]
     }
   ]
 }
