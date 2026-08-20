@@ -1,0 +1,555 @@
+{
+  "id": "harris-godmode-mobbing",
+  "descendant": "Harris",
+  "title": "Harris Godmode — Mobbing",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019a5e38-4c96-71b5-9cd2-fad8bc08f63e/harris-godmode-build",
+    "type": "article",
+    "publishedAt": "2025-12-20"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-increased-hp",
+          "name": "Increased HP",
+          "priority": "P1",
+          "note": "Sustain para o playstyle non-crit corpo a corpo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-extension",
+          "name": "Skill Extension",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-stim-accelerant",
+          "name": "Stim Accelerant",
+          "priority": "P1",
+          "note": "Max HP.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mp-conversion",
+          "name": "MP Conversion",
+          "priority": "P1",
+          "note": "Sustenta o spam infinito de skills.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-shield-charge",
+          "name": "Shield Charge",
+          "priority": "P1",
+          "note": "Conversão de Shield em recurso de skill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-toxic-amplification",
+          "name": "Toxic Amplification",
+          "priority": "P1",
+          "note": "Toxic Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-power-increase",
+          "name": "Power Increase",
+          "priority": "P1",
+          "note": "Skill Power geral.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-pioneers-resolution",
+          "name": "Pioneer's Resolution",
+          "priority": "P0",
+          "note": "Ancestor Legendary Mod — fecha os stats da build non-crit.",
+          "targetRoll": "Fusion Skill Power Boost Ratio · Toxic Skill Power Boost Ratio · DEF · Skill Critical Hit Rate",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-steel-vanguard",
+          "name": "Steel Vanguard",
+          "priority": "P0",
+          "note": "Loadout de Mobbing.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "trigger-battering-ram",
+          "name": "Battering Ram",
+          "priority": "ALT",
+          "note": "Trocado no loadout de Bossing.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": "trigger-steel-vanguard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-hypernova",
+          "name": "Hypernova",
+          "priority": "P0",
+          "note": "Arma corpo a corpo secundária mostrada na configuração de mobbing da fonte.",
+          "targetRoll": "Melee Weapon ATK · Melee Weapon Critical Hit Rate · Melee Weapon Critical Hit Damage · Melee Weapon Chill ATK",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (Hypernova)",
+      "items": [
+        {
+          "id": "mod-hardened-reinforcement",
+          "name": "Hardened Reinforcement",
+          "priority": "P1",
+          "note": "ATK base do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-one-point-breakthrough",
+          "name": "One-Point Breakthrough",
+          "priority": "P1",
+          "note": "Dano de ataque focado.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-enhancement",
+          "name": "Chill Enhancement",
+          "priority": "P1",
+          "note": "Chill ATK do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-priority",
+          "name": "Chill Priority",
+          "priority": "P1",
+          "note": "Prioriza dano Chill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-lethal-swing",
+          "name": "Lethal Swing",
+          "priority": "P1",
+          "note": "Dano de golpe crítico do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-insight",
+          "name": "Better Insight",
+          "priority": "P1",
+          "note": "Crit rate do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-concentration",
+          "name": "Better Concentration",
+          "priority": "P1",
+          "note": "Crit damage do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-sword-dance",
+          "name": "Sword Dance",
+          "priority": "P1",
+          "note": "Velocidade/fluidez de combo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-defense-master",
+          "name": "Defense Master",
+          "priority": "P2",
+          "note": "DEF após kill — sustain.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-faster-attack-speed",
+          "name": "Faster Attack Speed",
+          "priority": "P2",
+          "note": "Velocidade de ataque do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-toxic-mixture",
+          "name": "Toxic Mixture Reactor",
+          "priority": "P0",
+          "note": "Ultimate — reforça o dano Toxic da build de mobbing.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Roll alvo do loadout de mobbing.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P2",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Plague 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-auxiliary-power",
+              "name": "Plague Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-auxiliary-power-roll-max-hp-def",
+              "name": "Max HP / DEF",
+              "priority": "P1",
+              "note": "Rolls ideais para sustain corpo a corpo.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-sensor",
+              "name": "Plague Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-sensor-roll-max-mp-recovery",
+              "name": "Max MP / MP Recovery In Combat",
+              "priority": "P1",
+              "note": "Rolls ideais.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-memory",
+              "name": "Plague Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-memory-roll-mp-recovery-modifier",
+              "name": "MP Recovery Modifier",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-processor",
+              "name": "Plague Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-processor-roll-max-shield-recovery",
+              "name": "Max Shield / Shield Recovery Modifier",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal do tuning.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-max-hp",
+          "name": "Max HP",
+          "priority": "P1",
+          "note": "Nó Ultimate defensivo, essencial no corpo a corpo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-mitigated-incoming-dmg",
+          "name": "Mitigated Incoming DMG",
+          "priority": "P1",
+          "note": "Nó Ultimate — redução de dano recebido.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-toxin-chain-catalyst",
+          "name": "Toxin Chain Catalyst",
+          "priority": "P1",
+          "note": "Slot Xantic — shred de resistência Toxic.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mutant-defense-neutralization",
+          "name": "Defense Neutralization",
+          "priority": "P1",
+          "note": "Slot Malachite.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-sheepdog",
+          "name": "Sheepdog",
+          "priority": "P2",
+          "note": "Cura automática para sustain contínuo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

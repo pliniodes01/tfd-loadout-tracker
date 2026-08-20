@@ -1,0 +1,539 @@
+{
+  "id": "gley-onslaught-godmode",
+  "descendant": "Ultimate Gley",
+  "title": "Ultimate Gley Onslaught — Godmode",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019e6df7-89ce-71ae-bf24-948a6f1e320a/gley-onslaught-build-godmode",
+    "type": "article",
+    "publishedAt": "2026-06-20"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-predator-instinct",
+          "name": "Predator Instinct",
+          "priority": "P0",
+          "note": "Transcendent — base do dano de Ultimate Gley em Onslaught.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-increased-hp",
+          "name": "Increased HP",
+          "priority": "P1",
+          "note": "Sustain para Onslaught solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-stim-accelerant",
+          "name": "Stim Accelerant",
+          "priority": "P1",
+          "note": "Max HP adicional.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-extension",
+          "name": "Skill Extension",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-maximize-duration",
+          "name": "Maximize Duration",
+          "priority": "P1",
+          "note": "Skill Duration.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-time-distribution",
+          "name": "Time Distribution",
+          "priority": "P2",
+          "note": "Distribuição de duração/cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-shot-focus",
+          "name": "Shot Focus",
+          "priority": "P2",
+          "note": "Reforço de precisão.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-preemptive-strike",
+          "name": "Preemptive Strike",
+          "priority": "P2",
+          "note": "Dano inicial de engajamento.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-autoimmunity",
+          "name": "Autoimmunity",
+          "priority": "P2",
+          "note": "Resistência a efeitos negativos.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-thirsters-resolution",
+          "name": "Thirster's Resolution",
+          "priority": "P0",
+          "note": "Ancestor Legendary Mod que fecha os stats ofensivos da build.",
+          "targetRoll": "Skill Duration UP · Max HP · DEF · Skill Critical Hit Rate",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-kuiper-hollow-points",
+          "name": "Kuiper Hollow Points",
+          "priority": "P0",
+          "note": "Trigger recomendado para o loadout de Mobbing/Onslaught.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-thunder-cage",
+          "name": "Thunder Cage",
+          "priority": "P0",
+          "note": "A build é construída em torno desta arma — sem ela, os mods e cores abaixo não têm onde encaixar.",
+          "targetRoll": "Firearm Critical Hit Damage · Electric ATK · Firearm ATK · Firearm Critical Hit Rate",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (Thunder Cage)",
+      "items": [
+        {
+          "id": "mod-fire-rate-up",
+          "name": "Fire Rate UP",
+          "priority": "P1",
+          "note": "Mais tentativas de crit por segundo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-insight",
+          "name": "Better Insight",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-concentration",
+          "name": "Better Concentration",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-electric-enhancement",
+          "name": "Electric Enhancement",
+          "priority": "P1",
+          "note": "Electric ATK — dano principal da arma.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-electric-priority",
+          "name": "Electric Priority",
+          "priority": "P1",
+          "note": "Prioriza dano Electric.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-concentration-priority",
+          "name": "Concentration Priority",
+          "priority": "P2",
+          "note": "Reforço adicional de crit damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-edging-shot",
+          "name": "Edging Shot",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-veil-analyzer",
+          "name": "Veil Analyzer",
+          "priority": "P1",
+          "note": "Loadout de Colossus troca este slot no lugar de Rifling Reinforcement para quebrar shields.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponCores",
+      "label": "Weapon Cores — Alvo",
+      "items": [
+        {
+          "id": "core-electric-atk-x",
+          "name": "Electric ATK X",
+          "priority": "P1",
+          "note": "Augmentation de Attribute.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "core-fire-rate-x",
+          "name": "Fire Rate X",
+          "priority": "P1",
+          "note": "Augmentation Tactical.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "core-recoil-x",
+          "name": "Recoil X",
+          "priority": "P2",
+          "note": "Conforto de controle de recuo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-materialized-phase",
+          "name": "Materialized Phase Reactor",
+          "priority": "P0",
+          "note": "Ultimate — Skill Cooldown e Skill Duration.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Roll alvo principal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-duration-up",
+          "name": "Skill Duration UP",
+          "priority": "P1",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Distorted Resolve 2/4 + Shell Crusher 2/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Distorted Resolve",
+          "items": [
+            {
+              "id": "component-distorted-resolve-auxiliary-power",
+              "name": "Distorted Resolve Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-distorted-resolve-set-bonus",
+              "name": "Distorted Resolve Set Bonus (Exaltation)",
+              "priority": "P1",
+              "note": "Firearm ATK e Skill Power crescem com HP perdido, com stacking de Exaltation.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Distorted Resolve",
+          "items": [
+            {
+              "id": "component-distorted-resolve-sensor",
+              "name": "Distorted Resolve Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Shell Crusher",
+          "items": [
+            {
+              "id": "component-shell-crusher-memory",
+              "name": "Shell Crusher Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-shell-crusher-set-bonus",
+              "name": "Shell Crusher Set Bonus (Anti-Shield DMG)",
+              "priority": "P1",
+              "note": "Fire Rate e dano extra contra Anti-Void/Anti-Arche Shield.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Shell Crusher",
+          "items": [
+            {
+              "id": "component-shell-crusher-processor",
+              "name": "Shell Crusher Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal, com nó Ultimate de Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Nó Ultimate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-firearm-atk",
+          "name": "Firearm ATK",
+          "priority": "P2",
+          "note": "Reforça o SMG usado como arma principal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-defense-neutralization",
+          "name": "Defense Neutralization",
+          "priority": "P1",
+          "note": "Shred de defesa no alvo, slot Malachite.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-sheepdog",
+          "name": "Sheepdog",
+          "priority": "P2",
+          "note": "Cura automática para sustain em Onslaught solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

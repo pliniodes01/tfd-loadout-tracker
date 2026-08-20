@@ -1,0 +1,2092 @@
+{
+  "$schemaNote": "Registro canônico de itens. Toda build referencia entradas daqui por id — nunca duplica nome/tipo inline. Este snapshot foi extraído manualmente dos trackers HTML (v1 e v2 da Serena) porque a ingestão da Nexon Open API (etapa 0) ainda não rodou. socketType vem do tracker v1 (única fonte que anotava a cor/afinidade de socket); onde a v1 não cobre o módulo, fica null e pendente de conferência. capacityCost NÃO existe neste arquivo de propósito — ele mora em /data/game/<patch>/capacity.json depois da ingestão, indexado por item id + nível. [Enriquecido em 2026-08-20 pelo snapshot 'tfdplanner-2024-08-10' via scripts/ingest.ts: tier, nexonId e imagePath adicionados aos itens correspondentes; socketType preenchido quando estava nulo. capacityCost continua fora deste arquivo — ver data/game/tfdplanner-2024-08-10/capacity.json.] [Enriquecido em 2026-08-20 pelo snapshot 'tfdplanner-2024-08-10' via scripts/ingest.ts: tier, nexonId e imagePath adicionados aos itens correspondentes; socketType preenchido quando estava nulo. capacityCost continua fora deste arquivo — ver data/game/tfdplanner-2024-08-10/capacity.json.]",
+  "patch": "S4E1",
+  "generatedAt": "2026-08-20",
+  "items": [
+    {
+      "id": "mod-archangel",
+      "name": "Archangel",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "note": "Transcendent Mod exclusivo da Serena.",
+      "nexonId": "254027004",
+      "imagePath": "/assets/items/mod-archangel.png"
+    },
+    {
+      "id": "mod-skill-concentration",
+      "name": "Skill Concentration",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Standard",
+      "nexonId": "251001029",
+      "imagePath": "/assets/items/mod-skill-concentration.png"
+    },
+    {
+      "id": "mod-skill-expansion",
+      "name": "Skill Expansion",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Standard",
+      "nexonId": "251001015",
+      "imagePath": "/assets/items/mod-skill-expansion.png"
+    },
+    {
+      "id": "mod-nimble-fingers",
+      "name": "Nimble Fingers",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Standard",
+      "nexonId": "251001002",
+      "imagePath": "/assets/items/mod-nimble-fingers.png"
+    },
+    {
+      "id": "mod-bio-expansion",
+      "name": "Bio Expansion",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002142",
+      "imagePath": "/assets/items/mod-bio-expansion.png"
+    },
+    {
+      "id": "mod-focus-on-fire",
+      "name": "Focus on Fire",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "251002070",
+      "imagePath": "/assets/items/mod-focus-on-fire.png"
+    },
+    {
+      "id": "mod-stim-accelerant",
+      "name": "Stim Accelerant",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "251002020",
+      "imagePath": "/assets/items/mod-stim-accelerant.png"
+    },
+    {
+      "id": "mod-skill-insight",
+      "name": "Skill Insight",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Standard",
+      "nexonId": "251001028",
+      "imagePath": "/assets/items/mod-skill-insight.png"
+    },
+    {
+      "id": "mod-shield-consumption",
+      "name": "Shield Consumption",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "nexonId": "251002130",
+      "imagePath": "/assets/items/mod-shield-consumption.png"
+    },
+    {
+      "id": "mod-fire-integration",
+      "name": "Fire Integration",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002121",
+      "imagePath": "/assets/items/mod-fire-integration.png"
+    },
+    {
+      "id": "mod-hopes-resolution",
+      "name": "Hope's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod.",
+      "nexonId": "261001019",
+      "imagePath": "/assets/items/mod-hopes-resolution.png"
+    },
+    {
+      "id": "mod-mid-air-maneuvering",
+      "name": "Mid-Air Maneuvering",
+      "kind": "subMod",
+      "socketType": "Malachite",
+      "tier": "Ultimate",
+      "nexonId": "253003001",
+      "imagePath": "/assets/items/mod-mid-air-maneuvering.png"
+    },
+    {
+      "id": "trigger-arche-blaze",
+      "name": "Arche Blaze",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000042",
+      "imagePath": "/assets/items/trigger-arche-blaze.png"
+    },
+    {
+      "id": "trigger-power-beyond",
+      "name": "Power Beyond",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000003",
+      "imagePath": "/assets/items/trigger-power-beyond.png"
+    },
+    {
+      "id": "mod-expand-impact-magazine",
+      "name": "Expand Impact Magazine",
+      "kind": "weaponMod",
+      "socketType": "Xantic",
+      "tier": "Standard",
+      "nexonId": "252031010",
+      "imagePath": "/assets/items/mod-expand-impact-magazine.png"
+    },
+    {
+      "id": "mod-better-insight",
+      "name": "Better Insight",
+      "kind": "weaponMod",
+      "socketType": "Almandine",
+      "tier": "Standard",
+      "nexonId": "252041010",
+      "imagePath": "/assets/items/mod-better-insight.png"
+    },
+    {
+      "id": "mod-action-and-reaction",
+      "name": "Action and Reaction",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "252042028",
+      "imagePath": "/assets/items/mod-action-and-reaction.png"
+    },
+    {
+      "id": "mod-fire-rate-up",
+      "name": "Fire Rate UP",
+      "kind": "weaponMod",
+      "socketType": "Xantic",
+      "tier": "Standard",
+      "nexonId": "252041004",
+      "imagePath": "/assets/items/mod-fire-rate-up.png"
+    },
+    {
+      "id": "mod-expand-weapon-charge",
+      "name": "Expand Weapon Charge",
+      "kind": "weaponMod",
+      "socketType": "Cerulean",
+      "tier": "Standard",
+      "nexonId": "252041016",
+      "imagePath": "/assets/items/mod-expand-weapon-charge.png"
+    },
+    {
+      "id": "mod-edging-shot",
+      "name": "Edging Shot",
+      "kind": "weaponMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "252042042",
+      "imagePath": "/assets/items/mod-edging-shot.png"
+    },
+    {
+      "id": "mod-defense-master",
+      "name": "Defense Master",
+      "kind": "weaponMod",
+      "socketType": "Rutile",
+      "tier": "Ultimate",
+      "nexonId": "252033017",
+      "imagePath": "/assets/items/mod-defense-master.png"
+    },
+    {
+      "id": "mod-toxic-enhancement",
+      "name": "Toxic Enhancement",
+      "kind": "weaponMod",
+      "socketType": "Rutile",
+      "tier": "Standard",
+      "nexonId": "252041007",
+      "imagePath": "/assets/items/mod-toxic-enhancement.png"
+    },
+    {
+      "id": "roll-firearm-critical-hit-rate",
+      "name": "Firearm Critical Hit Rate",
+      "kind": "weaponRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-fire-rate",
+      "name": "Fire Rate",
+      "kind": "weaponRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-rounds-per-magazine",
+      "name": "Rounds per Magazine",
+      "kind": "weaponRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-spare-impact-rounds",
+      "name": "Spare / Impact Rounds",
+      "kind": "weaponRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "core-fire-rate-x",
+      "name": "Fire Rate X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-toxic-atk-x",
+      "name": "Toxic ATK X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-recoil-x",
+      "name": "Recoil X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "reactor-burning-singularity",
+      "name": "Burning Singularity Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate · Fire + Singular.",
+      "nexonId": "245002061",
+      "imagePath": "/assets/items/reactor-burning-singularity.png"
+    },
+    {
+      "id": "roll-skill-cooldown",
+      "name": "Skill Cooldown",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-skill-critical-hit-damage",
+      "name": "Skill Critical Hit Damage",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "state-max-enhancement",
+      "name": "Enhancement Stage 5",
+      "kind": "reactorState",
+      "socketType": null,
+      "note": "Reaproveitável para qualquer reactor/arma no estágio máximo de aprimoramento.",
+      "imagePath": "/assets/item-types/enhancement.svg"
+    },
+    {
+      "id": "component-slayer-auxiliary-power",
+      "name": "Slayer Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241033003",
+      "imagePath": "/assets/items/component-slayer-auxiliary-power.png"
+    },
+    {
+      "id": "component-slayer-auxiliary-power-base-max-hp",
+      "name": "Base: Max HP",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-auxiliary-power-roll-max-hp",
+      "name": "Max HP",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-auxiliary-power-roll-mp-recovery-oc",
+      "name": "MP Recovery Out of Combat",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-auxiliary-power-cores-hp-def",
+      "name": "Max HP X + DEF X",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-sensor",
+      "name": "Slayer Sensor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "242033003",
+      "imagePath": "/assets/items/component-slayer-sensor.png"
+    },
+    {
+      "id": "component-slayer-sensor-base-max-shield",
+      "name": "Base: Max Shield",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-sensor-roll-max-hp",
+      "name": "Max HP",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-sensor-roll-mp-recovery-ic",
+      "name": "MP Recovery In Combat",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-sensor-cores-hp-def",
+      "name": "Max HP X + DEF X",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-memory",
+      "name": "Slayer Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243033003",
+      "imagePath": "/assets/items/component-slayer-memory.png"
+    },
+    {
+      "id": "component-slayer-memory-base-max-shield",
+      "name": "Base: Max Shield",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-memory-roll-def",
+      "name": "DEF",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-memory-roll-mp-recovery-modifier",
+      "name": "MP Recovery Modifier",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-memory-cores-hp-def",
+      "name": "Max HP X + DEF X",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-processor",
+      "name": "Slayer Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244033003",
+      "imagePath": "/assets/items/component-slayer-processor.png"
+    },
+    {
+      "id": "component-slayer-processor-base-max-hp",
+      "name": "Base: Max HP",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-processor-roll-max-shield",
+      "name": "Max Shield",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-processor-roll-toxin-resistance",
+      "name": "Toxin Resistance",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-slayer-processor-cores-hp-def",
+      "name": "Max HP X + DEF X",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "arche-skill-power-path",
+      "name": "Skill Power path",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "arche-skill-critical-hit-damage",
+      "name": "Skill Critical Hit Damage",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "arche-skill-critical-hit-rate",
+      "name": "Skill Critical Hit Rate",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "mutant-fire-chain-catalyst",
+      "name": "Fire Chain Catalyst",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003039",
+      "imagePath": "/assets/items/mutant-fire-chain-catalyst.png"
+    },
+    {
+      "id": "mutant-defense-neutralization",
+      "name": "Defense Neutralization",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003002",
+      "imagePath": "/assets/items/mutant-defense-neutralization.png"
+    },
+    {
+      "id": "inversion-spatial-dominance",
+      "name": "Spatial Dominance",
+      "kind": "inversionNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "inversion-selective-cellular-stimulation",
+      "name": "Selective Cellular Stimulation",
+      "kind": "inversionNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "inversion-combat-adaptation",
+      "name": "Combat Adaptation",
+      "kind": "inversionNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "fellow-sheepdog",
+      "name": "Sheepdog",
+      "kind": "fellow",
+      "socketType": null,
+      "imagePath": "/assets/item-types/fellow.svg"
+    },
+    {
+      "id": "mod-cold-heart",
+      "name": "Cold Heart",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "note": "Transcendent Mod exclusivo da Hailey.",
+      "nexonId": "254021004",
+      "imagePath": "/assets/items/mod-cold-heart.png"
+    },
+    {
+      "id": "mod-hyperfocus",
+      "name": "Hyperfocus",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "nexonId": "251003042",
+      "imagePath": "/assets/items/mod-hyperfocus.png"
+    },
+    {
+      "id": "mod-focus-on-chill",
+      "name": "Focus on Chill",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "251002071",
+      "imagePath": "/assets/items/mod-focus-on-chill.png"
+    },
+    {
+      "id": "mod-mp-conversion",
+      "name": "MP Conversion",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "251002017",
+      "imagePath": "/assets/items/mod-mp-conversion.png"
+    },
+    {
+      "id": "mod-emergency-measures",
+      "name": "Emergency Measures",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "251002094",
+      "imagePath": "/assets/items/mod-emergency-measures.png"
+    },
+    {
+      "id": "mod-front-lines",
+      "name": "Front Lines",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "251002095",
+      "imagePath": "/assets/items/mod-front-lines.png"
+    },
+    {
+      "id": "mod-spear-and-shield",
+      "name": "Spear and Shield",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Rare",
+      "nexonId": "251002098",
+      "imagePath": "/assets/items/mod-spear-and-shield.png"
+    },
+    {
+      "id": "mod-glacial-syncytium",
+      "name": "Glacial Syncytium",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "251002113",
+      "imagePath": "/assets/items/mod-glacial-syncytium.png"
+    },
+    {
+      "id": "mod-predator-instinct",
+      "name": "Predator Instinct",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "note": "Transcendent Mod exclusivo da Gley.",
+      "tier": "Transcendent",
+      "nexonId": "254009003",
+      "imagePath": "/assets/items/mod-predator-instinct.png"
+    },
+    {
+      "id": "mod-increased-hp",
+      "name": "Increased HP",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Standard",
+      "nexonId": "251001009",
+      "imagePath": "/assets/items/mod-increased-hp.png"
+    },
+    {
+      "id": "mod-skill-extension",
+      "name": "Skill Extension",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Standard",
+      "nexonId": "251001016",
+      "imagePath": "/assets/items/mod-skill-extension.png"
+    },
+    {
+      "id": "mod-maximize-duration",
+      "name": "Maximize Duration",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Rare",
+      "nexonId": "251002034",
+      "imagePath": "/assets/items/mod-maximize-duration.png"
+    },
+    {
+      "id": "mod-time-distribution",
+      "name": "Time Distribution",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "251002080",
+      "imagePath": "/assets/items/mod-time-distribution.png"
+    },
+    {
+      "id": "mod-shot-focus",
+      "name": "Shot Focus",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "251002041",
+      "imagePath": "/assets/items/mod-shot-focus.png"
+    },
+    {
+      "id": "mod-preemptive-strike",
+      "name": "Preemptive Strike",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Ultimate",
+      "nexonId": "251003025",
+      "imagePath": "/assets/items/mod-preemptive-strike.png"
+    },
+    {
+      "id": "mod-autoimmunity",
+      "name": "Autoimmunity",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "251002103",
+      "imagePath": "/assets/items/mod-autoimmunity.png"
+    },
+    {
+      "id": "mod-plasma-bullet",
+      "name": "Plasma Bullet",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "note": "Transcendent Mod exclusivo da Ines.",
+      "nexonId": "254026004",
+      "imagePath": "/assets/items/mod-plasma-bullet.png"
+    },
+    {
+      "id": "mod-hp-collector",
+      "name": "HP Collector",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Ultimate",
+      "nexonId": "251003001",
+      "imagePath": "/assets/items/mod-hp-collector.png"
+    },
+    {
+      "id": "mod-hp-conversion-mp",
+      "name": "HP Conversion (MP)",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "251002012",
+      "imagePath": "/assets/items/mod-hp-conversion-mp.png"
+    },
+    {
+      "id": "mod-life-resonance",
+      "name": "Life Resonance",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "nexonId": "251002136",
+      "imagePath": "/assets/items/mod-life-resonance.png"
+    },
+    {
+      "id": "mod-toxic-amplification",
+      "name": "Toxic Amplification",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "nexonId": "251002110",
+      "imagePath": "/assets/items/mod-toxic-amplification.png"
+    },
+    {
+      "id": "mod-shield-charge",
+      "name": "Shield Charge",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "nexonId": "251003048",
+      "imagePath": "/assets/items/mod-shield-charge.png"
+    },
+    {
+      "id": "mod-power-increase",
+      "name": "Power Increase",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Standard",
+      "nexonId": "251001035",
+      "imagePath": "/assets/items/mod-power-increase.png"
+    },
+    {
+      "id": "mod-electric-condense",
+      "name": "Electric Condense",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "note": "Transcendent Mod exclusivo da Ultimate Bunny.",
+      "tier": "Transcendent",
+      "nexonId": "254006001",
+      "imagePath": "/assets/items/mod-electric-condense.png"
+    },
+    {
+      "id": "mod-focus-on-electric",
+      "name": "Focus on Electric",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Rare",
+      "nexonId": "251002072",
+      "imagePath": "/assets/items/mod-focus-on-electric.png"
+    },
+    {
+      "id": "mod-mp-collector",
+      "name": "MP Collector",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Ultimate",
+      "nexonId": "251003015",
+      "imagePath": "/assets/items/mod-mp-collector.png"
+    },
+    {
+      "id": "mod-venom-injection",
+      "name": "Venom Injection",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "note": "Transcendent Mod exclusivo da Ultimate Freyna.",
+      "nexonId": "254008005",
+      "imagePath": "/assets/items/mod-venom-injection.png"
+    },
+    {
+      "id": "mod-focus-on-tech",
+      "name": "Focus on Tech",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "251002069",
+      "imagePath": "/assets/items/mod-focus-on-tech.png"
+    },
+    {
+      "id": "mod-tech-amplification",
+      "name": "Tech Amplification",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "nexonId": "251002111",
+      "imagePath": "/assets/items/mod-tech-amplification.png"
+    },
+    {
+      "id": "mod-overwhelming-shield",
+      "name": "Overwhelming Shield",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Ultimate",
+      "nexonId": "251003022",
+      "imagePath": "/assets/items/mod-overwhelming-shield.png"
+    },
+    {
+      "id": "mod-increased-shield",
+      "name": "Increased Shield",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Standard",
+      "nexonId": "251001010",
+      "imagePath": "/assets/items/mod-increased-shield.png"
+    },
+    {
+      "id": "mod-absolute-zero",
+      "name": "Absolute-Zero",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "note": "Transcendent Mod exclusivo da Ultimate Viessa — converte skills para Singular.",
+      "tier": "Transcendent",
+      "nexonId": "254010002",
+      "imagePath": "/assets/items/mod-absolute-zero.png"
+    },
+    {
+      "id": "mod-chill-specialist",
+      "name": "Chill Specialist",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Standard",
+      "nexonId": "251001021",
+      "imagePath": "/assets/items/mod-chill-specialist.png"
+    },
+    {
+      "id": "mod-focus-on-singular",
+      "name": "Focus on Singular",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Rare",
+      "nexonId": "251002067",
+      "imagePath": "/assets/items/mod-focus-on-singular.png"
+    },
+    {
+      "id": "mod-hp-amplification",
+      "name": "HP Amplification",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "251002008",
+      "imagePath": "/assets/items/mod-hp-amplification.png"
+    },
+    {
+      "id": "mod-matrix-recomputation",
+      "name": "Matrix Recomputation",
+      "kind": "descendantMod",
+      "socketType": "Cerulean",
+      "tier": "Transcendent",
+      "nexonId": "254002003",
+      "imagePath": "/assets/items/mod-matrix-recomputation.png"
+    },
+    {
+      "id": "mod-agony",
+      "name": "Agony",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "251002097",
+      "imagePath": "/assets/items/mod-agony.png"
+    },
+    {
+      "id": "mod-arche-concretion",
+      "name": "Arche Concretion",
+      "kind": "descendantMod",
+      "socketType": "Malachite",
+      "tier": "Ultimate",
+      "nexonId": "251003038",
+      "imagePath": "/assets/items/mod-arche-concretion.png"
+    },
+    {
+      "id": "mod-maximize-range",
+      "name": "Maximize Range",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Rare",
+      "nexonId": "251002035",
+      "imagePath": "/assets/items/mod-maximize-range.png"
+    },
+    {
+      "id": "mod-midair-fire",
+      "name": "Midair Fire",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Ultimate",
+      "nexonId": "251003010",
+      "imagePath": "/assets/items/mod-midair-fire.png"
+    },
+    {
+      "id": "mod-increased-def",
+      "name": "Increased DEF",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Standard",
+      "nexonId": "251001011",
+      "imagePath": "/assets/items/mod-increased-def.png"
+    },
+    {
+      "id": "mod-shield-conversion-def",
+      "name": "Shield Conversion (DEF)",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "tier": "Rare",
+      "nexonId": "251002014",
+      "imagePath": "/assets/items/mod-shield-conversion-def.png"
+    },
+    {
+      "id": "mod-battlefield-concert",
+      "name": "Battlefield Concert",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "note": "Transcendent Mod exclusivo da Ultimate Luna — converte skills para Non-Attribute.",
+      "nexonId": "254012005",
+      "imagePath": "/assets/items/mod-battlefield-concert.png"
+    },
+    {
+      "id": "mod-maximize-power",
+      "name": "Maximize Power",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Rare",
+      "nexonId": "251002036",
+      "imagePath": "/assets/items/mod-maximize-power.png"
+    },
+    {
+      "id": "mod-maximize-skill",
+      "name": "Maximize Skill",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Rare",
+      "nexonId": "251002037",
+      "imagePath": "/assets/items/mod-maximize-skill.png"
+    },
+    {
+      "id": "mod-blooming-ecstasy",
+      "name": "Blooming Ecstasy",
+      "kind": "descendantMod",
+      "socketType": "Rutile",
+      "note": "Transcendent Mod exclusivo da Dia.",
+      "nexonId": "254033001",
+      "imagePath": "/assets/items/mod-blooming-ecstasy.png"
+    },
+    {
+      "id": "mod-focus-on-fusion",
+      "name": "Focus on Fusion",
+      "kind": "descendantMod",
+      "socketType": "Xantic",
+      "tier": "Rare",
+      "nexonId": "251002066",
+      "imagePath": "/assets/items/mod-focus-on-fusion.png"
+    },
+    {
+      "id": "mod-venom-syncytium",
+      "name": "Venom Syncytium",
+      "kind": "descendantMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "251002114",
+      "imagePath": "/assets/items/mod-venom-syncytium.png"
+    },
+    {
+      "id": "mod-marksmans-resolution",
+      "name": "Marksman's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Hailey.",
+      "nexonId": "261001016",
+      "imagePath": "/assets/items/mod-marksmans-resolution.png"
+    },
+    {
+      "id": "mod-thirsters-resolution",
+      "name": "Thirster's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Gley.",
+      "nexonId": "261001007",
+      "imagePath": "/assets/items/mod-thirsters-resolution.png"
+    },
+    {
+      "id": "mod-snares-resolution",
+      "name": "Snare's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Ines.",
+      "nexonId": "261001018",
+      "imagePath": "/assets/items/mod-snares-resolution.png"
+    },
+    {
+      "id": "mod-pioneers-resolution",
+      "name": "Pioneer's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Harris.",
+      "nexonId": "261001021",
+      "imagePath": "/assets/items/mod-pioneers-resolution.png"
+    },
+    {
+      "id": "mod-runners-resolution",
+      "name": "Runner's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Bunny.",
+      "nexonId": "261001005",
+      "imagePath": "/assets/items/mod-runners-resolution.png"
+    },
+    {
+      "id": "mod-dominators-resolution",
+      "name": "Dominator's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Freyna.",
+      "nexonId": "261001006",
+      "imagePath": "/assets/items/mod-dominators-resolution.png"
+    },
+    {
+      "id": "mod-hunters-resolution",
+      "name": "Hunter's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Viessa.",
+      "nexonId": "261001003",
+      "imagePath": "/assets/items/mod-hunters-resolution.png"
+    },
+    {
+      "id": "mod-guardians-resolution",
+      "name": "Guardian's Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Ajax.",
+      "nexonId": "261001002",
+      "imagePath": "/assets/items/mod-guardians-resolution.png"
+    },
+    {
+      "id": "mod-delightful-resolution",
+      "name": "Delightful Resolution",
+      "kind": "ancestorMod",
+      "socketType": null,
+      "note": "Ancestor Legendary Mod — Dia.",
+      "nexonId": "261001022",
+      "imagePath": "/assets/items/mod-delightful-resolution.png"
+    },
+    {
+      "id": "trigger-kuiper-hollow-points",
+      "name": "Kuiper Hollow Points",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000008",
+      "imagePath": "/assets/items/trigger-kuiper-hollow-points.png"
+    },
+    {
+      "id": "trigger-current-bonding",
+      "name": "Current Bonding",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000038",
+      "imagePath": "/assets/items/trigger-current-bonding.png"
+    },
+    {
+      "id": "trigger-steel-vanguard",
+      "name": "Steel Vanguard",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000019",
+      "imagePath": "/assets/items/trigger-steel-vanguard.png"
+    },
+    {
+      "id": "trigger-battering-ram",
+      "name": "Battering Ram",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000001",
+      "imagePath": "/assets/items/trigger-battering-ram.png"
+    },
+    {
+      "id": "trigger-golden-ensemble",
+      "name": "Golden Ensemble",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000040",
+      "imagePath": "/assets/items/trigger-golden-ensemble.png"
+    },
+    {
+      "id": "trigger-infected-weapon",
+      "name": "Infected Weapon",
+      "kind": "triggerMod",
+      "socketType": null,
+      "nexonId": "255000023",
+      "imagePath": "/assets/items/trigger-infected-weapon.png"
+    },
+    {
+      "id": "mod-rifling-reinforcement",
+      "name": "Rifling Reinforcement",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Standard",
+      "nexonId": "252041003",
+      "imagePath": "/assets/items/mod-rifling-reinforcement.png"
+    },
+    {
+      "id": "mod-chill-enhancement",
+      "name": "Chill Enhancement",
+      "kind": "weaponMod",
+      "socketType": "Cerulean",
+      "tier": "Standard",
+      "nexonId": "252041012",
+      "imagePath": "/assets/items/mod-chill-enhancement.png"
+    },
+    {
+      "id": "mod-charge-amplification",
+      "name": "Charge Amplification",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252042089",
+      "imagePath": "/assets/items/mod-charge-amplification.png"
+    },
+    {
+      "id": "mod-multi-trigger-rifling",
+      "name": "Multi-Trigger Rifling",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252042104",
+      "imagePath": "/assets/items/mod-multi-trigger-rifling.png"
+    },
+    {
+      "id": "mod-insight-focus",
+      "name": "Insight Focus",
+      "kind": "weaponMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "252042041",
+      "imagePath": "/assets/items/mod-insight-focus.png"
+    },
+    {
+      "id": "mod-better-concentration",
+      "name": "Better Concentration",
+      "kind": "weaponMod",
+      "socketType": "Almandine",
+      "tier": "Standard",
+      "nexonId": "252041017",
+      "imagePath": "/assets/items/mod-better-concentration.png"
+    },
+    {
+      "id": "mod-electric-enhancement",
+      "name": "Electric Enhancement",
+      "kind": "weaponMod",
+      "socketType": "Xantic",
+      "tier": "Standard",
+      "nexonId": "252041008",
+      "imagePath": "/assets/items/mod-electric-enhancement.png"
+    },
+    {
+      "id": "mod-electric-priority",
+      "name": "Electric Priority",
+      "kind": "weaponMod",
+      "socketType": "Xantic",
+      "tier": "Rare",
+      "nexonId": "252042081",
+      "imagePath": "/assets/items/mod-electric-priority.png"
+    },
+    {
+      "id": "mod-concentration-priority",
+      "name": "Concentration Priority",
+      "kind": "weaponMod",
+      "socketType": "Almandine",
+      "tier": "Rare",
+      "nexonId": "252042037",
+      "imagePath": "/assets/items/mod-concentration-priority.png"
+    },
+    {
+      "id": "mod-veil-analyzer",
+      "name": "Veil Analyzer",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252033032",
+      "imagePath": "/assets/items/mod-veil-analyzer.png"
+    },
+    {
+      "id": "mod-firing-fiesta",
+      "name": "Firing Fiesta",
+      "kind": "weaponMod",
+      "socketType": "Xantic",
+      "tier": "Ultimate",
+      "nexonId": "252013015",
+      "imagePath": "/assets/items/mod-firing-fiesta.png"
+    },
+    {
+      "id": "mod-hardened-reinforcement",
+      "name": "Hardened Reinforcement",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252101001",
+      "imagePath": "/assets/items/mod-hardened-reinforcement.png"
+    },
+    {
+      "id": "mod-one-point-breakthrough",
+      "name": "One-Point Breakthrough",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252102005",
+      "imagePath": "/assets/items/mod-one-point-breakthrough.png"
+    },
+    {
+      "id": "mod-chill-priority",
+      "name": "Chill Priority",
+      "kind": "weaponMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "252042080",
+      "imagePath": "/assets/items/mod-chill-priority.png"
+    },
+    {
+      "id": "mod-lethal-swing",
+      "name": "Lethal Swing",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252102026",
+      "imagePath": "/assets/items/mod-lethal-swing.png"
+    },
+    {
+      "id": "mod-sword-dance",
+      "name": "Sword Dance",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252102024",
+      "imagePath": "/assets/items/mod-sword-dance.png"
+    },
+    {
+      "id": "mod-faster-attack-speed",
+      "name": "Faster Attack Speed",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252101004",
+      "imagePath": "/assets/items/mod-faster-attack-speed.png"
+    },
+    {
+      "id": "mod-multi-trigger-support-ammo",
+      "name": "Multi-Trigger Support Ammo",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252032099",
+      "imagePath": "/assets/items/mod-multi-trigger-support-ammo.png"
+    },
+    {
+      "id": "mod-brisk-walk",
+      "name": "Brisk Walk",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Ultimate",
+      "nexonId": "252023018",
+      "imagePath": "/assets/items/mod-brisk-walk.png"
+    },
+    {
+      "id": "mod-multi-percussion-sight",
+      "name": "Multi-Percussion Sight",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252042103",
+      "imagePath": "/assets/items/mod-multi-percussion-sight.png"
+    },
+    {
+      "id": "mod-multi-piercing-sights",
+      "name": "Multi-Piercing Sights",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252042101",
+      "imagePath": "/assets/items/mod-multi-piercing-sights.png"
+    },
+    {
+      "id": "mod-multi-amplification",
+      "name": "Multi-Amplification",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252013033",
+      "imagePath": "/assets/items/mod-multi-amplification.png"
+    },
+    {
+      "id": "mod-weak-point-sight",
+      "name": "Weak Point Sight",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "252041019",
+      "imagePath": "/assets/items/mod-weak-point-sight.png"
+    },
+    {
+      "id": "mod-weak-point-expansion",
+      "name": "Weak Point Expansion",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Ultimate",
+      "nexonId": "252033012",
+      "imagePath": "/assets/items/mod-weak-point-expansion.png"
+    },
+    {
+      "id": "mod-colon-special-forces",
+      "name": "Colon Special Forces",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Standard",
+      "nexonId": "252041018",
+      "imagePath": "/assets/items/mod-colon-special-forces.png"
+    },
+    {
+      "id": "mod-weak-point-detection",
+      "name": "Weak Point Detection",
+      "kind": "weaponMod",
+      "socketType": "Malachite",
+      "tier": "Rare",
+      "nexonId": "252042031",
+      "imagePath": "/assets/items/mod-weak-point-detection.png"
+    },
+    {
+      "id": "mod-better-weapon-weight",
+      "name": "Better Weapon Weight",
+      "kind": "weaponMod",
+      "socketType": "Almandine",
+      "tier": "Standard",
+      "nexonId": "252041013",
+      "imagePath": "/assets/items/mod-better-weapon-weight.png"
+    },
+    {
+      "id": "mod-recycling-genius",
+      "name": "Recycling Genius",
+      "kind": "weaponMod",
+      "socketType": "Cerulean",
+      "tier": "Standard",
+      "nexonId": "252041014",
+      "imagePath": "/assets/items/mod-recycling-genius.png"
+    },
+    {
+      "id": "mod-reload-focus",
+      "name": "Reload Focus",
+      "kind": "weaponMod",
+      "socketType": "Cerulean",
+      "tier": "Rare",
+      "nexonId": "252042070",
+      "imagePath": "/assets/items/mod-reload-focus.png"
+    },
+    {
+      "id": "mod-tactical-change",
+      "name": "Tactical Change",
+      "kind": "weaponMod",
+      "socketType": null,
+      "nexonId": "252033009",
+      "imagePath": "/assets/items/mod-tactical-change.png"
+    },
+    {
+      "id": "core-chill-atk-x",
+      "name": "Chill ATK X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-firearm-atk-x",
+      "name": "Firearm ATK X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-firearm-critical-hit-damage-x",
+      "name": "Firearm Critical Hit Damage X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-electric-atk-x",
+      "name": "Electric ATK X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-additional-weapon-atk-vs-colossus-x",
+      "name": "Additional Weapon ATK X (vs. Colossus)",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "core-firearm-critical-hit-rate-x",
+      "name": "Firearm Critical Hit Rate X",
+      "kind": "weaponCore",
+      "socketType": null,
+      "imagePath": "/assets/item-types/core.svg"
+    },
+    {
+      "id": "reactor-frozen-singularity",
+      "name": "Frozen Singularity Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate · Chill + Singular.",
+      "nexonId": "245002069",
+      "imagePath": "/assets/items/reactor-frozen-singularity.png"
+    },
+    {
+      "id": "reactor-materialized-phase",
+      "name": "Materialized Phase Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate.",
+      "nexonId": "245002066",
+      "imagePath": "/assets/items/reactor-materialized-phase.png"
+    },
+    {
+      "id": "reactor-tingling-singularity",
+      "name": "Tingling Singularity Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate · Electric + Singular.",
+      "nexonId": "245002073",
+      "imagePath": "/assets/items/reactor-tingling-singularity.png"
+    },
+    {
+      "id": "reactor-toxic-mixture",
+      "name": "Toxic Mixture Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate.",
+      "nexonId": "245002076",
+      "imagePath": "/assets/items/reactor-toxic-mixture.png"
+    },
+    {
+      "id": "reactor-tingling-mixture",
+      "name": "Tingling Mixture Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate · Electric.",
+      "nexonId": "245002072",
+      "imagePath": "/assets/items/reactor-tingling-mixture.png"
+    },
+    {
+      "id": "reactor-toxic-mechanics",
+      "name": "Toxic Mechanics Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate.",
+      "nexonId": "245001119",
+      "imagePath": "/assets/items/reactor-toxic-mechanics.png"
+    },
+    {
+      "id": "reactor-materialized-mixture",
+      "name": "Materialized Mixture Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate.",
+      "nexonId": "245002064",
+      "imagePath": "/assets/items/reactor-materialized-mixture.png"
+    },
+    {
+      "id": "reactor-materialized-mechanics",
+      "name": "Materialized Mechanics Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate · Tech.",
+      "nexonId": "245002067",
+      "imagePath": "/assets/items/reactor-materialized-mechanics.png"
+    },
+    {
+      "id": "reactor-frozen-mixture",
+      "name": "Frozen Mixture Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "note": "Ultimate · Chill.",
+      "nexonId": "245002068",
+      "imagePath": "/assets/items/reactor-frozen-mixture.png"
+    },
+    {
+      "id": "roll-additional-skill-atk-vs-colossus",
+      "name": "Additional Skill ATK (vs. Colossus)",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-skill-duration-up",
+      "name": "Skill Duration UP",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-singular-skill-power-boost-ratio",
+      "name": "Singular Skill Power Boost Ratio",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-fusion-skill-power-boost-ratio",
+      "name": "Fusion Skill Power Boost Ratio",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-tech-skill-power-boost-ratio",
+      "name": "Tech Skill Power Boost Ratio",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "roll-skill-effect-range",
+      "name": "Skill Effect Range",
+      "kind": "reactorRoll",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-distorted-resolve-auxiliary-power",
+      "name": "Distorted Resolve Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241103010",
+      "imagePath": "/assets/items/component-distorted-resolve-auxiliary-power.png"
+    },
+    {
+      "id": "component-distorted-resolve-sensor",
+      "name": "Distorted Resolve Sensor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "242103010",
+      "imagePath": "/assets/items/component-distorted-resolve-sensor.png"
+    },
+    {
+      "id": "component-distorted-resolve-set-bonus",
+      "name": "Distorted Resolve Set Bonus (Exaltation)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-shell-crusher-memory",
+      "name": "Shell Crusher Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243203021",
+      "imagePath": "/assets/items/component-shell-crusher-memory.png"
+    },
+    {
+      "id": "component-shell-crusher-processor",
+      "name": "Shell Crusher Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244203021",
+      "imagePath": "/assets/items/component-shell-crusher-processor.png"
+    },
+    {
+      "id": "component-shell-crusher-set-bonus",
+      "name": "Shell Crusher Set Bonus (Anti-Shield DMG)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-plague-auxiliary-power",
+      "name": "Plague Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241173018",
+      "imagePath": "/assets/items/component-plague-auxiliary-power.png"
+    },
+    {
+      "id": "component-plague-auxiliary-power-roll-max-hp-def",
+      "name": "Max HP / DEF",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-plague-sensor",
+      "name": "Plague Sensor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "242173018",
+      "imagePath": "/assets/items/component-plague-sensor.png"
+    },
+    {
+      "id": "component-plague-sensor-roll-max-mp-recovery",
+      "name": "Max MP / MP Recovery In Combat",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-plague-memory",
+      "name": "Plague Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243173018",
+      "imagePath": "/assets/items/component-plague-memory.png"
+    },
+    {
+      "id": "component-plague-memory-roll-mp-recovery-modifier",
+      "name": "MP Recovery Modifier",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-plague-processor",
+      "name": "Plague Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244173018",
+      "imagePath": "/assets/items/component-plague-processor.png"
+    },
+    {
+      "id": "component-plague-processor-roll-max-shield-recovery",
+      "name": "Max Shield / Shield Recovery Modifier",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-bravery-auxiliary-power",
+      "name": "Bravery Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241063006",
+      "imagePath": "/assets/items/component-bravery-auxiliary-power.png"
+    },
+    {
+      "id": "component-bravery-set-bonus-max-shield",
+      "name": "Max Shield (Set Bonus)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-bravery-sensor",
+      "name": "Bravery Sensor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "242063006",
+      "imagePath": "/assets/items/component-bravery-sensor.png"
+    },
+    {
+      "id": "component-bravery-set-bonus-skill-cost",
+      "name": "Skill Cost (Set Bonus)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-bravery-memory",
+      "name": "Bravery Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243063006",
+      "imagePath": "/assets/items/component-bravery-memory.png"
+    },
+    {
+      "id": "component-bravery-set-bonus-skill-cooldown-on-kill",
+      "name": "Skill Cooldown on Kill (Set Bonus)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-bravery-processor",
+      "name": "Bravery Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244063006",
+      "imagePath": "/assets/items/component-bravery-processor.png"
+    },
+    {
+      "id": "component-ascending-armory-auxiliary-power",
+      "name": "Ascending Armory Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241123013",
+      "imagePath": "/assets/items/component-ascending-armory-auxiliary-power.png"
+    },
+    {
+      "id": "component-ascending-armory-memory",
+      "name": "Ascending Armory Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243123013",
+      "imagePath": "/assets/items/component-ascending-armory-memory.png"
+    },
+    {
+      "id": "component-ascending-armory-set-bonus",
+      "name": "Ascending Armory Set Bonus (Midair Reload)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-hunter-sensor",
+      "name": "Hunter Sensor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "242113012",
+      "imagePath": "/assets/items/component-hunter-sensor.png"
+    },
+    {
+      "id": "component-hunter-processor",
+      "name": "Hunter Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244113012",
+      "imagePath": "/assets/items/component-hunter-processor.png"
+    },
+    {
+      "id": "component-hunter-set-bonus",
+      "name": "Hunter Set Bonus (Arche Shield)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-moving-fortress-auxiliary-power",
+      "name": "Moving Fortress Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241193020",
+      "imagePath": "/assets/items/component-moving-fortress-auxiliary-power.png"
+    },
+    {
+      "id": "component-moving-fortress-memory",
+      "name": "Moving Fortress Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243193020",
+      "imagePath": "/assets/items/component-moving-fortress-memory.png"
+    },
+    {
+      "id": "component-moving-fortress-set-bonus",
+      "name": "Moving Fortress Set Bonus",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-supernova-processor",
+      "name": "Supernova Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244013001",
+      "imagePath": "/assets/items/component-supernova-processor.png"
+    },
+    {
+      "id": "component-supernova-set-bonus",
+      "name": "Supernova Set Bonus",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "component-enlightened-mage-auxiliary-power",
+      "name": "Enlightened Mage Auxiliary Power",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "241183019",
+      "imagePath": "/assets/items/component-enlightened-mage-auxiliary-power.png"
+    },
+    {
+      "id": "component-enlightened-mage-sensor",
+      "name": "Enlightened Mage Sensor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "242183019",
+      "imagePath": "/assets/items/component-enlightened-mage-sensor.png"
+    },
+    {
+      "id": "component-enlightened-mage-memory",
+      "name": "Enlightened Mage Memory",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "243183019",
+      "imagePath": "/assets/items/component-enlightened-mage-memory.png"
+    },
+    {
+      "id": "component-enlightened-mage-processor",
+      "name": "Enlightened Mage Processor",
+      "kind": "externalComponentPiece",
+      "socketType": null,
+      "nexonId": "244183019",
+      "imagePath": "/assets/items/component-enlightened-mage-processor.png"
+    },
+    {
+      "id": "component-enlightened-mage-set-bonus",
+      "name": "Enlightened Mage Set Bonus (Non-Attribute SPBR)",
+      "kind": "externalComponentTarget",
+      "socketType": null,
+      "imagePath": "/assets/item-types/stat.svg"
+    },
+    {
+      "id": "arche-skill-cooldown",
+      "name": "Skill Cooldown",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "arche-max-hp",
+      "name": "Max HP",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "arche-mitigated-incoming-dmg",
+      "name": "Mitigated Incoming DMG",
+      "kind": "archeNode",
+      "socketType": null,
+      "nexonId": "101530061",
+      "imagePath": "/assets/items/arche-mitigated-incoming-dmg.png"
+    },
+    {
+      "id": "arche-double-strike",
+      "name": "Double Strike",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "arche-firearm-atk",
+      "name": "Firearm ATK",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "arche-max-mp",
+      "name": "Max MP",
+      "kind": "archeNode",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "mutant-arche-concentration",
+      "name": "Arche Concentration",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003043",
+      "imagePath": "/assets/items/mutant-arche-concentration.png"
+    },
+    {
+      "id": "mutant-electric-chain-catalyst",
+      "name": "Electric Chain Catalyst",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003042",
+      "imagePath": "/assets/items/mutant-electric-chain-catalyst.png"
+    },
+    {
+      "id": "mutant-toxin-chain-catalyst",
+      "name": "Toxin Chain Catalyst",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003041",
+      "imagePath": "/assets/items/mutant-toxin-chain-catalyst.png"
+    },
+    {
+      "id": "mutant-putrid-zone",
+      "name": "Putrid Zone",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003073",
+      "imagePath": "/assets/items/mutant-putrid-zone.png"
+    },
+    {
+      "id": "mutant-chill-cohesion",
+      "name": "Chill Cohesion",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003031",
+      "imagePath": "/assets/items/mutant-chill-cohesion.png"
+    },
+    {
+      "id": "mutant-battlesuit-efficiency-enhancement",
+      "name": "Battlesuit Efficiency Enhancement",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003003",
+      "imagePath": "/assets/items/mutant-battlesuit-efficiency-enhancement.png"
+    },
+    {
+      "id": "mutant-non-attribute-cohesion",
+      "name": "Non-Attribute Cohesion",
+      "kind": "mutantCell",
+      "socketType": null,
+      "nexonId": "231003029",
+      "imagePath": "/assets/items/mutant-non-attribute-cohesion.png"
+    },
+    {
+      "id": "fellow-vespers-hunting-dog",
+      "name": "Vespers Hunting Dog",
+      "kind": "fellow",
+      "socketType": null,
+      "imagePath": "/assets/item-types/fellow.svg"
+    },
+    {
+      "id": "fellow-snowy-sled-dog",
+      "name": "Snowy Sled Dog",
+      "kind": "fellow",
+      "socketType": null,
+      "imagePath": "/assets/item-types/fellow.svg"
+    },
+    {
+      "id": "weapon-divine-punishment",
+      "name": "Divine Punishment",
+      "kind": "weapon",
+      "socketType": null,
+      "tier": "Ultimate",
+      "nexonId": "211063002",
+      "imagePath": "/assets/items/weapon-divine-punishment.png"
+    },
+    {
+      "id": "weapon-thunder-cage",
+      "name": "Thunder Cage",
+      "kind": "weapon",
+      "socketType": null,
+      "tier": "Ultimate",
+      "nexonId": "211043001",
+      "imagePath": "/assets/items/weapon-thunder-cage.png"
+    },
+    {
+      "id": "weapon-hypernova",
+      "name": "Hypernova",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "221133003",
+      "imagePath": "/assets/items/weapon-hypernova.png"
+    },
+    {
+      "id": "weapon-fallen-hope",
+      "name": "Fallen Hope",
+      "kind": "weapon",
+      "socketType": null,
+      "tier": "Ultimate",
+      "nexonId": "211063001",
+      "imagePath": "/assets/items/weapon-fallen-hope.png"
+    },
+    {
+      "id": "weapon-frostwatcher",
+      "name": "FrostWatcher",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211083004",
+      "imagePath": "/assets/items/weapon-frostwatcher.png"
+    },
+    {
+      "id": "weapon-eye-of-the-typhoon",
+      "name": "Eye of the Typhoon",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211123005",
+      "imagePath": "/assets/items/weapon-eye-of-the-typhoon.png"
+    },
+    {
+      "id": "weapon-piercing-light",
+      "name": "Piercing Light",
+      "kind": "weapon",
+      "socketType": null,
+      "tier": "Ultimate",
+      "nexonId": "211093002",
+      "imagePath": "/assets/items/weapon-piercing-light.png"
+    },
+    {
+      "id": "weapon-eraser",
+      "name": "ERASER",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211083005",
+      "imagePath": "/assets/items/weapon-eraser.png"
+    },
+    {
+      "id": "weapon-whirlwind",
+      "name": "Whirlwind",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211073004",
+      "imagePath": "/assets/items/weapon-whirlwind.png"
+    },
+    {
+      "id": "mod-area-suppression-2",
+      "name": "Area Suppression 2",
+      "kind": "descendantMod",
+      "socketType": null,
+      "imagePath": "/assets/item-types/progression.svg"
+    },
+    {
+      "id": "mod-explosive-stacks",
+      "name": "Explosive Stacks",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254004001",
+      "imagePath": "/assets/items/mod-explosive-stacks.png"
+    },
+    {
+      "id": "mod-hydro-pressure-bomb",
+      "name": "Hydro Pressure Bomb",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254013005",
+      "imagePath": "/assets/items/mod-hydro-pressure-bomb.png"
+    },
+    {
+      "id": "mod-next-level-recipe",
+      "name": "Next-level Recipe",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254018006",
+      "imagePath": "/assets/items/mod-next-level-recipe.png"
+    },
+    {
+      "id": "mod-proliferating-allergy",
+      "name": "Proliferating Allergy",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254017002",
+      "imagePath": "/assets/items/mod-proliferating-allergy.png"
+    },
+    {
+      "id": "mod-superconductive-bombing-mark-2",
+      "name": "Superconductive Bombing MARK 2",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254014001",
+      "imagePath": "/assets/items/mod-superconductive-bombing-mark-2.png"
+    },
+    {
+      "id": "mod-supply-moisture",
+      "name": "Supply Moisture",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254013002",
+      "imagePath": "/assets/items/mod-supply-moisture.png"
+    },
+    {
+      "id": "mod-ambushed",
+      "name": "Ambushed",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "254011006",
+      "imagePath": "/assets/items/mod-ambushed.png"
+    },
+    {
+      "id": "mod-amplification-control",
+      "name": "Amplification Control",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002104",
+      "imagePath": "/assets/items/mod-amplification-control.png"
+    },
+    {
+      "id": "mod-maximize-conservation",
+      "name": "Maximize Conservation",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002033",
+      "imagePath": "/assets/items/mod-maximize-conservation.png"
+    },
+    {
+      "id": "mod-decimator",
+      "name": "Decimator",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251003027",
+      "imagePath": "/assets/items/mod-decimator.png"
+    },
+    {
+      "id": "mod-focus-on-non-attribute",
+      "name": "Focus on Non-Attribute",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002074",
+      "imagePath": "/assets/items/mod-focus-on-non-attribute.png"
+    },
+    {
+      "id": "mod-focus-on-dimension",
+      "name": "Focus on Dimension",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002068",
+      "imagePath": "/assets/items/mod-focus-on-dimension.png"
+    },
+    {
+      "id": "mod-electric-amplification",
+      "name": "Electric Amplification",
+      "kind": "descendantMod",
+      "socketType": null,
+      "nexonId": "251002109",
+      "imagePath": "/assets/items/mod-electric-amplification.png"
+    },
+    {
+      "id": "weapon-blue-beetle",
+      "name": "Blue Beetle",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211083002",
+      "imagePath": "/assets/items/weapon-blue-beetle.png"
+    },
+    {
+      "id": "weapon-python",
+      "name": "Python",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211043002",
+      "imagePath": "/assets/items/weapon-python.png"
+    },
+    {
+      "id": "weapon-peace-maker",
+      "name": "Peace Maker",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211023003",
+      "imagePath": "/assets/items/weapon-peace-maker.png"
+    },
+    {
+      "id": "weapon-secret-garden",
+      "name": "Secret Garden",
+      "kind": "weapon",
+      "socketType": null,
+      "nexonId": "211073001",
+      "imagePath": "/assets/items/weapon-secret-garden.png"
+    },
+    {
+      "id": "reactor-materialized-singularity",
+      "name": "Materialized Singularity Reactor",
+      "kind": "reactor",
+      "socketType": null,
+      "nexonId": "245002065",
+      "imagePath": "/assets/items/reactor-materialized-singularity.png"
+    }
+  ]
+}

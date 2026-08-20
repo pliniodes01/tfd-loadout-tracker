@@ -1,0 +1,494 @@
+{
+  "id": "luna-bossing",
+  "descendant": "Ultimate Luna",
+  "title": "Ultimate Luna — Bossing",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "kadnar (crédito original: JudgeGray)",
+    "url": "https://tfd.gameslantern.com/builds/019c1682-e0a2-7135-80cd-7bd50a2beb3d/luna-bossing-build",
+    "type": "article",
+    "publishedAt": "2026-02-20"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-battlefield-concert",
+          "name": "Battlefield Concert",
+          "priority": "P0",
+          "note": "Transcendent — converte todas as skills para Non-Attribute Tech e vira canhão automático.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-concentration",
+          "name": "Skill Concentration",
+          "priority": "P1",
+          "note": "Skill Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-maximize-power",
+          "name": "Maximize Power",
+          "priority": "P1",
+          "note": "Skill Power geral.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-emergency-measures",
+          "name": "Emergency Measures",
+          "priority": "P1",
+          "note": "Utilidade defensiva.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-front-lines",
+          "name": "Front Lines",
+          "priority": "P1",
+          "note": "ATK ao entrar em combate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-extension",
+          "name": "Skill Extension",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-maximize-duration",
+          "name": "Maximize Duration",
+          "priority": "P1",
+          "note": "Skill Duration — mantém o Battlefield Concert ativo por mais tempo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-maximize-skill",
+          "name": "Maximize Skill",
+          "priority": "P1",
+          "note": "Reforço geral de skill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mp-collector",
+          "name": "MP Collector",
+          "priority": "P2",
+          "note": "Recuperação adicional de MP.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-insight",
+          "name": "Skill Insight",
+          "priority": "P1",
+          "note": "Skill Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-power-beyond",
+          "name": "Power Beyond",
+          "priority": "P0",
+          "note": "Consistência de trigger rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-piercing-light",
+          "name": "Piercing Light",
+          "priority": "P0",
+          "note": "A build é construída em torno desta arma — sem ela, os mods e cores abaixo não têm onde encaixar.",
+          "targetRoll": "Chill ATK · Firearm ATK · Weak Point Damage · Additional Weapon ATK (vs. Colossus)",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (Piercing Light)",
+      "items": [
+        {
+          "id": "mod-action-and-reaction",
+          "name": "Action and Reaction",
+          "priority": "P1",
+          "note": "Firearm ATK.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-fire-rate-up",
+          "name": "Fire Rate UP",
+          "priority": "P1",
+          "note": "Fire Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-weak-point-sight",
+          "name": "Weak Point Sight",
+          "priority": "P1",
+          "note": "Dano em pontos fracos.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-weak-point-expansion",
+          "name": "Weak Point Expansion",
+          "priority": "P1",
+          "note": "Amplia área de ponto fraco.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-enhancement",
+          "name": "Chill Enhancement",
+          "priority": "P2",
+          "note": "Chill ATK secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-rifling-reinforcement",
+          "name": "Rifling Reinforcement",
+          "priority": "P1",
+          "note": "Firearm ATK base.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-charge-amplification",
+          "name": "Charge Amplification",
+          "priority": "P1",
+          "note": "Dano de tiro carregado.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-colon-special-forces",
+          "name": "Colon Special Forces",
+          "priority": "P2",
+          "note": "Reforço estrutural.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-weak-point-detection",
+          "name": "Weak Point Detection",
+          "priority": "P2",
+          "note": "Detecção de ponto fraco.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-priority",
+          "name": "Chill Priority",
+          "priority": "P2",
+          "note": "Prioriza dano Chill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-materialized-mechanics",
+          "name": "Materialized Mechanics Reactor",
+          "priority": "P0",
+          "note": "Ultimate — Tech Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-tech-skill-power-boost-ratio",
+          "name": "Tech Skill Power Boost Ratio",
+          "priority": "P1",
+          "note": "Roll alvo principal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Enlightened Mage 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Enlightened Mage",
+          "items": [
+            {
+              "id": "component-enlightened-mage-auxiliary-power",
+              "name": "Enlightened Mage Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-enlightened-mage-set-bonus",
+              "name": "Enlightened Mage Set Bonus (Non-Attribute SPBR)",
+              "priority": "P1",
+              "note": "Non-Attribute Skill Power Boost Ratio +84% — pilar do dano do Battlefield Concert.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Enlightened Mage",
+          "items": [
+            {
+              "id": "component-enlightened-mage-sensor",
+              "name": "Enlightened Mage Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Enlightened Mage",
+          "items": [
+            {
+              "id": "component-enlightened-mage-memory",
+              "name": "Enlightened Mage Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Enlightened Mage",
+          "items": [
+            {
+              "id": "component-enlightened-mage-processor",
+              "name": "Enlightened Mage Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal do tuning.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Nó Ultimate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-double-strike",
+          "name": "Double Strike",
+          "priority": "P1",
+          "note": "Nó Ultimate — multi-hit para o canhão automático.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-non-attribute-cohesion",
+          "name": "Non-Attribute Cohesion",
+          "priority": "P1",
+          "note": "Slot Malachite — sinergia direta com o dano Non-Attribute do Battlefield Concert.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

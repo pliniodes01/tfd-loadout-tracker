@@ -1,0 +1,804 @@
+{
+  "id": "serena-archangel-onslaught",
+  "descendant": "Serena",
+  "title": "Serena Archangel — Onslaught",
+  "patch": "S4E1",
+  "updatedAt": "2026-08-15",
+  "source": {
+    "author": "SongsOfRaze",
+    "url": "https://www.youtube.com/watch?v=y6BPxBc56HU",
+    "type": "video",
+    "publishedAt": "2026-08-02"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-archangel",
+          "name": "Archangel",
+          "priority": "P0",
+          "note": "Transcendent — converte Serena para skill DPS aéreo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-concentration",
+          "name": "Skill Concentration",
+          "priority": "P1",
+          "note": "Skill Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-bio-expansion",
+          "name": "Bio Expansion",
+          "priority": "P1",
+          "note": "Range + HP.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-focus-on-fire",
+          "name": "Focus on Fire",
+          "priority": "P1",
+          "note": "Fire Skill Power + Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-stim-accelerant",
+          "name": "Stim Accelerant",
+          "priority": "P1",
+          "note": "Max HP. A penalidade de MP é compensada pela ERASER (crit restaura MP).",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-insight",
+          "name": "Skill Insight",
+          "priority": "P1",
+          "note": "Skill Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-shield-consumption",
+          "name": "Shield Consumption",
+          "priority": "P1",
+          "note": "Skill Cooldown — sacrifica Shield.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-fire-integration",
+          "name": "Fire Integration",
+          "priority": "P1",
+          "note": "Fire + Skill Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-hopes-resolution",
+          "name": "Hope's Resolution",
+          "priority": "P0",
+          "note": "Ancestor — alvo: Crit DMG + Fire/Singular. Crit Rate é rolagem alternativa aceitável.",
+          "targetRoll": "Crit DMG + Fire/Singular",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P1",
+          "note": "Sub Module — mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-arche-blaze",
+          "name": "Arche Blaze",
+          "priority": "P0",
+          "note": "Alvo: Double Gold — 100% Trigger Rate + máximo Additional Damage Ratio.",
+          "targetRoll": "Double Gold",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "trigger-power-beyond",
+          "name": "Power Beyond",
+          "priority": "ALT",
+          "note": "Alternativa de consistência se o exemplar de Arche Blaze tiver rolls ruins.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": "trigger-arche-blaze",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-eraser",
+          "name": "ERASER",
+          "priority": "P0",
+          "note": "A build é construída em torno desta arma — sem ela, os mods e cores abaixo não têm onde encaixar.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (ERASER)",
+      "items": [
+        {
+          "id": "mod-expand-impact-magazine",
+          "name": "Expand Impact Magazine",
+          "priority": "P1",
+          "note": "Munição de Impact Rounds disponível.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-insight",
+          "name": "Better Insight",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-action-and-reaction",
+          "name": "Action and Reaction",
+          "priority": "P2",
+          "note": "Firearm ATK — slot estrutural, não é o foco desta build de utilidade.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-fire-rate-up",
+          "name": "Fire Rate UP",
+          "priority": "P1",
+          "note": "Fire Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-expand-weapon-charge",
+          "name": "Expand Weapon Charge",
+          "priority": "P1",
+          "note": "Rounds per Magazine.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-edging-shot",
+          "name": "Edging Shot",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-defense-master",
+          "name": "Defense Master",
+          "priority": "P2",
+          "note": "DEF após kill — sustain.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-toxic-enhancement",
+          "name": "Toxic Enhancement",
+          "priority": "P2",
+          "note": "Toxic ATK / efeito intrínseco da arma.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponTargetRolls",
+      "label": "ERASER — Rolls-Alvo",
+      "items": [
+        {
+          "id": "roll-firearm-critical-hit-rate",
+          "name": "Firearm Critical Hit Rate",
+          "priority": "P1",
+          "note": "Meta da arma: gerar mais críticos para recuperar MP via Skill 2.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-fire-rate",
+          "name": "Fire Rate",
+          "priority": "P1",
+          "note": "Mais tentativas de crit por segundo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-rounds-per-magazine",
+          "name": "Rounds per Magazine",
+          "priority": "P1",
+          "note": "Menos interrupções no sustain de MP.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-spare-impact-rounds",
+          "name": "Spare / Impact Rounds",
+          "priority": "P2",
+          "note": "Mais tempo atirando antes de reabastecer.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponCores",
+      "label": "Weapon Cores — Alvo",
+      "items": [
+        {
+          "id": "core-fire-rate-x",
+          "name": "Fire Rate X",
+          "priority": "P1",
+          "note": "Duas instâncias no vídeo, ambas ~+20%.",
+          "targetRoll": "~+20%",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 2
+        },
+        {
+          "id": "core-toxic-atk-x",
+          "name": "Toxic ATK X",
+          "priority": "P2",
+          "note": "Duas instâncias no vídeo (~+183% e ~+181%). Refinamento, não crítico para o sustain de MP.",
+          "targetRoll": "~+183% / ~+181%",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 2
+        },
+        {
+          "id": "core-recoil-x",
+          "name": "Recoil X",
+          "priority": "P2",
+          "note": "Target do vídeo: ~-90%.",
+          "targetRoll": "~-90%",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-burning-singularity",
+          "name": "Burning Singularity Reactor",
+          "priority": "P0",
+          "note": "Ultimate — Fire + Singular.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Roll alvo do vídeo: ~-7.1%.",
+          "targetRoll": "~-7.1%",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Roll alvo do vídeo: ~+33%.",
+          "targetRoll": "~+33%",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Slayer 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-auxiliary-power",
+              "name": "Slayer Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-auxiliary-power-base-max-hp",
+              "name": "Base: Max HP",
+              "priority": "P1",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-auxiliary-power-roll-max-hp",
+              "name": "Max HP",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-auxiliary-power-roll-mp-recovery-oc",
+              "name": "MP Recovery Out of Combat",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-auxiliary-power-cores-hp-def",
+              "name": "Max HP X + DEF X",
+              "priority": "P2",
+              "note": "Refinamento de cores.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-sensor",
+              "name": "Slayer Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-sensor-base-max-shield",
+              "name": "Base: Max Shield",
+              "priority": "P1",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-sensor-roll-max-hp",
+              "name": "Max HP",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-sensor-roll-mp-recovery-ic",
+              "name": "MP Recovery In Combat",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-sensor-cores-hp-def",
+              "name": "Max HP X + DEF X",
+              "priority": "P2",
+              "note": "Refinamento de cores.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-memory",
+              "name": "Slayer Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-memory-base-max-shield",
+              "name": "Base: Max Shield",
+              "priority": "P1",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-memory-roll-def",
+              "name": "DEF",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-memory-roll-mp-recovery-modifier",
+              "name": "MP Recovery Modifier",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-memory-cores-hp-def",
+              "name": "Max HP X + DEF X",
+              "priority": "P2",
+              "note": "Refinamento de cores.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-processor",
+              "name": "Slayer Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-processor-base-max-hp",
+              "name": "Base: Max HP",
+              "priority": "P1",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-processor-roll-max-shield",
+              "name": "Max Shield",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-processor-roll-toxin-resistance",
+              "name": "Toxin Resistance",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-processor-cores-hp-def",
+              "name": "Max HP X + DEF X",
+              "priority": "P2",
+              "note": "Refinamento de cores.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Subir pela direita/topo buscando nós ofensivos. Não desviar muitos pontos por HP/MP se não abrirem a rota desejada.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Prioridade no caminho da build.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-skill-critical-hit-rate",
+          "name": "Skill Critical Hit Rate",
+          "priority": "P2",
+          "note": "Ajuda Skills 1 e 3; Final Crit não escala como crit base.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-fire-chain-catalyst",
+          "name": "Fire Chain Catalyst",
+          "priority": "P1",
+          "note": "Até ~20% de Fire resistance shred.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mutant-defense-neutralization",
+          "name": "Defense Neutralization",
+          "priority": "P1",
+          "note": "Mais ~30% de shred no alvo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "inversion",
+      "label": "Inversion Reinforcement",
+      "items": [
+        {
+          "id": "inversion-spatial-dominance",
+          "name": "Spatial Dominance",
+          "priority": "P1",
+          "note": "Skill Range — fecha o cap de 250%.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "inversion-selective-cellular-stimulation",
+          "name": "Selective Cellular Stimulation",
+          "priority": "P1",
+          "note": "Recuperação de HP periódica enquanto está no ar.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "inversion-combat-adaptation",
+          "name": "Combat Adaptation",
+          "priority": "P2",
+          "note": "Damage Reduction acumulando com kills.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-sheepdog",
+          "name": "Sheepdog",
+          "priority": "P2",
+          "note": "Serena passa muito tempo no ar e nem sempre coleta orbs — Fellow de cura automática cobre o sustain.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "snapshotId": "tfdplanner-2024-08-10",
+  "fetchedAt": "2026-08-20",
+  "source": {
+    "name": "Priimary/TFDPlanner (GitHub)",
+    "url": "https://github.com/Priimary/TFDPlanner",
+    "note": "Mirror de terceiro de dados da Nexon Open API — usado porque o cadastro de app na Nexon Open API está bloqueado para contas do Brasil. Confirmado como dado oficial pelas URLs de imagem (open.api.nexon.com/static/tfd/img/...). Repositório sem commits desde 2024-08-10 — considerar desatualizado para conteúdo pós essa data."
+  },
+  "coverage": {
+    "modules": 559,
+    "weapons": 76,
+    "reactors": 0,
+    "externalComponents": 0,
+    "archeTuningNodes": 0,
+    "mutantCells": 0,
+    "fellows": 0
+  },
+  "gaps": [
+    "Reactors, External Components, Arche Tuning, Mutant Cells e Fellow não existem neste mirror — pendentes.",
+    "weapons.json traz stats por stat_id numérico sem tabela de tradução confiável — mantido cru, não interpretado.",
+    "Nenhum campo de capacidade/tier deste snapshot foi conferido manualmente contra o jogo no patch atual."
+  ]
+}

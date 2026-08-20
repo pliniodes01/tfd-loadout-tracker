@@ -1,0 +1,533 @@
+{
+  "id": "freyna-supermassive-receptor-speed",
+  "descendant": "Ultimate Freyna",
+  "title": "Ultimate Freyna — Supermassive Receptor Speed Run",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019b0e1e-2091-70b5-8f88-c2878c726d36/freyna-build-for-supermassive-receptor-3min06s-run",
+    "type": "article",
+    "publishedAt": "2025-12-20"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-venom-injection",
+          "name": "Venom Injection",
+          "priority": "P0",
+          "note": "Transcendent — base do dano de poison em área.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-power-increase",
+          "name": "Power Increase",
+          "priority": "P1",
+          "note": "Skill Power geral.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-focus-on-tech",
+          "name": "Focus on Tech",
+          "priority": "P1",
+          "note": "Tech Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Skill Effect Range — espalha o poison pelo mapa.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mp-conversion",
+          "name": "MP Conversion",
+          "priority": "P1",
+          "note": "Gerencia o consumo de MP da Skill 2.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-toxic-amplification",
+          "name": "Toxic Amplification",
+          "priority": "P1",
+          "note": "Toxic Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-increased-shield",
+          "name": "Increased Shield",
+          "priority": "P2",
+          "note": "Sobrevivência para runs rápidas.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-tech-amplification",
+          "name": "Tech Amplification",
+          "priority": "P2",
+          "note": "Reforço de dano Tech.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-overwhelming-shield",
+          "name": "Overwhelming Shield",
+          "priority": "P2",
+          "note": "Sobrevivência adicional.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-dominators-resolution",
+          "name": "Dominator's Resolution",
+          "priority": "P0",
+          "note": "Ancestor Legendary Mod que fecha os stats ofensivos.",
+          "targetRoll": "Skill Cooldown · Tech Skill Power Boost Ratio · Skill Effect Range · Skill Critical Hit Rate",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-infected-weapon",
+          "name": "Infected Weapon",
+          "priority": "P0",
+          "note": "Trigger padrão da build de speed-farm.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-fallen-hope",
+          "name": "Fallen Hope",
+          "priority": "P0",
+          "note": "A build é construída em torno desta arma — sem ela, os mods e cores abaixo não têm onde encaixar.",
+          "targetRoll": "Firearm ATK · Toxic ATK · Multi-Hit Chance · Multi-Hit Damage",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (Fallen Hope)",
+      "items": [
+        {
+          "id": "mod-multi-trigger-support-ammo",
+          "name": "Multi-Trigger Support Ammo",
+          "priority": "P1",
+          "note": "Munição extra para sustain de tiro.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-action-and-reaction",
+          "name": "Action and Reaction",
+          "priority": "P1",
+          "note": "Firearm ATK.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-toxic-enhancement",
+          "name": "Toxic Enhancement",
+          "priority": "P1",
+          "note": "Toxic ATK da arma.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-fire-rate-up",
+          "name": "Fire Rate UP",
+          "priority": "P1",
+          "note": "Fire Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-multi-percussion-sight",
+          "name": "Multi-Percussion Sight",
+          "priority": "P2",
+          "note": "Chance de disparo múltiplo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-expand-weapon-charge",
+          "name": "Expand Weapon Charge",
+          "priority": "P1",
+          "note": "Rounds per Magazine.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-defense-master",
+          "name": "Defense Master",
+          "priority": "P2",
+          "note": "DEF após kill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-multi-piercing-sights",
+          "name": "Multi-Piercing Sights",
+          "priority": "P2",
+          "note": "Penetração de tiro.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-toxic-mechanics",
+          "name": "Toxic Mechanics Reactor",
+          "priority": "P0",
+          "note": "Ultimate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Roll alvo principal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-tech-skill-power-boost-ratio",
+          "name": "Tech Skill Power Boost Ratio",
+          "priority": "P1",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Plague 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-auxiliary-power",
+              "name": "Plague Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-auxiliary-power-roll-max-hp-def",
+              "name": "Max HP / DEF",
+              "priority": "P1",
+              "note": "Rolls ideais.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-sensor",
+              "name": "Plague Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-sensor-roll-max-mp-recovery",
+              "name": "Max MP / MP Recovery In Combat",
+              "priority": "P1",
+              "note": "Rolls ideais.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-memory",
+              "name": "Plague Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-memory-roll-mp-recovery-modifier",
+              "name": "MP Recovery Modifier",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Plague",
+          "items": [
+            {
+              "id": "component-plague-processor",
+              "name": "Plague Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-plague-processor-roll-max-shield-recovery",
+              "name": "Max Shield / Shield Recovery Modifier",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal, nó Ultimate de Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-max-mp",
+          "name": "Max MP",
+          "priority": "P1",
+          "note": "Sustenta o consumo pesado de MP da Skill 2.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-mitigated-incoming-dmg",
+          "name": "Mitigated Incoming DMG",
+          "priority": "P2",
+          "note": "Nó Ultimate defensivo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-defense-neutralization",
+          "name": "Defense Neutralization",
+          "priority": "P1",
+          "note": "Slot Malachite.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mutant-putrid-zone",
+          "name": "Putrid Zone",
+          "priority": "P1",
+          "note": "Slot Xantic — sinergia com a área de poison.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-snowy-sled-dog",
+          "name": "Snowy Sled Dog",
+          "priority": "P2",
+          "note": "Fellow padrão da build.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

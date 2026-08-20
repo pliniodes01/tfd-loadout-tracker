@@ -1,0 +1,533 @@
+{
+  "id": "ines-onslaught-plasma-bullet",
+  "descendant": "Ines",
+  "title": "Ines Onslaught — Plasma Bullet",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019e6e45-da08-7078-a18a-c8f818d53dde/ines-onslaught-build-plasma-bullet",
+    "type": "article",
+    "publishedAt": "2026-08-14"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-plasma-bullet",
+          "name": "Plasma Bullet",
+          "priority": "P0",
+          "note": "Transcendent — núcleo do dano Electric em área da build.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-concentration",
+          "name": "Skill Concentration",
+          "priority": "P1",
+          "note": "Skill Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-hp-collector",
+          "name": "HP Collector",
+          "priority": "P1",
+          "note": "Sustain contínuo — importante em conteúdo em grupo e Onslaught.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-hp-conversion-mp",
+          "name": "HP Conversion (MP)",
+          "priority": "P1",
+          "note": "Converte HP em MP para manter 600-800 MP ideal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-emergency-measures",
+          "name": "Emergency Measures",
+          "priority": "P1",
+          "note": "Utilidade defensiva.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-shield-consumption",
+          "name": "Shield Consumption",
+          "priority": "P1",
+          "note": "Skill Cooldown — sacrifica Shield.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-focus-on-electric",
+          "name": "Focus on Electric",
+          "priority": "P1",
+          "note": "Electric Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-life-resonance",
+          "name": "Life Resonance",
+          "priority": "P2",
+          "note": "Reforço de sustain.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-snares-resolution",
+          "name": "Snare's Resolution",
+          "priority": "P0",
+          "note": "Ancestor Legendary Mod — fecha os stats ofensivos de Electric/Skill.",
+          "targetRoll": "Skill Cooldown · Max MP · Skill Critical Hit Damage · Max Shield",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-current-bonding",
+          "name": "Current Bonding",
+          "priority": "P0",
+          "note": "Trigger padrão da build de Onslaught/Mobbing.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-eye-of-the-typhoon",
+          "name": "Eye of the Typhoon",
+          "priority": "P0",
+          "note": "Segunda arma listada pela fonte; Hammer and Anvil aparece como arma principal.",
+          "targetRoll": "Firearm ATK · Multi-Hit Chance · Firearm Critical Hit Damage · Firearm Critical Hit Rate",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (Eye of the Typhoon)",
+      "items": [
+        {
+          "id": "mod-electric-enhancement",
+          "name": "Electric Enhancement",
+          "priority": "P1",
+          "note": "Electric ATK.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-fire-rate-up",
+          "name": "Fire Rate UP",
+          "priority": "P1",
+          "note": "Fire Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-edging-shot",
+          "name": "Edging Shot",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-insight",
+          "name": "Better Insight",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-veil-analyzer",
+          "name": "Veil Analyzer",
+          "priority": "P1",
+          "note": "Quebra shields inimigos.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-electric-priority",
+          "name": "Electric Priority",
+          "priority": "P1",
+          "note": "Prioriza dano Electric.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-concentration",
+          "name": "Better Concentration",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-action-and-reaction",
+          "name": "Action and Reaction",
+          "priority": "P2",
+          "note": "Firearm ATK — slot estrutural.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-tingling-singularity",
+          "name": "Tingling Singularity Reactor",
+          "priority": "P0",
+          "note": "Ultimate — Electric + Singular.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-singular-skill-power-boost-ratio",
+          "name": "Singular Skill Power Boost Ratio",
+          "priority": "P1",
+          "note": "Roll alvo principal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Slayer 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-auxiliary-power",
+              "name": "Slayer Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-auxiliary-power-roll-mp-recovery-oc",
+              "name": "MP Recovery Out of Combat",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-sensor",
+              "name": "Slayer Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-sensor-roll-mp-recovery-ic",
+              "name": "MP Recovery In Combat",
+              "priority": "P1",
+              "note": "Roll ideal — sustenta o alvo de 600-800 MP.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-memory",
+              "name": "Slayer Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-memory-roll-mp-recovery-modifier",
+              "name": "MP Recovery Modifier",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-processor",
+              "name": "Slayer Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-processor-roll-toxin-resistance",
+              "name": "Toxin Resistance",
+              "priority": "P2",
+              "note": "Roll de sobrevivência.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal com nó Ultimate de Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Nó Ultimate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-max-hp",
+          "name": "Max HP",
+          "priority": "P2",
+          "note": "Nó Ultimate defensivo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-defense-neutralization",
+          "name": "Defense Neutralization",
+          "priority": "P1",
+          "note": "Slot Malachite — shred de defesa.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mutant-electric-chain-catalyst",
+          "name": "Electric Chain Catalyst",
+          "priority": "P1",
+          "note": "Slot Rutile — shred de resistência Electric.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-snowy-sled-dog",
+          "name": "Snowy Sled Dog",
+          "priority": "P2",
+          "note": "Fellow padrão da build.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

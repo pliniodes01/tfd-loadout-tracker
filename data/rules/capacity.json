@@ -1,0 +1,32 @@
+{
+  "$verificationNote": "NENHUM valor numérico abaixo foi conferido contra o jogo. São placeholders estruturais só para o motor de cálculo (src/lib/capacity.ts) rodar e ser testado. Antes de lançar: confirme baseCapacityByLevel (descendant e weapon, todos os níveis), energyActivatorBonus, e socketTypeMatchDiscount contra o jogo real. Isso é o parâmetro mais importante do produto — se estiver errado, todo veredito de capacidade mostrado ao jogador está errado junto.",
+  "socketTypeMatchDiscount": 0.5,
+  "socketTypeMatchDiscountNote": "Módulo encaixado num socket do mesmo tipo/cor (ex. módulo Malachite em socket Malachite) custa metade da capacidade normal, arredondado para baixo. Regra confirmada em espírito pelo brief original; multiplicador exato (0.5) não confirmado.",
+  "baseCapacityByLevel": {
+    "descendant": [
+      { "level": 1, "capacity": 26 },
+      { "level": 10, "capacity": 32 },
+      { "level": 20, "capacity": 38 },
+      { "level": 30, "capacity": 44 },
+      { "level": 40, "capacity": 100 }
+    ],
+    "weapon": [
+      { "level": 1, "capacity": 22 },
+      { "level": 10, "capacity": 28 },
+      { "level": 20, "capacity": 34 },
+      { "level": 30, "capacity": 40 },
+      { "level": 40, "capacity": 100 }
+    ],
+    "note": "Tabela ESPARSA de propósito (só alguns níveis-âncora) — o motor interpola entre pontos. Nenhum desses números veio do jogo; são só formato de exemplo."
+  },
+  "energyActivator": {
+    "bonusCapacity": 10,
+    "appliesOncePerTarget": true,
+    "note": "Aumenta a capacidade MÁXIMA uma vez por descendant ou por arma (não por build) — se o usuário já ativou num descendant, vale pra todas as builds daquele descendant, do mesmo jeito que o inventário de módulos é global."
+  },
+  "crystallizationCatalyst": {
+    "numericImpact": null,
+    "effect": "Atribui um socketType (cor/afinidade) a um socket que não tinha tipo definido, e reseta o nível do módulo ali encaixado para 0.",
+    "note": "Não tem custo/bônus numérico direto — o valor dela é habilitar o desconto de socketTypeMatchDiscount em sockets que hoje não têm tipo. O reset de nível é um custo de OPORTUNIDADE (perde progresso de upgrade), não de capacidade."
+  }
+}

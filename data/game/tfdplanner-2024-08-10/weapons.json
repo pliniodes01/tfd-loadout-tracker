@@ -1,0 +1,9770 @@
+[
+  {
+    "nexonId": "211011001",
+    "name": "Hungry Hound",
+    "tier": "Standard",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/5121f653612028a206f3131f81495b2f",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 451
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 76.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 87.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 3.75
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 1.6
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 38
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.19
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 610
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 610
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 610
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 7.14
+      }
+    ]
+  },
+  {
+    "nexonId": "211012001",
+    "name": "Red Wolf",
+    "tier": "Rare",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/64e7cd6ee5a9ce572f89a510ab446be4",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 545
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 74.44
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 86.11
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 33
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3.8
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5.7
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 2.45
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.15
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 38
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.0499999999999998
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 650
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 650
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 650
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 8.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211012002",
+    "name": "Millennium Frost",
+    "tier": "Rare",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/5541aa5bc69828750230c0e21de0008f",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 32
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 73.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 2.1
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 1.75
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.26
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 675
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 675
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 675
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 6.67
+      }
+    ]
+  },
+  {
+    "nexonId": "211012003",
+    "name": "Rose of Aisha",
+    "tier": "Rare",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/ca57f8fe70ec7d43f7e9e3f784e3df5e",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 666
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3.2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 4.8
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 14
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 14
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.1199999999999999
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 7.14
+      }
+    ]
+  },
+  {
+    "nexonId": "211012004",
+    "name": "New Beginning",
+    "tier": "Rare",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/eafdde9d0fef5a994cb91fda065fe4e1",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 32
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 78.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.15
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 6.67
+      }
+    ]
+  },
+  {
+    "nexonId": "211013001",
+    "name": "The Last Dagger",
+    "tier": "Ultimate",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/65d6b887291750d901b10e148f5f1119",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.6
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 38
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 86.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 94.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3.5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.6
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 8.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211013002",
+    "name": "The Final Masterpiece",
+    "tier": "Ultimate",
+    "weaponType": "Handgun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/d17041713d4b151398a0860d816b6d66",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 72.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.1
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 650
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 650
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 650
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.26
+      }
+    ]
+  },
+  {
+    "nexonId": "211021001",
+    "name": "Burning Hound",
+    "tier": "Standard",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/0b064a49b5e559903919858e2af4a81b",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 139
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 13
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.75
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 420
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 330
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 32
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 16.67
+      }
+    ]
+  },
+  {
+    "nexonId": "211022001",
+    "name": "Assassin's Edge",
+    "tier": "Rare",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/71fd2b29accbb607a561d8f2b58e9f00",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 23
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 43
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 66.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 93.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 4.9
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 7.35
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.4
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 580
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 310
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 20
+      }
+    ]
+  },
+  {
+    "nexonId": "211022002",
+    "name": "Explorer's Path",
+    "tier": "Rare",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/a29019f04b21cc10a17cf578f881964a",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 109
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 71.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 85.55
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 16
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 14
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.4
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 525
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 345
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 255
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 27
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.3
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 20
+      }
+    ]
+  },
+  {
+    "nexonId": "211022006",
+    "name": "Immediate Execution",
+    "tier": "Rare",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/18ce03c6d161524683366fd9deb4c80e",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 171
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 66.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 90
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 350
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 32
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 14.29
+      }
+    ]
+  },
+  {
+    "nexonId": "211023001",
+    "name": "Nazeistra's Devotion",
+    "tier": "Ultimate",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/b315aea02228beee420b80f7bcd7097b",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 92.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 94.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 34
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 525
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 345
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 255
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2.25
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 16.67
+      }
+    ]
+  },
+  {
+    "nexonId": "211023002",
+    "name": "Perforator",
+    "tier": "Ultimate",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/313eb5005e4c6d70ac41b4a9f4d8c7f0",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2.25
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 55.55
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 94.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 0
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 76.5
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.6
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 420
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 20
+      }
+    ]
+  },
+  {
+    "nexonId": "211023003",
+    "name": "Peace Maker",
+    "tier": "Ultimate",
+    "weaponType": "Hand Cannon",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/d78fa4d509434b6a21a95f6cc87638fe",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 133
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 91.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 93.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 28
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 21
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 21
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 115
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.35
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 630
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 480
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 380
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 16.67
+      }
+    ]
+  },
+  {
+    "nexonId": "211031001",
+    "name": "Gangster",
+    "tier": "Standard",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/b0c9584713f7c367cf707296bd0f055e",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 8.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 21.66
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 130.5
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 0
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 7.5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 22.5
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.68
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.1
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 8.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211032001",
+    "name": "The Last Knight",
+    "tier": "Rare",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/62053e4cb0af9ce530278d42888aa235",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 32.49
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 37.5
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 93
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 0
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 23.85
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 22.65
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 91.2
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 11
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 11
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.89
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 570
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 390
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 300
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 2.22
+      }
+    ]
+  },
+  {
+    "nexonId": "211032002",
+    "name": "In a Blink",
+    "tier": "Rare",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/d19602b85c2fe0ba6fc1b8987fc30912",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 17.5
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 23.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 138
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 26.25
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 23.25
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.54
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 10
+      }
+    ]
+  },
+  {
+    "nexonId": "211032003",
+    "name": "Fireworks",
+    "tier": "Rare",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/8246e467dcf652b513a0412c6c750e4e",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 67
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 100.5
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 2.25
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 33
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 28.5
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 105
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 135
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.6099999999999999
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 350
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 260
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.15
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.56
+      }
+    ]
+  },
+  {
+    "nexonId": "211032004",
+    "name": "Subconsciousness",
+    "tier": "Rare",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/1361013566ffcd9ab0de2a937f39a0dd",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 53.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 22
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 19
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.45
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 350
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 260
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 12.5
+      }
+    ]
+  },
+  {
+    "nexonId": "211033001",
+    "name": "Smithereens",
+    "tier": "Ultimate",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/b77a6cf7276677e7a72b08a3c39ed860",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 16.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 31.11
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.6
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.1
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 1.67
+      }
+    ]
+  },
+  {
+    "nexonId": "211033002",
+    "name": "Executor",
+    "tier": "Ultimate",
+    "weaponType": "Shotgun",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/725adaf584254b433f2b4f00cb53d44a",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 109
+      },
+      {
+        "stat_id": "105000032",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 22
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 22.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 38.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.85
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 350
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 260
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.1
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 1.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211041001",
+    "name": "Albinism",
+    "tier": "Standard",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/4a421dec7ac3fa78c8c18fc8333a19b8",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 75.55
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 81.11
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 27
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 26
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 26
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.46
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.3
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4
+      }
+    ]
+  },
+  {
+    "nexonId": "211042001",
+    "name": "Devil's Call",
+    "tier": "Rare",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/9fba15e1cc595992e17f324d4ce87ef7",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 779
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 63.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 75.55
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 42
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 4.2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 6.3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 1.89
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 1.13
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 14
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 41.6
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 26
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 26
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.32
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 590
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 590
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 590
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4
+      }
+    ]
+  },
+  {
+    "nexonId": "211042002",
+    "name": "Blue Blood Bloomer",
+    "tier": "Rare",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/bd3db3617859fab6dc91f200d74ca5a4",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 1000
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 87.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 31
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 4.2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 6.3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 1.21
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 17
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 36
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 27
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 27
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.32
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 540
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 540
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 540
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 3.7
+      }
+    ]
+  },
+  {
+    "nexonId": "211042003",
+    "name": "Alter Ego",
+    "tier": "Rare",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/0415b366d335b63f5425a76c065edc86",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 75.77
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 2.3
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.74
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 570
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 570
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 570
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 3.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211042004",
+    "name": "Firefly",
+    "tier": "Rare",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/34f8b2d90578bb54653e3c4c5689fc5e",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 857
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 38
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.2
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 66.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 74.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.35
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 620
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 620
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 620
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 3.13
+      }
+    ]
+  },
+  {
+    "nexonId": "211043001",
+    "name": "Thunder Cage",
+    "tier": "Ultimate",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/ceafb2c5d45299b6e9c767098f454797",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 666
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 23
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 43
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 2.1
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.6
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 16.6
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 26
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 26
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.4
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4
+      }
+    ]
+  },
+  {
+    "nexonId": "211043002",
+    "name": "Python",
+    "tier": "Ultimate",
+    "weaponType": "Submachine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/d88f60aa86c8dc57e21e6f88511b33ba",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 923
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 23
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 43
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 61.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 85.55
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 26.5
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 520
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 520
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.3
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 3.45
+      }
+    ]
+  },
+  {
+    "nexonId": "211051001",
+    "name": "Cygnus",
+    "tier": "Standard",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/c4bd46e95cf93bf3c7ec7607bad632f7",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 521
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.45
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 66.66
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 72.22
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 7.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3.5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 3.3
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 107
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 107
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.59
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 435
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 255
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 165
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.1
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5
+      }
+    ]
+  },
+  {
+    "nexonId": "211052001",
+    "name": "Rascal V-51",
+    "tier": "Rare",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/649e6efb22411c0744ec40dcfad412aa",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 571
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.5
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 67.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 62
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 6.75
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 5.1
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 3.1
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 17.60000000000001
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 105
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 105
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.4499999999999997
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 470
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 290
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 200
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.76
+      }
+    ]
+  },
+  {
+    "nexonId": "211052002",
+    "name": "Unfinished Study",
+    "tier": "Rare",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/219624813995aa89d6b377530c66c3db",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 545
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 63.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7.5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 11.25
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 6.3
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 125
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 125
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 3.01
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 220
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5
+      }
+    ]
+  },
+  {
+    "nexonId": "211052003",
+    "name": "Lion of Blue Mane",
+    "tier": "Rare",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/62364058a1293c938868e5000a1efe18",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 428
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.55
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 38.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 44.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 110
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 13.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 110
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 110
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 3.29
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 410
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 6.25
+      }
+    ]
+  },
+  {
+    "nexonId": "211052004",
+    "name": "Tamer",
+    "tier": "Rare",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/cba78809c898b611e44e8bb01b8ca57a",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 625
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.55
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 38.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 42.22
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4.8
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 4.8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.6
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 350
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 170
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.6
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.35
+      }
+    ]
+  },
+  {
+    "nexonId": "211053001",
+    "name": "Enduring Legacy",
+    "tier": "Ultimate",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/13e0b9972056d43d525c1faabefd54b4",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 571
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.55
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 61.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 66.66
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3.9
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 3.9
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 115
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 115
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.7
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2.3
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.76
+      }
+    ]
+  },
+  {
+    "nexonId": "211053002",
+    "name": "Albion Cavalry Gun",
+    "tier": "Ultimate",
+    "weaponType": "Machine Gun",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/a08287f1127679b3657b09c1489c8aa9",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 451
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 72.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 7.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 135
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 220
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.25
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.88
+      }
+    ]
+  },
+  {
+    "nexonId": "211061001",
+    "name": "Ominous Hound",
+    "tier": "Standard",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/33d70ee26acd0c326890ce19016af4a7",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 85.55
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 90
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 10.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 112
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 31
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 31
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.75
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 580
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 310
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.55
+      }
+    ]
+  },
+  {
+    "nexonId": "211062001",
+    "name": "Magnus AA",
+    "tier": "Rare",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/99b656aaf694c1745565d282539e0a97",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 571
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 78.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 86.66
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3.2
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.1
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.68
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.76
+      }
+    ]
+  },
+  {
+    "nexonId": "211062002",
+    "name": "Caligo's Horn",
+    "tier": "Rare",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/51a7b036e039b1a86c28f45ba5ad943c",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 631
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 81.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 16
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 24
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4.7
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 3.1
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 77
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.68
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 530
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 350
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 260
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.17
+      }
+    ]
+  },
+  {
+    "nexonId": "211062003",
+    "name": "Phantom Pain",
+    "tier": "Rare",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/e3c1be91430caed3f152f1b48af10ed6",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 722
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 87.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 22.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 33
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 33
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.6099999999999999
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 3.7
+      }
+    ]
+  },
+  {
+    "nexonId": "211062004",
+    "name": "Eternal Willpower",
+    "tier": "Rare",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/9e0444f2b466d65115c1c9f8020b1e5f",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 91.11
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.9
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.26
+      }
+    ]
+  },
+  {
+    "nexonId": "211063001",
+    "name": "Fallen Hope",
+    "tier": "Ultimate",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/03c388bc95f43507ff5f56c7ac85d85d",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 5.1
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 4.8
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.55
+      }
+    ]
+  },
+  {
+    "nexonId": "211063002",
+    "name": "Divine Punishment",
+    "tier": "Ultimate",
+    "weaponType": "Assault Rifle",
+    "roundsType": "General Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/3df0f8cae97e98ef7a0cccd0bf4613ba",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 705
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 88.88
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 5.5
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.55
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 580
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 310
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 3.85
+      }
+    ]
+  },
+  {
+    "nexonId": "211071001",
+    "name": "Red Eye",
+    "tier": "Standard",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/df74e8a2a4aeb0672025f2f887858a1d",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 171
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 85.55
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 87.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 10.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 5.6
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 5.2
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 110
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 48
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 48
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.89
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.3
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.76
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.2
+      }
+    ]
+  },
+  {
+    "nexonId": "211072001",
+    "name": "Young Noble's Ambition",
+    "tier": "Rare",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/e8d6df58bebb6ba872ed95fb57b9747b",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 151
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 75.55
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 43
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 4.5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 6.75
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3.4
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 2.7
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 22
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 51
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 51
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.68
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 570
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 390
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 300
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.3
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.56
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.2
+      }
+    ]
+  },
+  {
+    "nexonId": "211072002",
+    "name": "The Unwelcomed",
+    "tier": "Rare",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/a7d4522f4305acb1183381405cd36624",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 72.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3.6
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5.4
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 36
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 36
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.54
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 6.67
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.4
+      }
+    ]
+  },
+  {
+    "nexonId": "211072003",
+    "name": "Viper",
+    "tier": "Rare",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/13fa1786c49743724139e4cd057a31da",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 102
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 81.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 84.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 10.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 6.5
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.75
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 540
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 360
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.85
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.2
+      }
+    ]
+  },
+  {
+    "nexonId": "211072004",
+    "name": "Detachment",
+    "tier": "Rare",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/e557c0bb7adaaa72ab0a8f0f4fa027f5",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 81.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 84.44
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3.5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 3.5
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 42
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 42
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.55
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 6.67
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.35
+      }
+    ]
+  },
+  {
+    "nexonId": "211073001",
+    "name": "Secret Garden",
+    "tier": "Ultimate",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/6189e473cbb4181c2a7da06d48cb886d",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 32
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 62
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 82.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 87.77
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 48
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 48
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.6
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 540
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 360
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2.25
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.2
+      }
+    ]
+  },
+  {
+    "nexonId": "211073002",
+    "name": "Greg's Reversed Fate",
+    "tier": "Ultimate",
+    "weaponType": "Tactical Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/628a4b24dc92c15e765a859935a42b4c",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 171
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 86.66
+      },
+      {
+        "stat_id": "105000051",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 6.5
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.4
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 540
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 360
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000069",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 7.14
+      },
+      {
+        "stat_id": "105000200",
+        "stat_value": 0.28
+      }
+    ]
+  },
+  {
+    "nexonId": "211081001",
+    "name": "Nightmare Hound",
+    "tier": "Standard",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/7a4c3e81ac44c7e936f4f969a591f577",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 13
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 19.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.2399999999999998
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 14.29
+      }
+    ]
+  },
+  {
+    "nexonId": "211082001",
+    "name": "Hero's Scar",
+    "tier": "Rare",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/f325b8200ac7115e72bf27b2868bc668",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 240
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 58
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 18
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 141
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.0999999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 455
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 275
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 185
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 10
+      }
+    ]
+  },
+  {
+    "nexonId": "211082002",
+    "name": "Silly Weeper",
+    "tier": "Rare",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/0a2e467f5952ae972253e5381164e7b3",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 78
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 22.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 8
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.0999999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 410
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 25
+      }
+    ]
+  },
+  {
+    "nexonId": "211082003",
+    "name": "The Age Of Innovation",
+    "tier": "Rare",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/dfa65e4d651e94a473da2dccb640dc64",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 250
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 81.11
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.0999999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 520
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 340
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 250
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 10
+      }
+    ]
+  },
+  {
+    "nexonId": "211082004",
+    "name": "Sonic Co-op",
+    "tier": "Rare",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/aeff480200a1c7c5174d60d05281ffa1",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 300
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 77.77
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 83.33
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 14
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 14
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 8.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211083001",
+    "name": "Wave of Light",
+    "tier": "Ultimate",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/8cb6e3effc73a7a6a77d80478c0f51ed",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 250
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 70
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.2
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 10
+      }
+    ]
+  },
+  {
+    "nexonId": "211083002",
+    "name": "Blue Beetle",
+    "tier": "Ultimate",
+    "weaponType": "Scout Rifle",
+    "roundsType": "Impact Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/bc212983d14ce78e73c0de0371768fac",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 200
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 72.22
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 20.75
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 16
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 16
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 520
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 340
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 250
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 12.5
+      }
+    ]
+  },
+  {
+    "nexonId": "211091001",
+    "name": "Recipient Unknown",
+    "tier": "Standard",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/a93622c81e64a228dc05c22ec98dc728",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 72
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 44.44
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.0999999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 25
+      }
+    ]
+  },
+  {
+    "nexonId": "211092001",
+    "name": "Forest Gaze",
+    "tier": "Rare",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/1c6ca7ab2ac58d577513e81930393ab9",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 15.55
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 90
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 21
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 31.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 7.6
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 6.1
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.52
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 410
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 140
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211092002",
+    "name": "Supermoon Z-15",
+    "tier": "Rare",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/db0ee5f11b975d0c69d4f5b30af92fa5",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 65
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 27.77
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 17
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 25.5
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4.8
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 4.7
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 110
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.2399999999999998
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 520
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 340
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 250
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211092003",
+    "name": "Belief",
+    "tier": "Rare",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/d10d37df0a839dc7af02d243d0e3fd47",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.3099999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 25
+      }
+    ]
+  },
+  {
+    "nexonId": "211092004",
+    "name": "Different Dream",
+    "tier": "Rare",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/323dd3820b294253e7e1b08c0b49518d",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 63
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 75
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.15
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 310
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211093001",
+    "name": "Afterglow Sword",
+    "tier": "Ultimate",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/5f00ef5b8da91875ab988190e0bd74f6",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 66
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 44.44
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211093002",
+    "name": "Piercing Light",
+    "tier": "Ultimate",
+    "weaponType": "Sniper Rifle",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/bec18398d891552051338ffea609d79c",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 48
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000054",
+        "stat_value": 55
+      },
+      {
+        "stat_id": "105000055",
+        "stat_value": 85
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 0.6
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 19.99
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000007",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000037",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000132",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000038",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000039",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000040",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000041",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.6
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 220
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000070",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000075",
+        "stat_value": 120
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      }
+    ]
+  },
+  {
+    "nexonId": "211101001",
+    "name": "Tamed Beast",
+    "tier": "Standard",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/35fec495b03f8eb4f91da19eb802baf7",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.5
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.8
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 435
+      }
+    ]
+  },
+  {
+    "nexonId": "211102001",
+    "name": "Death Roar",
+    "tier": "Rare",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/72f35ad37054e8f076bed21615e0cf32",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.5
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 7
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.8
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 480
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 300
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 210
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 550
+      }
+    ]
+  },
+  {
+    "nexonId": "211102002",
+    "name": "Guardian R4",
+    "tier": "Rare",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/d3a92c27923d2790b52c301ec5937ee0",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.5
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.47
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 220
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 400
+      }
+    ]
+  },
+  {
+    "nexonId": "211102003",
+    "name": "Lightspeed Barrel",
+    "tier": "Rare",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/1ac4315a74daf23d0711d3f952cfbdb6",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 66
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 9
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.8
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 470
+      }
+    ]
+  },
+  {
+    "nexonId": "211102004",
+    "name": "Vestigial Organ",
+    "tier": "Rare",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/db3d37bdafe5113d9b34880e74a9e7bc",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 200
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 4
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 4.2
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 220
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 130
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.1
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 435
+      }
+    ]
+  },
+  {
+    "nexonId": "211103001",
+    "name": "Sigvore's Proof",
+    "tier": "Ultimate",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/838ad93ddbeb457322e97651f2dfbb81",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 80
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.3
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.8
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 510
+      }
+    ]
+  },
+  {
+    "nexonId": "211103002",
+    "name": "Restored Relic",
+    "tier": "Ultimate",
+    "weaponType": "Launcher",
+    "roundsType": "High-Power Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/6b0ac789fe68f8012f0e577e39a8297c",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 60
+      },
+      {
+        "stat_id": "105000073",
+        "stat_value": 0.5
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 3
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 150
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 12
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 750
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 450
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 270
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 180
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 10000
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 6
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 33.33
+      },
+      {
+        "stat_id": "105000174",
+        "stat_value": 470
+      }
+    ]
+  },
+  {
+    "nexonId": "211121003",
+    "name": "Moon Fragment",
+    "tier": "Standard",
+    "weaponType": "Beam Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/7b8c230d8c415a412b87d4ea3c8aadef",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 27
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 27
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.8199999999999998
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 420
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 330
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.55
+      },
+      {
+        "stat_id": "105000194",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000195",
+        "stat_value": 1
+      }
+    ]
+  },
+  {
+    "nexonId": "211122001",
+    "name": "Dogma 21",
+    "tier": "Rare",
+    "weaponType": "Beam Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/e386f1953bc51608e13e50dad6d79a34",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 300
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.3099999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 8.33
+      },
+      {
+        "stat_id": "105000194",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000195",
+        "stat_value": 1
+      }
+    ]
+  },
+  {
+    "nexonId": "211122003",
+    "name": "Burning 44",
+    "tier": "Rare",
+    "weaponType": "Beam Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/6a39c6748a0f0ba9d695407925ffb98d",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 15
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 50
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.0999999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.5
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.26
+      },
+      {
+        "stat_id": "105000194",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000195",
+        "stat_value": 1
+      }
+    ]
+  },
+  {
+    "nexonId": "211122004",
+    "name": "Dimensional Bridge",
+    "tier": "Rare",
+    "weaponType": "Beam Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/6bd1dab4c7cc6b839a602a486266c3ca",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 25
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 1.95
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 550
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 370
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 280
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5.26
+      },
+      {
+        "stat_id": "105000194",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000195",
+        "stat_value": 1
+      }
+    ]
+  },
+  {
+    "nexonId": "211123001",
+    "name": "King's Guard Lance",
+    "tier": "Ultimate",
+    "weaponType": "Beam Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/1b2c6549e87addec20642f852b0afcf4",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 545
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 30
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 45
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.0999999999999996
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 500
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 320
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 230
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 11
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.7
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 5
+      },
+      {
+        "stat_id": "105000194",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000195",
+        "stat_value": 1
+      }
+    ]
+  },
+  {
+    "nexonId": "211123002",
+    "name": "Clairvoyance",
+    "tier": "Ultimate",
+    "weaponType": "Beam Rifle",
+    "roundsType": "Special Rounds",
+    "imagePath": "https://open.api.nexon.com/static/tfd/img/a3a8c7bacaa70f994559ddf58bbf2d2d",
+    "baseStats": [
+      {
+        "stat_id": "105000023",
+        "stat_value": 400
+      },
+      {
+        "stat_id": "105000035",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000077",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000056",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000005",
+        "stat_value": 35
+      },
+      {
+        "stat_id": "105000006",
+        "stat_value": 98.88
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000021",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000022",
+        "stat_value": 40
+      },
+      {
+        "stat_id": "105000095",
+        "stat_value": 2.2
+      },
+      {
+        "stat_id": "105000033",
+        "stat_value": -1
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 800
+      },
+      {
+        "stat_id": "105000018",
+        "stat_value": 600
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 420
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 330
+      },
+      {
+        "stat_id": "105000071",
+        "stat_value": 10
+      },
+      {
+        "stat_id": "105000008",
+        "stat_value": 100
+      },
+      {
+        "stat_id": "105000092",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000030",
+        "stat_value": 20
+      },
+      {
+        "stat_id": "105000031",
+        "stat_value": 2
+      },
+      {
+        "stat_id": "105000170",
+        "stat_value": 6.67
+      },
+      {
+        "stat_id": "105000194",
+        "stat_value": 1
+      },
+      {
+        "stat_id": "105000195",
+        "stat_value": 1
+      }
+    ]
+  }
+]

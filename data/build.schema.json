@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tfd-tracker.local/schema/build.schema.json",
+  "title": "TFD Tracker — Build",
+  "description": "Uma build alvo para um Descendant. Referencia itens por id contra /data/items.json — nunca embute nome/dado de item inline. A validação de referência órfã (item[].id existe em items.json) é feita pelo loader/script de build, não por este schema (JSON Schema não faz join entre arquivos).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "descendant", "title", "patch", "updatedAt", "source", "sections"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug estável. Vira o nome do arquivo em /data/builds/<id>.json."
+    },
+    "descendant": {
+      "type": "string",
+      "description": "Nome do Descendant em inglês, como aparece no jogo. Ex.: 'Serena'."
+    },
+    "title": {
+      "type": "string",
+      "description": "Título de exibição da build."
+    },
+    "patch": {
+      "type": "string",
+      "description": "Identificador do patch/temporada em que a build foi validada. Ex.: 'S4E1'."
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Data da última revisão do conteúdo da build (não da ingestão de metadados)."
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["author", "url", "type"],
+      "properties": {
+        "author": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "type": { "type": "string", "enum": ["video", "article", "other"] },
+        "publishedAt": { "type": "string", "format": "date" }
+      },
+      "description": "Atribuição obrigatória. Regra de negócio: nenhuma build sem fonte."
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/section" }
+    }
+  },
+  "$defs": {
+    "sectionType": {
+      "type": "string",
+      "enum": [
+        "weapon",
+        "descendantModules",
+        "trigger",
+        "weaponModules",
+        "weaponTargetRolls",
+        "weaponCores",
+        "reactor",
+        "externalComponents",
+        "archeTuning",
+        "mutantCells",
+        "inversion",
+        "fellow"
+      ],
+      "description": "Extendido em relação ao rascunho original: 'trigger' (Transcendent Trigger é um slot próprio, não um módulo de descendant), 'weaponTargetRolls' (rolls inatos da arma, distintos de weaponModules e de weaponCores) e 'weapon' (a arma em si como item possuível, com um único item de priority P0 — sem isso não dá pra saber se o jogador tem a arma da build, só os mods dela) foram adicionados porque os trackers-fonte/builds tratam esses sistemas como separados e clicáveis independentemente."
+    },
+    "priority": {
+      "type": ["string", "null"],
+      "enum": ["P0", "P1", "P2", "ALT", null],
+      "description": "P0 = a build não existe sem isso. P1 = alto ganho. P2 = conforto. ALT = substituto de outro item (ver altOf). null = seção onde priorização não faz sentido no momento (ex.: um roll que é a própria meta, sem alternativa)."
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Deve existir em /data/items.json. É a chave do inventário global do usuário — dois builds que citam o mesmo item DEVEM usar o mesmo id."
+        },
+        "name": {
+          "type": "string",
+          "description": "Denormalizado do catálogo por conveniência de leitura do JSON; o loader deve validar que bate com items.json e não confiar neste campo para lógica."
+        },
+        "priority": { "$ref": "#/$defs/priority" },
+        "note": {
+          "type": ["string", "null"],
+          "description": "Contexto específico desta build para este item (por que, qual variante, etc.)."
+        },
+        "targetRoll": {
+          "type": ["string", "null"],
+          "description": "Texto livre do valor-alvo do roll nesta build, ex. '~+20%'. Vem do vídeo/guia-fonte, não é normalizado numericamente no MVP."
+        },
+        "targetLevel": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Nível de aprimoramento que esta build considera 'pronto' para o item, quando aplicável (ex. reactor stage). Usado pelo motor de capacidade para buscar o custo em items.json; não confundir com capacityCost abaixo."
+        },
+        "capacityCost": {
+          "type": ["number", "null"],
+          "description": "PENDENTE — não preencher à mão. Será resolvido em build-time a partir da tabela de custo por nível ingerida da Nexon Open API (etapa 0/2), cruzando item id + targetLevel. Mantido aqui apenas como cache denormalizado opcional; a fonte de verdade é /data/game/<patch>/capacity.json."
+        },
+        "altOf": {
+          "type": ["string", "null"],
+          "description": "Id de outro item nesta mesma seção do qual este é substituto. Só válido quando priority = 'ALT'."
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1,
+          "description": "Quantas instâncias deste item a build quer (ex. 2x core-fire-rate-x em slots de core diferentes)."
+        }
+      }
+    },
+    "componentGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slot", "setName", "items"],
+      "properties": {
+        "slot": { "type": "string", "description": "Ex.: 'Auxiliary Power', 'Sensor', 'Memory', 'Processor'." },
+        "setName": { "type": "string", "description": "Ex.: 'Slayer'." },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/item" }
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "label"],
+      "properties": {
+        "type": { "$ref": "#/$defs/sectionType" },
+        "label": { "type": "string", "description": "Rótulo de exibição em pt-BR." },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/item" },
+          "description": "Usado por toda seção exceto 'externalComponents'."
+        },
+        "groups": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/componentGroup" },
+          "description": "Usado somente por 'externalComponents' — peças de set vêm agrupadas por slot de equipamento."
+        }
+      },
+      "oneOf": [
+        { "required": ["items"] },
+        { "required": ["groups"] }
+      ]
+    }
+  }
+}

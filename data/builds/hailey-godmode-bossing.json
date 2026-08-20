@@ -1,0 +1,572 @@
+{
+  "id": "hailey-godmode-bossing",
+  "descendant": "Hailey",
+  "title": "Hailey Godmode — Solo Bossing",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019a77e2-9d24-73d5-ad94-ab51408ff723/hailey-godmode-build",
+    "type": "article",
+    "publishedAt": "2025-12-20"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-cold-heart",
+          "name": "Cold Heart",
+          "priority": "P0",
+          "note": "Transcendent que sustenta o dano de sniper crítico da build.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-hyperfocus",
+          "name": "Hyperfocus",
+          "priority": "P1",
+          "note": "Arche Tech — reforça o foco em Firearm Critical Hit.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-focus-on-chill",
+          "name": "Focus on Chill",
+          "priority": "P1",
+          "note": "Battle — Chill Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mp-conversion",
+          "name": "MP Conversion",
+          "priority": "P1",
+          "note": "Control — converte recurso para sustentar skills.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-concentration",
+          "name": "Skill Concentration",
+          "priority": "P1",
+          "note": "Skill Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-emergency-measures",
+          "name": "Emergency Measures",
+          "priority": "P1",
+          "note": "Luck — utilidade defensiva de emergência.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P1",
+          "note": "Mobilidade aérea, padrão em quase toda build de sniper.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-front-lines",
+          "name": "Front Lines",
+          "priority": "P1",
+          "note": "Strike — ATK ao entrar em combate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-spear-and-shield",
+          "name": "Spear and Shield",
+          "priority": "P2",
+          "note": "Defense — refinamento de sobrevivência.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-glacial-syncytium",
+          "name": "Glacial Syncytium",
+          "priority": "P2",
+          "note": "Fortitude — sinergia de Chill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-marksmans-resolution",
+          "name": "Marksman's Resolution",
+          "priority": "P0",
+          "note": "Ancestor — guia recomenda buscar bons rolls de Firearm Crit, mas afirma que a build já funciona sem BiS.",
+          "targetRoll": "Skill Critical Hit Damage · Singular Skill Power Boost Ratio · Chill Skill Power Boost Ratio · Max Shield",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-power-beyond",
+          "name": "Power Beyond",
+          "priority": "P0",
+          "note": "Consistência de trigger rate para sustentar o burst de sniper.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-frostwatcher",
+          "name": "FrostWatcher",
+          "priority": "P0",
+          "note": "A build é construída em torno desta arma — sem ela, os mods e cores abaixo não têm onde encaixar.",
+          "targetRoll": "Chill ATK · Firearm ATK · Firearm Critical Hit Damage · Multi-Hit Damage",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (FrostWatcher)",
+      "items": [
+        {
+          "id": "mod-rifling-reinforcement",
+          "name": "Rifling Reinforcement",
+          "priority": "P1",
+          "note": "Firearm ATK base.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-action-and-reaction",
+          "name": "Action and Reaction",
+          "priority": "P1",
+          "note": "Firearm ATK.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-fire-rate-up",
+          "name": "Fire Rate UP",
+          "priority": "P1",
+          "note": "Mais disparos por segundo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-insight",
+          "name": "Better Insight",
+          "priority": "P1",
+          "note": "Firearm Critical Hit Rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-enhancement",
+          "name": "Chill Enhancement",
+          "priority": "P1",
+          "note": "Chill ATK — arma é usada como stat-stick de Chill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-charge-amplification",
+          "name": "Charge Amplification",
+          "priority": "P2",
+          "note": "Dano de tiro carregado.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-multi-trigger-rifling",
+          "name": "Multi-Trigger Rifling",
+          "priority": "P2",
+          "note": "Chance de disparo múltiplo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-insight-focus",
+          "name": "Insight Focus",
+          "priority": "P2",
+          "note": "Reforço adicional de crit rate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponCores",
+      "label": "Weapon Cores — Alvo",
+      "items": [
+        {
+          "id": "core-chill-atk-x",
+          "name": "Chill ATK X",
+          "priority": "P1",
+          "note": "Augmentation de Attribute — dano de Chill da arma.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "core-firearm-atk-x",
+          "name": "Firearm ATK X",
+          "priority": "P1",
+          "note": "Augmentation de Firepower.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "core-fire-rate-x",
+          "name": "Fire Rate X",
+          "priority": "P1",
+          "note": "Augmentation Tactical.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "core-firearm-critical-hit-damage-x",
+          "name": "Firearm Critical Hit Damage X",
+          "priority": "P2",
+          "note": "Augmentation Special.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-frozen-singularity",
+          "name": "Frozen Singularity Reactor",
+          "priority": "P0",
+          "note": "Ultimate — Chill + Singular, alinhado ao Cold Heart.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-additional-skill-atk-vs-colossus",
+          "name": "Additional Skill ATK (vs. Colossus)",
+          "priority": "P1",
+          "note": "Roll alvo focado em bossing solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Slayer 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-auxiliary-power",
+              "name": "Slayer Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-auxiliary-power-roll-max-hp",
+              "name": "Max HP",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-sensor",
+              "name": "Slayer Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-sensor-roll-max-hp",
+              "name": "Max HP",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-memory",
+              "name": "Slayer Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-memory-roll-def",
+              "name": "DEF",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Slayer",
+          "items": [
+            {
+              "id": "component-slayer-processor",
+              "name": "Slayer Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-slayer-processor-roll-max-shield",
+              "name": "Max Shield",
+              "priority": "P1",
+              "note": "Roll ideal.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal do tuning, com múltiplos nós até o Ultimate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Nó Ultimate — reduz o cooldown geral de skills.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-max-hp",
+          "name": "Max HP",
+          "priority": "P2",
+          "note": "Nó Ultimate defensivo, complementa a sobrevivência solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-arche-concentration",
+          "name": "Arche Concentration",
+          "priority": "P1",
+          "note": "Slot Cerulean recomendado pelo guia.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-vespers-hunting-dog",
+          "name": "Vespers Hunting Dog",
+          "priority": "P2",
+          "note": "Fellow padrão da build de bossing solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

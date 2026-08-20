@@ -1,0 +1,3792 @@
+{
+  "mod-skill-concentration": {
+    "nexonId": "251001029",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Critical Hit Damage +14%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Critical Hit Damage +18.8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Critical Hit Damage +24%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Critical Hit Damage +30.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Critical Hit Damage +38.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Critical Hit Damage +47.6%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Critical Hit Damage +58.5%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Critical Hit Damage +69.8%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Critical Hit Damage +82.6%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Critical Hit Damage +97.8%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Critical Hit Damage +115.4%"
+      }
+    ]
+  },
+  "mod-skill-expansion": {
+    "nexonId": "251001015",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Effect Range +12%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Effect Range +15.8%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Effect Range +20%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Effect Range +25.3%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Effect Range +31.6%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Effect Range +38.7%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Skill Effect Range +47.3%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Skill Effect Range +56.3%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Skill Effect Range +66.5%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Skill Effect Range +78.4%"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "Skill Effect Range +92.3%"
+      }
+    ]
+  },
+  "mod-nimble-fingers": {
+    "nexonId": "251001002",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Cooldown -6%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Cooldown -7.4%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Cooldown -9.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Cooldown -11.3%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Cooldown -14.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Cooldown -17.2%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Skill Cooldown -21%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Skill Cooldown -25.6%"
+      }
+    ]
+  },
+  "mod-focus-on-fire": {
+    "nexonId": "251002070",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Fire Skill Power +19%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Fire Skill Power +21.7%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Fire Skill Power +24.8%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Fire Skill Power +28.6%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Fire Skill Power +33.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Fire Skill Power +38.3%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Fire Skill Power +44.6%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Fire Skill Power +51.1%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Fire Skill Power +58.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Fire Skill Power +67.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Fire Skill Power +77.2%, Skill Cooldown -6.1%"
+      }
+    ]
+  },
+  "mod-stim-accelerant": {
+    "nexonId": "251002020",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Max HP +23%, Max MP -4%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Max HP +32.9%, Max MP -4.5%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Max HP +43.9%, Max MP -5.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Max HP +57.8%, Max MP -5.9%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Max HP +74.5%, Max MP -6.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Max HP +93.1%, Max MP -7.7%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Max HP +115.6%, Max MP -8.8%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Max HP +139.3%, Max MP -10.2%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Max HP +166.1%, Max MP -11.5%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Max HP +197.5%, Max MP -13.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Max HP +234%, Max MP -15%"
+      }
+    ]
+  },
+  "mod-skill-insight": {
+    "nexonId": "251001028",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Critical Hit Rate +14%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Critical Hit Rate +18.8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Critical Hit Rate +24%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Critical Hit Rate +30.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Critical Hit Rate +38.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Critical Hit Rate +47.6%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Critical Hit Rate +58.5%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Critical Hit Rate +69.8%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Critical Hit Rate +82.6%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Critical Hit Rate +97.8%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Critical Hit Rate +115.4%"
+      }
+    ]
+  },
+  "mod-mid-air-maneuvering": {
+    "nexonId": "253003001",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +0), decreases Charge Time Increase (current +20%)"
+      },
+      {
+        "level": 1,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +1), decreases Charge Time Increase (current +20%)"
+      },
+      {
+        "level": 2,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +2), decreases Charge Time Increase (current +20%)"
+      },
+      {
+        "level": 3,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +3), decreases Charge Time Increase (current +15%)"
+      },
+      {
+        "level": 4,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +4), decreases Charge Time Increase (current +15%)"
+      },
+      {
+        "level": 5,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +5), decreases Charge Time Increase (current +10%)"
+      },
+      {
+        "level": 6,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +6), decreases Charge Time Increase (current +10%)"
+      },
+      {
+        "level": 7,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +7), decreases Charge Time Increase (current +5%)"
+      },
+      {
+        "level": 8,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +8), decreases Charge Time Increase (current +5%)"
+      },
+      {
+        "level": 9,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +9), decreases Charge Time Increase (current +0%)"
+      },
+      {
+        "level": 10,
+        "capacity": 0,
+        "effect": "Modifies the Grappling Hook to be cast mid-air\nHowever, it can only be used once, and Charge Time increases by 20%\nBased on the Enhancement Level, increases Max Module Capacity (current +10), decreases Charge Time Increase (current +0%)"
+      }
+    ]
+  },
+  "mod-expand-impact-magazine": {
+    "nexonId": "252031010",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 4,
+        "effect": "Max Impact Rounds +13%"
+      },
+      {
+        "level": 1,
+        "capacity": 5,
+        "effect": "Max Impact Rounds +14.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 6,
+        "effect": "Max Impact Rounds +16.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 7,
+        "effect": "Max Impact Rounds +19.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 8,
+        "effect": "Max Impact Rounds +22%"
+      },
+      {
+        "level": 5,
+        "capacity": 9,
+        "effect": "Max Impact Rounds +25.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 10,
+        "effect": "Max Impact Rounds +29.2%"
+      },
+      {
+        "level": 7,
+        "capacity": 11,
+        "effect": "Max Impact Rounds +33.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 12,
+        "effect": "Max Impact Rounds +38.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 13,
+        "effect": "Max Impact Rounds +43.6%"
+      },
+      {
+        "level": 10,
+        "capacity": 14,
+        "effect": "Max Impact Rounds +50%"
+      }
+    ]
+  },
+  "mod-better-insight": {
+    "nexonId": "252041010",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Firearm Critical Hit Rate +8%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Firearm Critical Hit Rate +9.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Firearm Critical Hit Rate +10.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Firearm Critical Hit Rate +12.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Firearm Critical Hit Rate +14%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Firearm Critical Hit Rate +16.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Firearm Critical Hit Rate +19%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Firearm Critical Hit Rate +21.8%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Firearm Critical Hit Rate +25%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Firearm Critical Hit Rate +28.7%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Firearm Critical Hit Rate +33%"
+      }
+    ]
+  },
+  "mod-action-and-reaction": {
+    "nexonId": "252042028",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Explosive ATK +15%, Recoil +5%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Explosive ATK +17.2%, Recoil +5.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Explosive ATK +19.6%, Recoil +6.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Explosive ATK +22.6%, Recoil +7.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Explosive ATK +26.2%, Recoil +8.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Explosive ATK +30.3%, Recoil +10%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Explosive ATK +35.1%, Recoil +11.6%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Explosive ATK +40.3%, Recoil +13.3%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Explosive ATK +46.2%, Recoil +15.2%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Explosive ATK +53%, Recoil +17.4%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Explosive ATK +61%, Recoil +20%"
+      }
+    ]
+  },
+  "mod-fire-rate-up": {
+    "nexonId": "252041004",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Fire Rate +6%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Fire Rate +7.3%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Fire Rate +9%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Fire Rate +11.2%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Fire Rate +13.8%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Fire Rate +16.9%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Fire Rate +20.5%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Fire Rate +25%"
+      }
+    ]
+  },
+  "mod-expand-weapon-charge": {
+    "nexonId": "252041016",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Rounds per Magazine +12%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Rounds per Magazine +13.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Rounds per Magazine +15.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Rounds per Magazine +18%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Rounds per Magazine +21%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Rounds per Magazine +24.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Rounds per Magazine +28.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Rounds per Magazine +32.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Rounds per Magazine +37.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Rounds per Magazine +42.6%"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "Rounds per Magazine +49%"
+      }
+    ]
+  },
+  "mod-edging-shot": {
+    "nexonId": "252042042",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Firearm Critical Hit Rate +9%, Firearm ATK -4%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Firearm Critical Hit Rate +10.2%, Firearm ATK -4.5%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Firearm Critical Hit Rate +11.7%, Firearm ATK -5.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Firearm Critical Hit Rate +13.5%, Firearm ATK -5.9%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Firearm Critical Hit Rate +15.6%, Firearm ATK -6.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Firearm Critical Hit Rate +18%, Firearm ATK -7.7%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Firearm Critical Hit Rate +20.9%, Firearm ATK -8.8%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Firearm Critical Hit Rate +23.9%, Firearm ATK -10.2%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Firearm Critical Hit Rate +27.3%, Firearm ATK -11.5%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Firearm Critical Hit Rate +31.3%, Firearm ATK -13.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Firearm Critical Hit Rate +36%, Firearm ATK -15%"
+      }
+    ]
+  },
+  "mod-defense-master": {
+    "nexonId": "252043054",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 25s)"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 24s)"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 23s)"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 22s)"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 21s)"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 20s)"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 19s)"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 18s)"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 17s)"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 16s)"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "When defeating an enemy, DEF +120% for 10s (Cooldown 15s)"
+      }
+    ]
+  },
+  "mod-toxic-enhancement": {
+    "nexonId": "252041007",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Adds Toxic ATK equal to 8% of Firearm ATK"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Adds Toxic ATK equal to 9% of Firearm ATK"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Adds Toxic ATK equal to 10.2% of Firearm ATK"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Adds Toxic ATK equal to 11.6% of Firearm ATK"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Adds Toxic ATK equal to 13.4% of Firearm ATK"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Adds Toxic ATK equal to 15.3% of Firearm ATK"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Adds Toxic ATK equal to 17.7% of Firearm ATK"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Adds Toxic ATK equal to 20.1% of Firearm ATK"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Adds Toxic ATK equal to 22.9% of Firearm ATK"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Adds Toxic ATK equal to 26.2% of Firearm ATK"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Adds Toxic ATK equal to 30% of Firearm ATK"
+      }
+    ]
+  },
+  "mod-focus-on-chill": {
+    "nexonId": "251002071",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Chill Skill Power +19%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Chill Skill Power +21.7%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Chill Skill Power +24.8%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Chill Skill Power +28.6%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Chill Skill Power +33.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Chill Skill Power +38.3%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Chill Skill Power +44.6%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Chill Skill Power +51.1%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Chill Skill Power +58.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Chill Skill Power +67.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Chill Skill Power +77.2%, Skill Cooldown -6.1%"
+      }
+    ]
+  },
+  "mod-mp-conversion": {
+    "nexonId": "251002017",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Cooldown -9%, Max MP -4%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Cooldown -10.3%, Max MP -4.5%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Cooldown -11.8%, Max MP -5.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Cooldown -13.5%, Max MP -5.9%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Cooldown -15.7%, Max MP -6.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Cooldown -18.1%, Max MP -7.7%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Skill Cooldown -21.1%, Max MP -8.8%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Skill Cooldown -24.1%, Max MP -10.2%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Skill Cooldown -27.6%, Max MP -11.5%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Skill Cooldown -31.7%, Max MP -13.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "Skill Cooldown -36.5%, Max MP -15%"
+      }
+    ]
+  },
+  "mod-emergency-measures": {
+    "nexonId": "251002094",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Critical Hit Rate +16%, Skill Critical Hit Damage +7%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Critical Hit Rate +18.3%, Skill Critical Hit Damage +8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Critical Hit Rate +20.8%, Skill Critical Hit Damage +9%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Critical Hit Rate +24%, Skill Critical Hit Damage +10.4%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Critical Hit Rate +27.9%, Skill Critical Hit Damage +12%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Critical Hit Rate +32.1%, Skill Critical Hit Damage +13.9%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Critical Hit Rate +37.3%, Skill Critical Hit Damage +16.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Critical Hit Rate +42.8%, Skill Critical Hit Damage +18.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Critical Hit Rate +49%, Skill Critical Hit Damage +21%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Critical Hit Rate +56.2%, Skill Critical Hit Damage +24%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Critical Hit Rate +64.6%, Skill Critical Hit Damage +27.7%"
+      }
+    ]
+  },
+  "mod-front-lines": {
+    "nexonId": "251002095",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Critical Hit Damage +16%, Skill Critical Hit Rate +7%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Critical Hit Damage +18.3%, Skill Critical Hit Rate +8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Critical Hit Damage +20.8%, Skill Critical Hit Rate +9%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Critical Hit Damage +24%, Skill Critical Hit Rate +10.4%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Critical Hit Damage +27.9%, Skill Critical Hit Rate +12%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Critical Hit Damage +32.1%, Skill Critical Hit Rate +13.9%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Critical Hit Damage +37.3%, Skill Critical Hit Rate +16.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Critical Hit Damage +42.8%, Skill Critical Hit Rate +18.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Critical Hit Damage +49%, Skill Critical Hit Rate +21%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Critical Hit Damage +56.2%, Skill Critical Hit Rate +24%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Critical Hit Damage +64.6%, Skill Critical Hit Rate +27.7%"
+      }
+    ]
+  },
+  "mod-spear-and-shield": {
+    "nexonId": "251002098",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "DEF +22%, Skill Power +8.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "DEF +25.2%, Skill Power +8.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "DEF +28.7%, Skill Power +8.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "DEF +33.2%, Skill Power +8.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "DEF +38.5%, Skill Power +8.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "DEF +44.5%, Skill Power +8.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "DEF +51.8%, Skill Power +8.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "DEF +59.4%, Skill Power +8.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "DEF +68%, Skill Power +8.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "DEF +78.1%, Skill Power +8.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "DEF +89.8%, Skill Power +8.1%"
+      }
+    ]
+  },
+  "mod-glacial-syncytium": {
+    "nexonId": "251002113",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Critical Hit Resistance +4%, Chill Skill Power +3%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Critical Hit Resistance +5.2%, Chill Skill Power +3.8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Critical Hit Resistance +6.8%, Chill Skill Power +4.8%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Critical Hit Resistance +9%, Chill Skill Power +6.2%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Critical Hit Resistance +11.6%, Chill Skill Power +7.9%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Critical Hit Resistance +15.1%, Chill Skill Power +10.2%"
+      }
+    ]
+  },
+  "mod-predator-instinct": {
+    "nexonId": "254009003",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 16,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 1,
+        "capacity": 15,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 2,
+        "capacity": 14,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 3,
+        "capacity": 13,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 4,
+        "capacity": 12,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 6,
+        "capacity": 10,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 7,
+        "capacity": 9,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 8,
+        "capacity": 8,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 9,
+        "capacity": 7,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      },
+      {
+        "level": 10,
+        "capacity": 6,
+        "effect": "When using a Firearm, while Frenzied, Firearm ATK gradually increases."
+      }
+    ]
+  },
+  "mod-increased-hp": {
+    "nexonId": "251001009",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Max HP +22%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Max HP +31.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Max HP +41.4%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Max HP +54.4%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Max HP +69.8%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Max HP +87.2%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Max HP +108.2%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Max HP +130.2%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Max HP +155.2%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Max HP +184.5%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Max HP +218.5%"
+      }
+    ]
+  },
+  "mod-skill-extension": {
+    "nexonId": "251001016",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Duration +9%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Duration +10.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Duration +11.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Duration +13.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Duration +15.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Duration +18%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Skill Duration +21%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Skill Duration +24.2%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Skill Duration +27.7%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Skill Duration +31.8%"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "Skill Duration +36.5%"
+      }
+    ]
+  },
+  "mod-maximize-duration": {
+    "nexonId": "251002034",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Duration +10%, Skill Power Modifier -5%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Duration +11.4%, Skill Power Modifier -5.9%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Duration +13%, Skill Power Modifier -6.6%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Duration +15%, Skill Power Modifier -7.6%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Duration +17.2%, Skill Power Modifier -8.9%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Duration +20%, Skill Power Modifier -10.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Skill Duration +23.2%, Skill Power Modifier -12%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Skill Duration +26.5%, Skill Power Modifier -13.8%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Skill Duration +30.3%, Skill Power Modifier -15.9%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Skill Duration +34.8%, Skill Power Modifier -18.3%"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "Skill Duration +40%, Skill Power Modifier -21.1%"
+      }
+    ]
+  },
+  "mod-time-distribution": {
+    "nexonId": "251002080",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Cooldown -4%, Max HP +13%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Cooldown -5.1%, Max HP +17.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Cooldown -6.6%, Max HP +23.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Cooldown -8.6%, Max HP +30.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Cooldown -11.1%, Max HP +40.2%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Cooldown -14.3%, Max HP +52.4%"
+      }
+    ]
+  },
+  "mod-shot-focus": {
+    "nexonId": "251002041",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Firearm ATK +4%, Skill Power Modifier -4%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Firearm ATK +4.6%, Skill Power Modifier -4.6%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Firearm ATK +5.8%, Skill Power Modifier -5.9%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Firearm ATK +7.8%, Skill Power Modifier -7.8%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Firearm ATK +10.7%, Skill Power Modifier -10.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Firearm ATK +15%, Skill Power Modifier -15%"
+      }
+    ]
+  },
+  "mod-preemptive-strike": {
+    "nexonId": "251003025",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 11,
+        "effect": "On Skill Attack upon enemies with max HP, deals 8.5% of the skill damage incurred as additional damage on the target"
+      },
+      {
+        "level": 1,
+        "capacity": 10,
+        "effect": "On Skill Attack upon enemies with max HP, deals 8.5% of the skill damage incurred as additional damage on the target"
+      },
+      {
+        "level": 2,
+        "capacity": 9,
+        "effect": "On Skill Attack upon enemies with max HP, deals 8.5% of the skill damage incurred as additional damage on the target"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "On Skill Attack upon enemies with max HP, deals 8.5% of the skill damage incurred as additional damage on the target"
+      },
+      {
+        "level": 4,
+        "capacity": 7,
+        "effect": "On Skill Attack upon enemies with max HP, deals 8.5% of the skill damage incurred as additional damage on the target"
+      },
+      {
+        "level": 5,
+        "capacity": 6,
+        "effect": "On Skill Attack upon enemies with max HP, deals 8.5% of the skill damage incurred as additional damage on the target"
+      }
+    ]
+  },
+  "mod-autoimmunity": {
+    "nexonId": "251002103",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Incoming DMG Modifier -3%, HP Recovery +7.4%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Incoming DMG Modifier -3.8%, HP Recovery +7.4%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Incoming DMG Modifier -4.9%, HP Recovery +7.4%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Incoming DMG Modifier -6.4%, HP Recovery +7.4%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Incoming DMG Modifier -8.3%, HP Recovery +7.4%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Incoming DMG Modifier -10.5%, HP Recovery +7.4%"
+      }
+    ]
+  },
+  "mod-hp-collector": {
+    "nexonId": "251003001",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 11s)"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 10s)"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 9s)"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 8s)"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 7s)"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 6s)"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 5s)"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 4s)"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 3s)"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "When defeating an enemy, instantly recovers 9% of Max HP (Cooldown 2s)"
+      }
+    ]
+  },
+  "mod-hp-conversion-mp": {
+    "nexonId": "251002012",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Max MP +5%, Max HP -13%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Max MP +6.1%, Max HP -15.6%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Max MP +7.4%, Max HP -18.9%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Max MP +9.1%, Max HP -23.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Max MP +11.2%, Max HP -28.2%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Max MP +13.6%, Max HP -34.2%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Max MP +16.5%, Max HP -41.3%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Max MP +20%, Max HP -50%"
+      }
+    ]
+  },
+  "mod-power-increase": {
+    "nexonId": "251001035",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Power +13%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Power +15.4%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Power +18%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Power +21.6%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Power +25.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Power +30.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Power +35.8%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Power +41.6%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Power +48.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Power +56%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Power +65%"
+      }
+    ]
+  },
+  "mod-electric-condense": {
+    "nexonId": "254006001",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 16,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 1,
+        "capacity": 15,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 2,
+        "capacity": 14,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 3,
+        "capacity": 13,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 4,
+        "capacity": 12,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 6,
+        "capacity": 10,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 7,
+        "capacity": 9,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 8,
+        "capacity": 8,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 9,
+        "capacity": 7,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      },
+      {
+        "level": 10,
+        "capacity": 6,
+        "effect": "Changes Maximum Power into a form that causes damage around Bunny."
+      }
+    ]
+  },
+  "mod-focus-on-electric": {
+    "nexonId": "251002072",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Electric Skill Power +19%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Electric Skill Power +21.7%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Electric Skill Power +24.8%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Electric Skill Power +28.6%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Electric Skill Power +33.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Electric Skill Power +38.3%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Electric Skill Power +44.6%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Electric Skill Power +51.1%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Electric Skill Power +58.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Electric Skill Power +67.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Electric Skill Power +77.2%, Skill Cooldown -6.1%"
+      }
+    ]
+  },
+  "mod-mp-collector": {
+    "nexonId": "251003015",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "When defeating an enemy, instantly recovers 12.2% of Max MP at a 4% chance"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "When defeating an enemy, instantly recovers 12.2% of Max MP at a 5.4% chance"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "When defeating an enemy, instantly recovers 12.2% of Max MP at a 7.3% chance"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "When defeating an enemy, instantly recovers 12.2% of Max MP at a 9.8% chance"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "When defeating an enemy, instantly recovers 12.2% of Max MP at a 13% chance"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "When defeating an enemy, instantly recovers 12.2% of Max MP at a 17% chance"
+      }
+    ]
+  },
+  "mod-focus-on-tech": {
+    "nexonId": "251002069",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Tech Skill Power Modifier +17%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Tech Skill Power Modifier +19.4%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Tech Skill Power Modifier +22.1%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Tech Skill Power Modifier +25.4%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Tech Skill Power Modifier +29.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Tech Skill Power Modifier +34%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Tech Skill Power Modifier +39.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Tech Skill Power Modifier +45.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Tech Skill Power Modifier +51.7%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Tech Skill Power Modifier +59.3%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Tech Skill Power Modifier +68.2%, Skill Cooldown -6.1%"
+      }
+    ]
+  },
+  "mod-overwhelming-shield": {
+    "nexonId": "251003022",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 16,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 1,
+        "capacity": 15,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 2,
+        "capacity": 14,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 3,
+        "capacity": 13,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 4,
+        "capacity": 12,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 6,
+        "capacity": 10,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 7,
+        "capacity": 9,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 8,
+        "capacity": 8,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 9,
+        "capacity": 7,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      },
+      {
+        "level": 10,
+        "capacity": 6,
+        "effect": "Fixes Max HP at 1, and increases Max Shield by 2% of Max HP\nThe increased Shield can be further increased by other buffs"
+      }
+    ]
+  },
+  "mod-increased-shield": {
+    "nexonId": "251001010",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Max Shield +15%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Max Shield +21.4%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Max Shield +28.6%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Max Shield +37.6%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Max Shield +48.4%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Max Shield +60.5%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Max Shield +75.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Max Shield +90.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Max Shield +107.8%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Max Shield +128.2%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Max Shield +151.8%"
+      }
+    ]
+  },
+  "mod-absolute-zero": {
+    "nexonId": "254010002",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 14,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 1,
+        "capacity": 13,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 2,
+        "capacity": 12,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 3,
+        "capacity": 11,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 5,
+        "capacity": 9,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 6,
+        "capacity": 8,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 7,
+        "capacity": 7,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 8,
+        "capacity": 6,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 9,
+        "capacity": 5,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      },
+      {
+        "level": 10,
+        "capacity": 4,
+        "effect": "When using skill, Ice Shackle is not inflicted.\nWhen the skill lands a Critical Hit, inflicts Frostbite on the target.\nSuccessfully inflicting Frostbite triggers Ice Sphere."
+      }
+    ]
+  },
+  "mod-chill-specialist": {
+    "nexonId": "251001021",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Chill Skill Power +20%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Chill Skill Power +22.9%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Chill Skill Power +26.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Chill Skill Power +30.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Chill Skill Power +34.9%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Chill Skill Power +40.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Chill Skill Power +46.9%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Chill Skill Power +53.7%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Chill Skill Power +61.5%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Chill Skill Power +70.6%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Chill Skill Power +81.2%"
+      }
+    ]
+  },
+  "mod-focus-on-singular": {
+    "nexonId": "251002067",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Singular Skill Power Modifier +17%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Singular Skill Power Modifier +19.4%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Singular Skill Power Modifier +22.1%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Singular Skill Power Modifier +25.4%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Singular Skill Power Modifier +29.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Singular Skill Power Modifier +34%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Singular Skill Power Modifier +39.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Singular Skill Power Modifier +45.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Singular Skill Power Modifier +51.7%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Singular Skill Power Modifier +59.3%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Singular Skill Power Modifier +68.2%, Skill Cooldown -6.1%"
+      }
+    ]
+  },
+  "mod-hp-amplification": {
+    "nexonId": "251002008",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Max HP +23%, Max Shield -9%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Max HP +32.6%, Max Shield -10.3%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Max HP +43.2%, Max Shield -11.8%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Max HP +56.7%, Max Shield -13.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Max HP +72.8%, Max Shield -15.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Max HP +90.8%, Max Shield -18.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Max HP +112.6%, Max Shield -21.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Max HP +135.5%, Max Shield -24.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Max HP +161.4%, Max Shield -27.6%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Max HP +191.9%, Max Shield -31.7%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Max HP +227.2%, Max Shield -36.5%"
+      }
+    ]
+  },
+  "mod-matrix-recomputation": {
+    "nexonId": "254002003",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 16,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 1,
+        "capacity": 15,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 2,
+        "capacity": 14,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 3,
+        "capacity": 13,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 4,
+        "capacity": 12,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 6,
+        "capacity": 10,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 7,
+        "capacity": 9,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 8,
+        "capacity": 8,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 9,
+        "capacity": 7,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      },
+      {
+        "level": 10,
+        "capacity": 6,
+        "effect": "Modifies Expulsion to grant a buff that helps allies survive"
+      }
+    ]
+  },
+  "mod-agony": {
+    "nexonId": "251002097",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Max MP +2%, DEF +10%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Max MP +2.7%, DEF +13.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Max MP +3.7%, DEF +17.2%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Max MP +4.9%, DEF +22.8%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Max MP +6.5%, DEF +29.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Max MP +8.5%, DEF +38.5%"
+      }
+    ]
+  },
+  "mod-arche-concretion": {
+    "nexonId": "251003038",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1 and MP +0.6%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1.1 and MP +0.7%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1.2 and MP +0.7%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1.3 and MP +0.8%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1.4 and MP +0.9%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1.6 and MP +1%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +1.9 and MP +1%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "When using skill, grants 1 stack of Arche Concretion for 20s, when using an Enhanced Skill, grants 10 stacks (Max 30 Stacks)\nArche Concretion, regardless of number of stacks, reduces Movement Speed and Firearm Attribute ATK, and besides Non-Attribute all Attribute ATK --22%. Depending on number stacks, DEF +2.1 and MP +1.3%\nHowever, when using Roll or Grappling Hook, all stacks will be removed."
+      }
+    ]
+  },
+  "mod-maximize-range": {
+    "nexonId": "251002035",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Skill Effect Range +24%, Skill Power Modifier -5%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Skill Effect Range +27.3%, Skill Power Modifier -5.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Skill Effect Range +31%, Skill Power Modifier -6.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Skill Effect Range +35.6%, Skill Power Modifier -7.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Skill Effect Range +41.1%, Skill Power Modifier -8.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Skill Effect Range +47.4%, Skill Power Modifier -10%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Skill Effect Range +54.9%, Skill Power Modifier -11.7%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Skill Effect Range +62.8%, Skill Power Modifier -13.3%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Skill Effect Range +71.7%, Skill Power Modifier -15.2%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Skill Effect Range +82.1%, Skill Power Modifier -17.4%"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "Skill Effect Range +94.3%, Skill Power Modifier -20%"
+      }
+    ]
+  },
+  "mod-midair-fire": {
+    "nexonId": "251003010",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 4,
+        "effect": "While Jumping, Accuracy +8%, DEF -8%"
+      },
+      {
+        "level": 1,
+        "capacity": 5,
+        "effect": "While Jumping, Accuracy +13.2%, DEF -13.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 6,
+        "effect": "While Jumping, Accuracy +20.9%, DEF -20.9%"
+      },
+      {
+        "level": 3,
+        "capacity": 7,
+        "effect": "While Jumping, Accuracy +32.1%, DEF -32.1%"
+      }
+    ]
+  },
+  "mod-increased-def": {
+    "nexonId": "251001011",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "DEF +16%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "DEF +22.8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "DEF +30.3%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "DEF +39.8%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "DEF +51.2%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "DEF +63.9%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "DEF +79.4%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "DEF +95.6%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "DEF +113.9%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "DEF +135.4%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "DEF +160.4%"
+      }
+    ]
+  },
+  "mod-shield-conversion-def": {
+    "nexonId": "251002014",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "DEF +17%, Max Shield -9%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "DEF +24%, Max Shield -10.3%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "DEF +31.8%, Max Shield -11.8%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "DEF +41.6%, Max Shield -13.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "DEF +53.6%, Max Shield -15.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "DEF +66.7%, Max Shield -18.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "DEF +82.8%, Max Shield -21.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "DEF +99.5%, Max Shield -24.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "DEF +118.6%, Max Shield -27.6%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "DEF +140.9%, Max Shield -31.7%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "DEF +166.7%, Max Shield -36.5%"
+      }
+    ]
+  },
+  "mod-maximize-power": {
+    "nexonId": "251002036",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Power Modifier +24%, Skill Cooldown +13%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Power Modifier +27.4%, Skill Cooldown +14.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Power Modifier +31.1%, Skill Cooldown +16.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Power Modifier +35.9%, Skill Cooldown +19.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Power Modifier +41.6%, Skill Cooldown +22%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Power Modifier +47.9%, Skill Cooldown +25.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Power Modifier +55.6%, Skill Cooldown +29.2%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Power Modifier +63.7%, Skill Cooldown +33.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Power Modifier +72.8%, Skill Cooldown +38.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Power Modifier +83.6%, Skill Cooldown +43.6%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Power Modifier +96.1%, Skill Cooldown +50%"
+      }
+    ]
+  },
+  "mod-maximize-skill": {
+    "nexonId": "251002037",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Skill Power +22%, Skill Cooldown +13%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Skill Power +25.1%, Skill Cooldown +14.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Skill Power +28.4%, Skill Cooldown +16.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Skill Power +32.8%, Skill Cooldown +19.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Skill Power +38%, Skill Cooldown +22%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Skill Power +43.8%, Skill Cooldown +25.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Skill Power +50.8%, Skill Cooldown +29.2%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Skill Power +58.2%, Skill Cooldown +33.4%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Skill Power +66.5%, Skill Cooldown +38.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Skill Power +76.3%, Skill Cooldown +43.6%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Skill Power +87.6%, Skill Cooldown +50%"
+      }
+    ]
+  },
+  "mod-focus-on-fusion": {
+    "nexonId": "251002066",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Fusion Skill Power Modifier +17%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Fusion Skill Power Modifier +19.4%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Fusion Skill Power Modifier +22.1%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Fusion Skill Power Modifier +25.4%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Fusion Skill Power Modifier +29.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Fusion Skill Power Modifier +34%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Fusion Skill Power Modifier +39.5%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Fusion Skill Power Modifier +45.2%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Fusion Skill Power Modifier +51.7%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Fusion Skill Power Modifier +59.3%, Skill Cooldown -6.1%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Fusion Skill Power Modifier +68.2%, Skill Cooldown -6.1%"
+      }
+    ]
+  },
+  "mod-venom-syncytium": {
+    "nexonId": "251002114",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Critical Hit Resistance +4%, Toxic Skill Power +3%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Critical Hit Resistance +5.2%, Toxic Skill Power +3.8%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Critical Hit Resistance +6.8%, Toxic Skill Power +4.8%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Critical Hit Resistance +9%, Toxic Skill Power +6.2%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Critical Hit Resistance +11.6%, Toxic Skill Power +7.9%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Critical Hit Resistance +15.1%, Toxic Skill Power +10.2%"
+      }
+    ]
+  },
+  "mod-rifling-reinforcement": {
+    "nexonId": "252041003",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Explosive ATK +12%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Explosive ATK +12.9%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Explosive ATK +14%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Explosive ATK +15.3%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Explosive ATK +16.9%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Explosive ATK +18.6%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Explosive ATK +20.8%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Explosive ATK +23%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Explosive ATK +25.6%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Explosive ATK +28.4%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Explosive ATK +32%"
+      }
+    ]
+  },
+  "mod-chill-enhancement": {
+    "nexonId": "252041012",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Adds Chill ATK equal to 8% of Firearm ATK"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Adds Chill ATK equal to 9% of Firearm ATK"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Adds Chill ATK equal to 10.2% of Firearm ATK"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Adds Chill ATK equal to 11.6% of Firearm ATK"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Adds Chill ATK equal to 13.4% of Firearm ATK"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Adds Chill ATK equal to 15.3% of Firearm ATK"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Adds Chill ATK equal to 17.7% of Firearm ATK"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Adds Chill ATK equal to 20.1% of Firearm ATK"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Adds Chill ATK equal to 22.9% of Firearm ATK"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Adds Chill ATK equal to 26.2% of Firearm ATK"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Adds Chill ATK equal to 30% of Firearm ATK"
+      }
+    ]
+  },
+  "mod-insight-focus": {
+    "nexonId": "252042041",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Firearm Critical Hit Rate +5%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Firearm Critical Hit Rate +5.8%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Firearm Critical Hit Rate +7%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Firearm Critical Hit Rate +8.6%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Firearm Critical Hit Rate +10.5%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Firearm Critical Hit Rate +13%, Firearm Critical Hit Damage +3.5%"
+      }
+    ]
+  },
+  "mod-better-concentration": {
+    "nexonId": "252041017",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Firearm Critical Hit Damage +9%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Firearm Critical Hit Damage +10.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Firearm Critical Hit Damage +11.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Firearm Critical Hit Damage +13.6%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Firearm Critical Hit Damage +15.9%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Firearm Critical Hit Damage +18.4%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Firearm Critical Hit Damage +21.4%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Firearm Critical Hit Damage +24.5%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Firearm Critical Hit Damage +28.1%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Firearm Critical Hit Damage +32.3%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Firearm Critical Hit Damage +37.2%"
+      }
+    ]
+  },
+  "mod-electric-enhancement": {
+    "nexonId": "252041008",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Adds Electric ATK equal to 8% of Firearm ATK"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Adds Electric ATK equal to 9% of Firearm ATK"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Adds Electric ATK equal to 10.2% of Firearm ATK"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Adds Electric ATK equal to 11.6% of Firearm ATK"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Adds Electric ATK equal to 13.4% of Firearm ATK"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Adds Electric ATK equal to 15.3% of Firearm ATK"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Adds Electric ATK equal to 17.7% of Firearm ATK"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Adds Electric ATK equal to 20.1% of Firearm ATK"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Adds Electric ATK equal to 22.9% of Firearm ATK"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Adds Electric ATK equal to 26.2% of Firearm ATK"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Adds Electric ATK equal to 30% of Firearm ATK"
+      }
+    ]
+  },
+  "mod-electric-priority": {
+    "nexonId": "252042081",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Electric ATK +13%, Reload Time Modifier -8%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Electric ATK +14.7%, Reload Time Modifier -9%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Electric ATK +16.7%, Reload Time Modifier -10.2%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Electric ATK +19.1%, Reload Time Modifier -11.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Electric ATK +22%, Reload Time Modifier -13.4%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Electric ATK +25.3%, Reload Time Modifier -15.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Electric ATK +29.2%, Reload Time Modifier -17.7%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Electric ATK +33.4%, Reload Time Modifier -20.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Electric ATK +38.1%, Reload Time Modifier -23%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Electric ATK +43.6%, Reload Time Modifier -26.2%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Electric ATK +50%, Reload Time Modifier -30%"
+      }
+    ]
+  },
+  "mod-concentration-priority": {
+    "nexonId": "252042037",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Firearm Critical Hit Damage +8%, Reload Time Modifier -8%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Firearm Critical Hit Damage +9.2%, Reload Time Modifier -9%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Firearm Critical Hit Damage +10.6%, Reload Time Modifier -10.2%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Firearm Critical Hit Damage +12.3%, Reload Time Modifier -11.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Firearm Critical Hit Damage +14.3%, Reload Time Modifier -13.4%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Firearm Critical Hit Damage +16.6%, Reload Time Modifier -15.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Firearm Critical Hit Damage +19.4%, Reload Time Modifier -17.7%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Firearm Critical Hit Damage +22.3%, Reload Time Modifier -20.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Firearm Critical Hit Damage +25.6%, Reload Time Modifier -23%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Firearm Critical Hit Damage +29.4%, Reload Time Modifier -26.2%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Firearm Critical Hit Damage +33.9%, Reload Time Modifier -30%"
+      }
+    ]
+  },
+  "mod-firing-fiesta": {
+    "nexonId": "252013015",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 25s)"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 24s)"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 23s)"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 22s)"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 21s)"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 20s)"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 19s)"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 18s)"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 17s)"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 16s)"
+      },
+      {
+        "level": 10,
+        "capacity": 15,
+        "effect": "When reloading, rounds are not consumed for 3s (Cooldown 15s)"
+      }
+    ]
+  },
+  "mod-chill-priority": {
+    "nexonId": "252042080",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Chill ATK +13%, Reload Time Modifier -8%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Chill ATK +14.7%, Reload Time Modifier -9%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Chill ATK +16.7%, Reload Time Modifier -10.2%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Chill ATK +19.1%, Reload Time Modifier -11.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Chill ATK +22%, Reload Time Modifier -13.4%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Chill ATK +25.3%, Reload Time Modifier -15.3%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Chill ATK +29.2%, Reload Time Modifier -17.7%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Chill ATK +33.4%, Reload Time Modifier -20.1%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Chill ATK +38.1%, Reload Time Modifier -23%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Chill ATK +43.6%, Reload Time Modifier -26.2%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Chill ATK +50%, Reload Time Modifier -30%"
+      }
+    ]
+  },
+  "mod-brisk-walk": {
+    "nexonId": "252023018",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 25s)"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 24s)"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 23s)"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 22s)"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 21s)"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 20s)"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 19s)"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 18s)"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 17s)"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 16s)"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "On hit, Movement Speed +10% for 5s (Cooldown 15s)"
+      }
+    ]
+  },
+  "mod-weak-point-sight": {
+    "nexonId": "252042032",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Weak Point Damage +10%, Accuracy -5%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Weak Point Damage +11.4%, Accuracy -5.7%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Weak Point Damage +13%, Accuracy -6.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Weak Point Damage +15%, Accuracy -7.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Weak Point Damage +17.2%, Accuracy -8.7%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Weak Point Damage +20%, Accuracy -10%"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "Weak Point Damage +23.2%, Accuracy -11.7%"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "Weak Point Damage +26.5%, Accuracy -13.3%"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "Weak Point Damage +30.3%, Accuracy -15.2%"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "Weak Point Damage +34.8%, Accuracy -17.4%"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "Weak Point Damage +40%, Accuracy -20%"
+      }
+    ]
+  },
+  "mod-weak-point-expansion": {
+    "nexonId": "252043011",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "On Weak Point hit, Weak Point DMG +35% (Cooldown 20s)"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "On Weak Point hit, Weak Point DMG +39.9% (Cooldown 19s)"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "On Weak Point hit, Weak Point DMG +45.4% (Cooldown 18s)"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "On Weak Point hit, Weak Point DMG +52.3% (Cooldown 17s)"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "On Weak Point hit, Weak Point DMG +60.6% (Cooldown 16s)"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "On Weak Point hit, Weak Point DMG +69.8% (Cooldown 15s)"
+      },
+      {
+        "level": 6,
+        "capacity": 12,
+        "effect": "On Weak Point hit, Weak Point DMG +81.1% (Cooldown 14s)"
+      },
+      {
+        "level": 7,
+        "capacity": 13,
+        "effect": "On Weak Point hit, Weak Point DMG +92.9% (Cooldown 13s)"
+      },
+      {
+        "level": 8,
+        "capacity": 14,
+        "effect": "On Weak Point hit, Weak Point DMG +106.2% (Cooldown 12s)"
+      },
+      {
+        "level": 9,
+        "capacity": 15,
+        "effect": "On Weak Point hit, Weak Point DMG +121.8% (Cooldown 11s)"
+      },
+      {
+        "level": 10,
+        "capacity": 16,
+        "effect": "On Weak Point hit, Weak Point DMG +140% (Cooldown 10s)"
+      }
+    ]
+  },
+  "mod-colon-special-forces": {
+    "nexonId": "252041018",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Movement Speed While Aiming +5%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Movement Speed While Aiming +6.6%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Movement Speed While Aiming +8.7%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Movement Speed While Aiming +11.7%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Movement Speed While Aiming +15.4%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Movement Speed While Aiming +20%"
+      }
+    ]
+  },
+  "mod-weak-point-detection": {
+    "nexonId": "252042031",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 6,
+        "effect": "Weak Point Damage +5%, Firearm ATK +1%"
+      },
+      {
+        "level": 1,
+        "capacity": 7,
+        "effect": "Weak Point Damage +6.6%, Firearm ATK +1%"
+      },
+      {
+        "level": 2,
+        "capacity": 8,
+        "effect": "Weak Point Damage +8.7%, Firearm ATK +1%"
+      },
+      {
+        "level": 3,
+        "capacity": 9,
+        "effect": "Weak Point Damage +11.7%, Firearm ATK +1%"
+      },
+      {
+        "level": 4,
+        "capacity": 10,
+        "effect": "Weak Point Damage +15.4%, Firearm ATK +1%"
+      },
+      {
+        "level": 5,
+        "capacity": 11,
+        "effect": "Weak Point Damage +20%, Firearm ATK +1%"
+      }
+    ]
+  },
+  "mod-better-weapon-weight": {
+    "nexonId": "252041013",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 4,
+        "effect": "Weapon Change Speed +6%"
+      },
+      {
+        "level": 1,
+        "capacity": 5,
+        "effect": "Weapon Change Speed +7.3%"
+      },
+      {
+        "level": 2,
+        "capacity": 6,
+        "effect": "Weapon Change Speed +9%"
+      },
+      {
+        "level": 3,
+        "capacity": 7,
+        "effect": "Weapon Change Speed +11.2%"
+      },
+      {
+        "level": 4,
+        "capacity": 8,
+        "effect": "Weapon Change Speed +13.8%"
+      },
+      {
+        "level": 5,
+        "capacity": 9,
+        "effect": "Weapon Change Speed +16.9%"
+      },
+      {
+        "level": 6,
+        "capacity": 10,
+        "effect": "Weapon Change Speed +20.5%"
+      },
+      {
+        "level": 7,
+        "capacity": 11,
+        "effect": "Weapon Change Speed +25%"
+      }
+    ]
+  },
+  "mod-recycling-genius": {
+    "nexonId": "252041014",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Reload Time Modifier +8%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Reload Time Modifier +9.2%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Reload Time Modifier +10.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Reload Time Modifier +12.2%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Reload Time Modifier +14.2%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Reload Time Modifier +16.6%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Reload Time Modifier +19.3%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Reload Time Modifier +22.3%"
+      },
+      {
+        "level": 8,
+        "capacity": 13,
+        "effect": "Reload Time Modifier +25.8%"
+      },
+      {
+        "level": 9,
+        "capacity": 14,
+        "effect": "Reload Time Modifier +30%"
+      }
+    ]
+  },
+  "mod-reload-focus": {
+    "nexonId": "252042070",
+    "byLevel": [
+      {
+        "level": 0,
+        "capacity": 5,
+        "effect": "Reload Time Modifier +6%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 1,
+        "capacity": 6,
+        "effect": "Reload Time Modifier +7.3%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 2,
+        "capacity": 7,
+        "effect": "Reload Time Modifier +9%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 3,
+        "capacity": 8,
+        "effect": "Reload Time Modifier +11.2%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 4,
+        "capacity": 9,
+        "effect": "Reload Time Modifier +13.8%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 5,
+        "capacity": 10,
+        "effect": "Reload Time Modifier +16.9%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 6,
+        "capacity": 11,
+        "effect": "Reload Time Modifier +20.5%, Firearm Critical Hit Damage +3.5%"
+      },
+      {
+        "level": 7,
+        "capacity": 12,
+        "effect": "Reload Time Modifier +25%, Firearm Critical Hit Damage +3.5%"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/assets/fonts/Rajdhani-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/assets/fonts/Rajdhani-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/assets/fonts/Rajdhani-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oxanium";
+  src: url("/assets/fonts/Oxanium-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@theme {
+  --color-bg: #08131b;
+  --color-panel: #10212c;
+  --color-panel-2: #172d3a;
+  --color-line: #395565;
+  --color-muted: #adbdc6;
+  --color-ink: #f4f7f8;
+  --color-fire: #f2a447;
+  --color-fire2: #ef6a42;
+  --color-gold: #dfc36c;
+  --color-cyan: #55d9e8;
+  --color-purple: #bb91e8;
+  --color-green: #55d6a0;
+
+  --font-sans: "Rajdhani", "Segoe UI", sans-serif;
+  --font-mono: "Oxanium", Consolas, ui-monospace, monospace;
+}
+
+html,
+body {
+  background: #08131b;
+  color: var(--color-ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  background-image:
+    linear-gradient(180deg, #07121a73 0, #08141dc4 42rem, #08131be8 100%),
+    url("/assets/game/app-background.jpg");
+  background-size: cover, min(1920px, 100vw) auto;
+  background-position: center, center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, strong, button {
+  font-family: "Oxanium", "Rajdhani", sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.13;
+  background-image:
+    linear-gradient(#ffffff06 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff05 1px, transparent 1px);
+  background-size: 38px 38px;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 18% 18%, #2e7a9840, transparent 32rem),
+    radial-gradient(circle at 82% 30%, #d17c2d24, transparent 28rem);
+}
+
+button { cursor: pointer; }
+
+@keyframes loading { 0% { transform: translateX(-110%); } 100% { transform: translateX(210%); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes menu-in { from { opacity: 0; transform: translateY(-6px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes modal-in { from { opacity: 0; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes toast-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-cyan) 35%, transparent);
+}

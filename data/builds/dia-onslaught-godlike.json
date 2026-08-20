@@ -1,0 +1,533 @@
+{
+  "id": "dia-onslaught-godlike",
+  "descendant": "Dia",
+  "title": "Dia Onslaught — Godlike",
+  "patch": "S3E4",
+  "updatedAt": "2026-08-20",
+  "source": {
+    "author": "Alcast",
+    "url": "https://tfd.gameslantern.com/builds/019e6dbb-b121-72ff-b6d2-aec72744a2b1/dia-onslaught-build-godlike",
+    "type": "article",
+    "publishedAt": "2026-07-20"
+  },
+  "sections": [
+    {
+      "type": "descendantModules",
+      "label": "Módulos do Descendant",
+      "items": [
+        {
+          "id": "mod-blooming-ecstasy",
+          "name": "Blooming Ecstasy",
+          "priority": "P0",
+          "note": "Transcendent — base do dano Chill em área de Dia.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-increased-hp",
+          "name": "Increased HP",
+          "priority": "P1",
+          "note": "Sustain para Onslaught solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-stim-accelerant",
+          "name": "Stim Accelerant",
+          "priority": "P1",
+          "note": "Max HP adicional.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-focus-on-chill",
+          "name": "Focus on Chill",
+          "priority": "P1",
+          "note": "Chill Skill Power.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-front-lines",
+          "name": "Front Lines",
+          "priority": "P1",
+          "note": "ATK ao entrar em combate.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-emergency-measures",
+          "name": "Emergency Measures",
+          "priority": "P1",
+          "note": "Utilidade defensiva.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mid-air-maneuvering",
+          "name": "Mid-Air Maneuvering",
+          "priority": "P2",
+          "note": "Mobilidade aérea.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-mp-conversion",
+          "name": "MP Conversion",
+          "priority": "P1",
+          "note": "Sustenta o custo das skills.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-nimble-fingers",
+          "name": "Nimble Fingers",
+          "priority": "P1",
+          "note": "Skill Cooldown.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-concentration",
+          "name": "Skill Concentration",
+          "priority": "P1",
+          "note": "Skill Critical Hit Damage.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-skill-expansion",
+          "name": "Skill Expansion",
+          "priority": "P1",
+          "note": "Skill Effect Range.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-delightful-resolution",
+          "name": "Delightful Resolution",
+          "priority": "P0",
+          "note": "Ancestor Legendary Mod que fecha os stats ofensivos.",
+          "targetRoll": "Skill Critical Hit Rate · Skill Cooldown · Skill Critical Hit Damage · Max Shield",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "label": "Trigger Module",
+      "items": [
+        {
+          "id": "trigger-steel-vanguard",
+          "name": "Steel Vanguard",
+          "priority": "P0",
+          "note": "Mesmo trigger do loadout de Mobbing da Harris.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weapon",
+      "label": "Arma",
+      "items": [
+        {
+          "id": "weapon-hypernova",
+          "name": "Hypernova",
+          "priority": "P0",
+          "note": "A build é construída em torno desta arma — sem ela, os mods e cores abaixo não têm onde encaixar.",
+          "targetRoll": "Melee Weapon ATK · Melee Weapon Chill ATK · Melee Weapon Critical Hit Damage · Melee Weapon Critical Hit Rate",
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "weaponModules",
+      "label": "Módulos da Arma (Hypernova)",
+      "items": [
+        {
+          "id": "mod-hardened-reinforcement",
+          "name": "Hardened Reinforcement",
+          "priority": "P1",
+          "note": "ATK base do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-one-point-breakthrough",
+          "name": "One-Point Breakthrough",
+          "priority": "P1",
+          "note": "Dano de ataque focado.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-enhancement",
+          "name": "Chill Enhancement",
+          "priority": "P1",
+          "note": "Chill ATK do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-chill-priority",
+          "name": "Chill Priority",
+          "priority": "P1",
+          "note": "Prioriza dano Chill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-lethal-swing",
+          "name": "Lethal Swing",
+          "priority": "P1",
+          "note": "Dano de golpe crítico.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-insight",
+          "name": "Better Insight",
+          "priority": "P1",
+          "note": "Crit rate do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-better-concentration",
+          "name": "Better Concentration",
+          "priority": "P1",
+          "note": "Crit damage do melee.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-sword-dance",
+          "name": "Sword Dance",
+          "priority": "P1",
+          "note": "Velocidade/fluidez de combo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-faster-attack-speed",
+          "name": "Faster Attack Speed",
+          "priority": "P2",
+          "note": "Velocidade de ataque.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mod-veil-analyzer",
+          "name": "Veil Analyzer",
+          "priority": "P0",
+          "note": "Essencial para quebrar shields — o Hypernova puxa os inimigos e este mod destrói o shield facilmente.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "reactor",
+      "label": "Reator",
+      "items": [
+        {
+          "id": "reactor-frozen-mixture",
+          "name": "Frozen Mixture Reactor",
+          "priority": "P0",
+          "note": "Ultimate — Chill.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-cooldown",
+          "name": "Skill Cooldown",
+          "priority": "P1",
+          "note": "Roll alvo principal.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "roll-skill-critical-hit-damage",
+          "name": "Skill Critical Hit Damage",
+          "priority": "P1",
+          "note": "Roll alvo secundário.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "state-max-enhancement",
+          "name": "Enhancement Stage 5",
+          "priority": "P1",
+          "note": "Maximizar o reactor.",
+          "targetRoll": null,
+          "targetLevel": 5,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "externalComponents",
+      "label": "Componentes Externos — Bravery 4/4",
+      "groups": [
+        {
+          "slot": "Auxiliary Power",
+          "setName": "Bravery",
+          "items": [
+            {
+              "id": "component-bravery-auxiliary-power",
+              "name": "Bravery Auxiliary Power",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-bravery-set-bonus-max-shield",
+              "name": "Max Shield (Set Bonus)",
+              "priority": "P1",
+              "note": "Set bonus: Max Shield +11.8%.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Sensor",
+          "setName": "Bravery",
+          "items": [
+            {
+              "id": "component-bravery-sensor",
+              "name": "Bravery Sensor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Memory",
+          "setName": "Bravery",
+          "items": [
+            {
+              "id": "component-bravery-memory",
+              "name": "Bravery Memory",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            },
+            {
+              "id": "component-bravery-set-bonus-skill-cooldown-on-kill",
+              "name": "Skill Cooldown on Kill (Set Bonus)",
+              "priority": "P1",
+              "note": "Set bonus: 20% de chance de reduzir cooldown em -1s ao derrotar inimigo.",
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "slot": "Processor",
+          "setName": "Bravery",
+          "items": [
+            {
+              "id": "component-bravery-processor",
+              "name": "Bravery Processor",
+              "priority": "P0",
+              "note": null,
+              "targetRoll": null,
+              "targetLevel": null,
+              "capacityCost": null,
+              "altOf": null,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archeTuning",
+      "label": "Arche Tuning",
+      "items": [
+        {
+          "id": "arche-skill-power-path",
+          "name": "Skill Power path",
+          "priority": "P1",
+          "note": "Caminho principal do tuning.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-mitigated-incoming-dmg",
+          "name": "Mitigated Incoming DMG",
+          "priority": "P1",
+          "note": "Nó Ultimate — redução de dano recebido em Onslaught solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "arche-double-strike",
+          "name": "Double Strike",
+          "priority": "P1",
+          "note": "Nó Ultimate — multi-hit.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "mutantCells",
+      "label": "Mutant Cells",
+      "items": [
+        {
+          "id": "mutant-defense-neutralization",
+          "name": "Defense Neutralization",
+          "priority": "P1",
+          "note": "Slot Malachite.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        },
+        {
+          "id": "mutant-arche-concentration",
+          "name": "Arche Concentration",
+          "priority": "P1",
+          "note": "Slot Cerulean.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "fellow",
+      "label": "Fellow",
+      "items": [
+        {
+          "id": "fellow-sheepdog",
+          "name": "Sheepdog",
+          "priority": "P2",
+          "note": "Cura automática para sustain em Onslaught solo.",
+          "targetRoll": null,
+          "targetLevel": null,
+          "capacityCost": null,
+          "altOf": null,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
