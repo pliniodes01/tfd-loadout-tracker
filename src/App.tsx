@@ -43,14 +43,14 @@ function AppShell() {
   return (
     <div className="relative min-h-screen">
       <header className="sticky top-0 z-40 border-b border-white/15 bg-[#0a1720db] shadow-[0_8px_30px_#0006] backdrop-blur-xl">
-        <div className="mx-auto flex h-[88px] w-full max-w-[1680px] items-center justify-between gap-2 px-3 sm:h-[96px] sm:gap-4 sm:px-6">
+        <div className="mx-auto flex h-[88px] w-full max-w-[1680px] items-center justify-between gap-2 px-3 sm:h-[112px] sm:gap-6 sm:px-6">
           <button onClick={goHome} className="group flex min-w-0 shrink items-center gap-2 text-left sm:gap-3.5" aria-label="Voltar para todas as builds">
-            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-cyan/20 bg-cyan/[0.06] sm:h-14 sm:w-14">
-              <img src="/assets/game/tfd-icon.png" alt="" className="h-8 w-8 object-contain transition-transform group-hover:scale-110 sm:h-11 sm:w-11" />
+            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-cyan/20 bg-cyan/[0.06] sm:h-16 sm:w-16">
+              <img src="/assets/game/tfd-icon.png" alt="" className="h-8 w-8 object-contain transition-transform group-hover:scale-110 sm:h-12 sm:w-12" />
             </span>
             <span className="hidden min-w-0 sm:block">
-              <img src="/assets/game/tfd-logo.png" alt="The First Descendant" className="h-7 w-auto opacity-95 sm:h-9" />
-              <span className="mt-1.5 block text-[10px] font-semibold uppercase tracking-[0.28em] text-cyan">Loadout tracker</span>
+              <img src="/assets/game/tfd-logo.png" alt="The First Descendant" className="h-7 w-auto opacity-95 sm:h-11" />
+              <span className="mt-1.5 block text-[11px] font-semibold uppercase tracking-[0.3em] text-cyan">Loadout tracker</span>
             </span>
           </button>
 
@@ -58,7 +58,7 @@ function AppShell() {
             <button
               onClick={goHome}
               aria-current={route.name === "select" ? "page" : undefined}
-              className={`flex min-h-11 items-center rounded-md px-2.5 text-xs font-medium transition-colors sm:px-3 ${
+              className={`flex min-h-11 items-center rounded-lg px-2.5 text-sm font-medium transition-colors sm:min-h-[52px] sm:px-5 sm:text-[15px] ${
                 route.name === "select" ? "bg-white/10 text-ink" : "text-muted hover:bg-white/5 hover:text-ink"
               }`}
             >
@@ -67,7 +67,7 @@ function AppShell() {
             <button
               onClick={goToHot}
               aria-current={route.name === "hot" ? "page" : undefined}
-              className={`flex min-h-11 items-center gap-1.5 rounded-md px-2.5 text-xs font-medium transition-colors sm:px-3 ${
+              className={`flex min-h-11 items-center gap-2 rounded-lg px-2.5 text-sm font-medium transition-colors sm:min-h-[52px] sm:px-5 sm:text-[15px] ${
                 route.name === "hot" ? "bg-white/10 text-ink" : "text-muted hover:bg-white/5 hover:text-ink"
               }`}
             >

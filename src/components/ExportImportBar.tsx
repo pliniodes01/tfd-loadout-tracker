@@ -127,7 +127,7 @@ export function ExportImportBar() {
           onClick={() => setMenuOpen((value) => !value)}
           aria-expanded={menuOpen}
           aria-haspopup="menu"
-          className="flex min-h-11 items-center gap-1.5 rounded-md border border-white/10 bg-white/[0.04] px-2.5 text-xs text-ink transition-colors hover:border-cyan/40 hover:bg-white/[0.07] sm:gap-2 sm:px-3"
+          className="flex min-h-11 items-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-2.5 text-sm text-ink transition-colors hover:border-cyan/40 hover:bg-white/[0.07] sm:min-h-[52px] sm:gap-2.5 sm:px-5 sm:text-[15px]"
         >
           <CloudIcon />
           <span className="hidden sm:inline">Meu progresso</span>
@@ -228,5 +228,5 @@ const MenuButton = forwardRef<
 MenuButton.displayName = "MenuButton";
 
 function CloudIcon() {
-  return <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.7"><path d="M7 18h10a4 4 0 0 0 .7-7.94A6 6 0 0 0 6.28 8.4 4.8 4.8 0 0 0 7 18Z"/><path d="m9 13 3-3 3 3M12 10v7"/></svg>;
+  return <svg aria-hidden="true" viewBox="0 0 24 24" className="h-[18px] w-[18px]" fill="none" stroke="currentColor" strokeWidth="1.7"><path d="M7 18h10a4 4 0 0 0 .7-7.94A6 6 0 0 0 6.28 8.4 4.8 4.8 0 0 0 7 18Z"/><path d="m9 13 3-3 3 3M12 10v7"/></svg>;
 }

@@ -93,6 +93,11 @@ export function HotBuildsScreen({ onSelectBuild }: { onSelectBuild: (buildId: st
             Personagem × atividade. Lacunas aparecem como lacunas — nada aqui foi preenchido com configuração inventada.
           </p>
         </div>
+        <div className="mb-4 mt-4 grid max-w-4xl gap-2 sm:grid-cols-3">
+            <p className="rounded-lg border border-white/10 bg-panel/55 px-4 py-3 text-[13px] leading-snug text-muted"><strong className="mb-1 block text-ink">1. Escolha o personagem</strong>Procure o nome na primeira coluna.</p>
+            <p className="rounded-lg border border-white/10 bg-panel/55 px-4 py-3 text-[13px] leading-snug text-muted"><strong className="mb-1 block text-ink">2. Encontre a atividade</strong>Compare bossing, farm, dungeons e outros usos.</p>
+            <p className="rounded-lg border border-cyan/25 bg-cyan/[0.06] px-4 py-3 text-[13px] leading-snug text-muted"><strong className="mb-1 block text-cyan">3. Abra a build</strong>Clique em qualquer status colorido para ver o loadout.</p>
+        </div>
         <CoverageMatrix onOpenBuild={onSelectBuild} />
       </section>
     </div>

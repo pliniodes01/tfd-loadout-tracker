@@ -52,21 +52,28 @@ export function CoverageMatrix({ onOpenBuild }: { onOpenBuild: (buildId: string)
         />
       </label>
 
-      <p className="mb-3 max-w-2xl text-[13px] leading-snug text-muted">
+      <p className="mb-3 max-w-3xl text-[14px] leading-relaxed text-muted">
         Esta matriz mostra <strong className="text-ink">builds disponíveis no tracker</strong>, não builds comunitárias
         verificadas para a Season 4 — a maioria ainda carrega conteúdo de temporadas anteriores. Um <span className="text-green">✓</span> verde
         só aparece quando a própria build já está marcada com o patch da season atual.
       </p>
 
+      <div className="mb-4 flex flex-wrap gap-2 text-[12px]">
+        <span className="rounded-md border border-green/35 bg-green/10 px-3 py-2 text-green">✓ Atualizada para a temporada</span>
+        <span className="rounded-md border border-gold/35 bg-gold/10 px-3 py-2 text-gold">! Precisa ser revisada</span>
+        <span className="rounded-md border border-cyan/30 bg-cyan/[0.08] px-3 py-2 text-cyan">✓ Disponível, temporada anterior</span>
+        <span className="rounded-md border border-line px-3 py-2 text-muted">— Ainda não temos build</span>
+      </div>
+
       <div className="overflow-x-auto rounded-xl border border-line">
-        <table className="w-full min-w-[640px] border-collapse text-[13px]">
+        <table className="w-full min-w-[760px] border-collapse text-[14px]">
           <thead>
             <tr className="bg-panel-2/80">
-              <th scope="col" className="sticky left-0 z-10 bg-panel-2 px-3 py-2.5 text-left font-semibold text-ink">
+              <th scope="col" className="sticky left-0 z-10 bg-panel-2 px-4 py-4 text-left text-[15px] font-semibold text-ink">
                 Personagem
               </th>
               {ACTIVITIES.map((a) => (
-                <th key={a} scope="col" className="px-2 py-2.5 text-center font-mono text-[11px] font-medium uppercase tracking-wide text-muted">
+                <th key={a} scope="col" className="px-3 py-4 text-center font-mono text-[12px] font-semibold uppercase tracking-wide text-muted">
                   {ACTIVITY_LABELS[a]}
                 </th>
               ))}
@@ -75,13 +82,13 @@ export function CoverageMatrix({ onOpenBuild }: { onOpenBuild: (buildId: string)
           <tbody>
             {visibleRoster.map((descendant) => (
               <tr key={descendant} className="border-t border-line/70 odd:bg-panel/40">
-                <th scope="row" className="sticky left-0 z-10 bg-panel px-3 py-2.5 text-left font-medium text-ink odd:bg-[#0f1e28]">
+                <th scope="row" className="sticky left-0 z-10 bg-panel px-4 py-3.5 text-left font-medium text-ink odd:bg-[#0f1e28]">
                   {descendant}
                 </th>
                 {ACTIVITIES.map((activity) => {
                   const cell = getCoverageCell(descendant, activity, builds, hotEntries, season);
                   return (
-                    <td key={activity} className="px-2 py-2">
+                    <td key={activity} className="px-3 py-2.5">
                       <div className="flex items-center justify-center gap-1">
                         {cell.matches.length === 0 ? (
                           <span
@@ -97,7 +104,7 @@ export function CoverageMatrix({ onOpenBuild }: { onOpenBuild: (buildId: string)
                               onClick={() => onOpenBuild(m.buildId)}
                               title={`${m.title} — ${COVERAGE_STATE_LABEL[m.state]}`}
                               aria-label={`Abrir ${m.title} (${COVERAGE_STATE_LABEL[m.state]})`}
-                              className={`grid h-7 w-7 shrink-0 place-items-center rounded-md border text-[13px] font-bold transition-colors hover:brightness-125 ${STATE_CLASS[m.state]}`}
+                              className={`grid h-10 w-10 shrink-0 place-items-center rounded-lg border text-[16px] font-bold transition-all hover:scale-105 hover:brightness-125 ${STATE_CLASS[m.state]}`}
                             >
                               {STATE_ICON[m.state]}
                             </button>
@@ -113,12 +120,6 @@ export function CoverageMatrix({ onOpenBuild }: { onOpenBuild: (buildId: string)
         </table>
       </div>
 
-      <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1.5 text-[12px] text-muted">
-        <span><span className="text-green">✓</span> patch da season atual</span>
-        <span><span className="text-gold">!</span> em revisão (afetada pelo patch)</span>
-        <span><span className="text-cyan">✓</span> build cadastrada, temporada anterior</span>
-        <span><span className="text-muted/60">—</span> ainda sem build comunitária confiável — não é lacuna preenchida com configuração inventada</span>
-      </div>
     </div>
   );
 }
